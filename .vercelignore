@@ -1,8 +1,10 @@
-# Tell Vercel to ignore heavy training scripts & dataset directories
+# Tell Vercel to ignore dashboard.py and heavy training scripts
+dashboard.py
 src/
 outputs/
 .venv/
 .venv_xcpdp/
+requirements-ml.txt
 *.csv
 *.png
 *.pdf
