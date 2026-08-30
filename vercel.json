@@ -1,19 +1,8 @@
 {
-  "version": 2,
-  "builds": [
+  "rewrites": [
     {
-      "src": "src/api_server.py",
-      "use": "@vercel/python",
-      "config": {
-        "requirementsPath": "requirements-vercel.txt"
-      }
+      "source": "/(.*)",
+      "destination": "/src/api_server.py"
     }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "src/api_server.py"
-    }
-  ],
-  "excludeFiles": "outputs/**"
+  ]
 }
