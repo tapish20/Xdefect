@@ -1,4 +1,4 @@
-# Vercel Function Bundle Ignore
+# Vercel Ignore List
 .venv/
 .venv_xcpdp/
 outputs/within_project/
@@ -11,4 +11,6 @@ outputs/effort_aware/
 *.csv
 *.png
 *.pdf
+*.zip
+*.log
 .git/
