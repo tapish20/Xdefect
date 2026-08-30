@@ -1,0 +1,14 @@
+# Vercel Function Bundle Ignore
+.venv/
+.venv_xcpdp/
+outputs/within_project/
+outputs/cross_project/
+outputs/shap/
+outputs/stats_tests/
+outputs/stability/
+outputs/domain_adaptation/
+outputs/effort_aware/
+*.csv
+*.png
+*.pdf
+.git/
