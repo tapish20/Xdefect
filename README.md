@@ -1,5 +1,8 @@
 # Explainable Cross-Project Software Defect Prediction Using Hybrid Static Code Metrics and Repository Mining
 
+[![Vercel Deployment](https://img.shields.io/badge/Vercel-REST_API_Online-black?style=flat-square&logo=vercel)](https://xdefect.vercel.app/)
+[![Streamlit Cloud](https://img.shields.io/badge/Streamlit_Cloud-3D_Dashboard_Online-FF4B4B?style=flat-square&logo=streamlit)](https://share.streamlit.io/)
+
 This repository presents a comprehensive, empirical framework for explainable software defect prediction, combining static code metrics with Git repository historical metrics (churn, entropy, commit history). It evaluates machine learning classifiers across within-project and cross-project settings, assesses SHAP feature stability, provides statistical significance testing, and delivers end-to-end traceable refactoring recommendations.
 
 ---
@@ -14,11 +17,11 @@ cd explainable-cross-project-defect-prediction
 ..\.venv_xcpdp\Scripts\python.exe src/run_all.py
 ```
 
-### 2. Launch Interactive Web Dashboard
+### 2. Launch Interactive 3D Web Dashboard
 To launch the Streamlit visual dashboard:
 
 ```powershell
-..\.venv_xcpdp\Scripts\streamlit.exe run app.py
+..\.venv_xcpdp\Scripts\streamlit.exe run dashboard.py
 ```
 Open your browser at: **`http://localhost:8501`**
 
