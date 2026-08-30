@@ -1,13 +1,8 @@
 {
-  "functions": {
-    "api/index.py": {
-      "excludeFiles": "{src/**,outputs/**,*.csv,*.png,*.pdf,*.log}"
-    }
-  },
-  "rewrites": [
+  "routes": [
     {
-      "source": "/(.*)",
-      "destination": "/api/index"
+      "src": "/(.*)",
+      "dest": "/api/index"
     }
   ]
 }

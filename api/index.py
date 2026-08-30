@@ -30,12 +30,13 @@ class PredictionResponse(BaseModel):
 
 
 @app.get("/")
+@app.get("/api/index")
 def root_index() -> dict[str, object]:
     return {
         "status": "healthy",
         "service": "XDefect REST API",
         "version": "1.0.0",
-        "docs_url": "/docs",
+        "swagger_docs": "/docs",
         "endpoints": ["/health", "/docs", "/api/v1/predict"],
     }
 
