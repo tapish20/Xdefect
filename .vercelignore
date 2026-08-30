@@ -1,13 +1,8 @@
-# Vercel Ignore List
+# Tell Vercel to ignore heavy training scripts & dataset directories
+src/
+outputs/
 .venv/
 .venv_xcpdp/
-outputs/within_project/
-outputs/cross_project/
-outputs/shap/
-outputs/stats_tests/
-outputs/stability/
-outputs/domain_adaptation/
-outputs/effort_aware/
 *.csv
 *.png
 *.pdf

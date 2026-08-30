@@ -1,3 +1,2 @@
 [tool.vercel]
-entrypoint = "src.api_server:app"
-requirements = "requirements-vercel.txt"
+entrypoint = "api.index:app"
