@@ -1,0 +1,9 @@
+- AEEEM_ECLIPSE: static rows=997, hybrid repo match rate=100.00%
+- AEEEM_EQUINOX: static rows=324, hybrid repo match rate=100.00%
+- AEEEM_LUCENE: static rows=691, hybrid repo match rate=100.00%
+- AEEEM_MYLYN: static rows=1862, hybrid repo match rate=100.00%
+- AEEEM_PDE: static rows=1497, hybrid repo match rate=100.00%
+- CM1: static rows=327, hybrid repo match rate=0.00%
+- KC1: static rows=145, hybrid repo match rate=0.00%
+- PC1: static rows=705, hybrid repo match rate=0.00%
+- PC3: static rows=1563, hybrid repo match rate=0.00%

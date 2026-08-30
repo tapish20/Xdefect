@@ -1,0 +1,15 @@
+source,target,model,raw_auc,tca_auc,auc_gain,raw_mcc,tca_mcc,mcc_gain,raw_f1,tca_f1
+pc1,cm1,random_forest,0.7448,0.7049,-0.0399,0.1722,0.2772,0.105,0.2941,0.3721
+pc1,cm1,xgboost,0.7313,0.7012,-0.0302,0.1747,0.2854,0.1107,0.3009,0.3883
+pc1,pc3,random_forest,0.817,0.7798,-0.0372,0.1653,0.25,0.0847,0.206,0.3224
+pc1,pc3,xgboost,0.7984,0.7583,-0.0402,0.1879,0.2596,0.0716,0.2431,0.3432
+cm1,pc3,random_forest,0.7511,0.6592,-0.092,0.1085,0.1418,0.0333,0.0694,0.2151
+cm1,pc3,xgboost,0.6788,0.6898,0.011,0.0495,0.1403,0.0908,0.0455,0.2291
+aeeem_eclipse,aeeem_equinox,random_forest,0.6875,0.6949,0.0074,0.3137,0.2931,-0.0206,0.3953,0.4615
+aeeem_eclipse,aeeem_equinox,xgboost,0.713,0.6809,-0.0322,0.2783,0.2183,-0.06,0.3647,0.4335
+aeeem_eclipse,aeeem_lucene,random_forest,0.6378,0.6014,-0.0364,0.112,0.0833,-0.0287,0.1633,0.1905
+aeeem_eclipse,aeeem_lucene,xgboost,0.5997,0.5991,-0.0006,0.147,0.106,-0.041,0.1647,0.2128
+aeeem_equinox,aeeem_mylyn,random_forest,0.63,0.6409,0.0109,0.1185,0.1625,0.0441,0.2721,0.2994
+aeeem_equinox,aeeem_mylyn,xgboost,0.6136,0.6498,0.0363,0.1148,0.1416,0.0268,0.27,0.2863
+aeeem_lucene,aeeem_pde,random_forest,0.6199,0.6063,-0.0135,0.1054,0.0868,-0.0186,0.2188,0.2071
+aeeem_lucene,aeeem_pde,xgboost,0.6222,0.5798,-0.0423,0.138,0.1074,-0.0306,0.2832,0.25

@@ -1,0 +1,4 @@
+- CM1: skipped hybrid EDA because no rows have repository-mined metrics.
+- KC1: skipped hybrid EDA because no rows have repository-mined metrics.
+- PC1: skipped hybrid EDA because no rows have repository-mined metrics.
+- PC3: skipped hybrid EDA because no rows have repository-mined metrics.

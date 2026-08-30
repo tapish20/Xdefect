@@ -1,0 +1,730 @@
+[
+  {
+    "module_id": "cm1_test_row_123",
+    "dataset": "cm1",
+    "feature_set": "static",
+    "model_used": "xgboost",
+    "predicted_risk_score": 0.9079,
+    "predicted_risk_level": "High Risk",
+    "top_shap_contributions": [
+      {
+        "feature": "LOC_COMMENTS",
+        "value": 191.0,
+        "shap_value": 2.6530516147613525
+      },
+      {
+        "feature": "LOC_CODE_AND_COMMENT",
+        "value": 37.0,
+        "shap_value": -1.071020483970642
+      },
+      {
+        "feature": "MAINTENANCE_SEVERITY",
+        "value": 0.39,
+        "shap_value": 0.46204379200935364
+      },
+      {
+        "feature": "HALSTEAD_LEVEL",
+        "value": 0.01,
+        "shap_value": -0.40876504778862
+      },
+      {
+        "feature": "DESIGN_DENSITY",
+        "value": 0.66,
+        "shap_value": -0.3954921066761017
+      }
+    ],
+    "refactoring_recommendations": [
+      {
+        "rule": "Complexity & Size Management",
+        "recommendation": "High complexity (CYCLOMATIC_COMPLEXITY=70.0 (P75=8.0)) combined with large module size (LOC_BLANK=164.0 (P75=20.0), LOC_EXECUTABLE=361.0 (P75=47.0), NUMBER_OF_LINES=764.0 (P75=90.5)). Consider splitting this module/class into smaller, decoupled units using 'Extract Method' or 'Extract Class' refactorings.",
+        "triggered_by_features": [
+          {
+            "feature": "CYCLOMATIC_COMPLEXITY",
+            "value": 70.0,
+            "p75_threshold": 8.0,
+            "shap_contribution": 0.09937331080436707
+          },
+          {
+            "feature": "LOC_BLANK",
+            "value": 164.0,
+            "p75_threshold": 20.0,
+            "shap_contribution": -0.04216375574469566
+          },
+          {
+            "feature": "LOC_EXECUTABLE",
+            "value": 361.0,
+            "p75_threshold": 47.0,
+            "shap_contribution": 0.21248340606689453
+          },
+          {
+            "feature": "NUMBER_OF_LINES",
+            "value": 764.0,
+            "p75_threshold": 90.5,
+            "shap_contribution": -0.0001872058492153883
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "module_id": "kc1_test_row_8",
+    "dataset": "kc1",
+    "feature_set": "static",
+    "model_used": "random_forest",
+    "predicted_risk_score": 0.92,
+    "predicted_risk_level": "High Risk",
+    "top_shap_contributions": [
+      {
+        "feature": "sumHALSTEAD_PROG_TIME",
+        "value": 3026.06,
+        "shap_value": 0.034588130042994485
+      },
+      {
+        "feature": "sumHALSTEAD_EFFORT",
+        "value": 54468.91,
+        "shap_value": 0.025169665892425083
+      },
+      {
+        "feature": "maxNUM_UNIQUE_OPERANDS",
+        "value": 39.0,
+        "shap_value": 0.02364909761680211
+      },
+      {
+        "feature": "sumHALSTEAD_ERROR_EST",
+        "value": 0.9,
+        "shap_value": 0.02178165160416977
+      },
+      {
+        "feature": "avgESSENTIAL_COMPLEXITY",
+        "value": 1.666667,
+        "shap_value": 0.01668674574971943
+      }
+    ],
+    "refactoring_recommendations": [
+      {
+        "rule": "Coupling & Dependency Reduction",
+        "recommendation": "Excessive inter-module coupling and dependency fan-out (COUPLING_BETWEEN_OBJECTS=18.0 (P75=14.0)). Reduce tight coupling by applying Dependency Inversion (DIP) or introducing Facade/Adapter patterns.",
+        "triggered_by_features": [
+          {
+            "feature": "COUPLING_BETWEEN_OBJECTS",
+            "value": 18.0,
+            "p75_threshold": 14.0,
+            "shap_contribution": 0.005417610418516782
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "module_id": "pc1_test_row_229",
+    "dataset": "pc1",
+    "feature_set": "static",
+    "model_used": "random_forest",
+    "predicted_risk_score": 0.885,
+    "predicted_risk_level": "High Risk",
+    "top_shap_contributions": [
+      {
+        "feature": "LOC_BLANK",
+        "value": 12.0,
+        "shap_value": 0.06975306406285182
+      },
+      {
+        "feature": "HALSTEAD_CONTENT",
+        "value": 44.56,
+        "shap_value": 0.04420175795324804
+      },
+      {
+        "feature": "NORMALIZED_CYLOMATIC_COMPLEXITY",
+        "value": 0.11,
+        "shap_value": 0.041882621700388464
+      },
+      {
+        "feature": "NUM_UNIQUE_OPERANDS",
+        "value": 27.0,
+        "shap_value": 0.038756726151337975
+      },
+      {
+        "feature": "DESIGN_DENSITY",
+        "value": 1.0,
+        "shap_value": -0.03574179034440138
+      }
+    ],
+    "refactoring_recommendations": [
+      {
+        "rule": "Complexity & Size Management",
+        "recommendation": "Large module size (LOC_BLANK=12.0 (P75=10.0)). Decompose class into focused sub-components to adhere to Single Responsibility Principle (SRP).",
+        "triggered_by_features": [
+          {
+            "feature": "LOC_BLANK",
+            "value": 12.0,
+            "p75_threshold": 10.0,
+            "shap_contribution": 0.06975306406285182
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "module_id": "pc3_test_row_182",
+    "dataset": "pc3",
+    "feature_set": "static",
+    "model_used": "random_forest",
+    "predicted_risk_score": 0.92,
+    "predicted_risk_level": "High Risk",
+    "top_shap_contributions": [
+      {
+        "feature": "LOC_BLANK",
+        "value": 28.0,
+        "shap_value": 0.06866535288004852
+      },
+      {
+        "feature": "NUM_UNIQUE_OPERANDS",
+        "value": 26.0,
+        "shap_value": 0.045638178891694005
+      },
+      {
+        "feature": "LOC_CODE_AND_COMMENT",
+        "value": 4.0,
+        "shap_value": 0.03947621829086992
+      },
+      {
+        "feature": "DECISION_DENSITY",
+        "value": 2.5,
+        "shap_value": 0.02675166547117986
+      },
+      {
+        "feature": "NUMBER_OF_LINES",
+        "value": 78.0,
+        "shap_value": 0.02577888566460158
+      }
+    ],
+    "refactoring_recommendations": [
+      {
+        "rule": "Complexity & Size Management",
+        "recommendation": "Large module size (LOC_BLANK=28.0 (P75=8.5), NUMBER_OF_LINES=78.0 (P75=44.0)). Decompose class into focused sub-components to adhere to Single Responsibility Principle (SRP).",
+        "triggered_by_features": [
+          {
+            "feature": "LOC_BLANK",
+            "value": 28.0,
+            "p75_threshold": 8.5,
+            "shap_contribution": 0.06866535288004852
+          },
+          {
+            "feature": "NUMBER_OF_LINES",
+            "value": 78.0,
+            "p75_threshold": 44.0,
+            "shap_contribution": 0.02577888566460158
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "module_id": "aeeem_eclipse_test_row_300",
+    "dataset": "aeeem_eclipse",
+    "feature_set": "static",
+    "model_used": "random_forest",
+    "predicted_risk_score": 0.99,
+    "predicted_risk_level": "High Risk",
+    "top_shap_contributions": [
+      {
+        "feature": "wmc",
+        "value": 1042.0,
+        "shap_value": 0.12462102570685545
+      },
+      {
+        "feature": "rfc",
+        "value": 1095.0,
+        "shap_value": 0.10022557949461827
+      },
+      {
+        "feature": "numberOfLinesOfCode",
+        "value": 6113.0,
+        "shap_value": 0.09462548852032542
+      },
+      {
+        "feature": "cbo",
+        "value": 50.0,
+        "shap_value": 0.06913075110182448
+      },
+      {
+        "feature": "fanOut",
+        "value": 37.0,
+        "shap_value": 0.048055612478513324
+      }
+    ],
+    "refactoring_recommendations": [
+      {
+        "rule": "Complexity & Size Management",
+        "recommendation": "High complexity (wmc=1042.0 (P75=50.0)) combined with large module size (numberOfLinesOfCode=6113.0 (P75=192.0)). Consider splitting this module/class into smaller, decoupled units using 'Extract Method' or 'Extract Class' refactorings.",
+        "triggered_by_features": [
+          {
+            "feature": "wmc",
+            "value": 1042.0,
+            "p75_threshold": 50.0,
+            "shap_contribution": 0.12462102570685545
+          },
+          {
+            "feature": "numberOfLinesOfCode",
+            "value": 6113.0,
+            "p75_threshold": 192.0,
+            "shap_contribution": 0.09462548852032542
+          }
+        ]
+      },
+      {
+        "rule": "Coupling & Dependency Reduction",
+        "recommendation": "Excessive inter-module coupling and dependency fan-out (cbo=50.0 (P75=14.0), fanOut=37.0 (P75=10.0), rfc=1095.0 (P75=70.0)). Reduce tight coupling by applying Dependency Inversion (DIP) or introducing Facade/Adapter patterns.",
+        "triggered_by_features": [
+          {
+            "feature": "cbo",
+            "value": 50.0,
+            "p75_threshold": 14.0,
+            "shap_contribution": 0.06913075110182448
+          },
+          {
+            "feature": "fanOut",
+            "value": 37.0,
+            "p75_threshold": 10.0,
+            "shap_contribution": 0.048055612478513324
+          },
+          {
+            "feature": "rfc",
+            "value": 1095.0,
+            "p75_threshold": 70.0,
+            "shap_contribution": 0.10022557949461827
+          }
+        ]
+      },
+      {
+        "rule": "API Surface & Hierarchy Refactoring",
+        "recommendation": "Large method API surface / inherited complexity (numberOfMethods=62.0 (P75=14.0), numberOfPublicMethods=39.0 (P75=9.0)). Consider favoring composition over inheritance and segregating interfaces (Interface Segregation Principle).",
+        "triggered_by_features": [
+          {
+            "feature": "numberOfMethods",
+            "value": 62.0,
+            "p75_threshold": 14.0,
+            "shap_contribution": 0.00213633188256705
+          },
+          {
+            "feature": "numberOfPublicMethods",
+            "value": 39.0,
+            "p75_threshold": 9.0,
+            "shap_contribution": -0.014351577910188295
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "module_id": "aeeem_eclipse_hybrid_test_row_767",
+    "dataset": "aeeem_eclipse_hybrid",
+    "feature_set": "hybrid",
+    "model_used": "random_forest",
+    "predicted_risk_score": 0.94,
+    "predicted_risk_level": "High Risk",
+    "top_shap_contributions": [
+      {
+        "feature": "CvsWEntropy",
+        "value": 0.354056,
+        "shap_value": 0.06961357743227015
+      },
+      {
+        "feature": "commit_count",
+        "value": 150.0,
+        "shap_value": 0.04988092023788944
+      },
+      {
+        "feature": "wmc",
+        "value": 168.0,
+        "shap_value": 0.049547918971717744
+      },
+      {
+        "feature": "CvsEntropy",
+        "value": 27.3399,
+        "shap_value": 0.048781609834274854
+      },
+      {
+        "feature": "numberOfLinesOfCode",
+        "value": 547.0,
+        "shap_value": 0.03938044469937742
+      }
+    ],
+    "refactoring_recommendations": [
+      {
+        "rule": "Complexity & Size Management",
+        "recommendation": "High complexity (wmc=168.0 (P75=50.0)) combined with large module size (numberOfLinesOfCode=547.0 (P75=192.0)). Consider splitting this module/class into smaller, decoupled units using 'Extract Method' or 'Extract Class' refactorings.",
+        "triggered_by_features": [
+          {
+            "feature": "wmc",
+            "value": 168.0,
+            "p75_threshold": 50.0,
+            "shap_contribution": 0.049547918971717744
+          },
+          {
+            "feature": "numberOfLinesOfCode",
+            "value": 547.0,
+            "p75_threshold": 192.0,
+            "shap_contribution": 0.03938044469937742
+          }
+        ]
+      },
+      {
+        "rule": "Coupling & Dependency Reduction",
+        "recommendation": "Excessive inter-module coupling and dependency fan-out (cbo=20.0 (P75=14.0), fanOut=18.0 (P75=10.0), rfc=197.0 (P75=70.0)). Reduce tight coupling by applying Dependency Inversion (DIP) or introducing Facade/Adapter patterns.",
+        "triggered_by_features": [
+          {
+            "feature": "cbo",
+            "value": 20.0,
+            "p75_threshold": 14.0,
+            "shap_contribution": 0.021471081031385036
+          },
+          {
+            "feature": "fanOut",
+            "value": 18.0,
+            "p75_threshold": 10.0,
+            "shap_contribution": 0.01629439037535168
+          },
+          {
+            "feature": "rfc",
+            "value": 197.0,
+            "p75_threshold": 70.0,
+            "shap_contribution": 0.01843942756157267
+          }
+        ]
+      },
+      {
+        "rule": "Process Churn & Modification Risk",
+        "recommendation": "High code churn and modification entropy (code_churn=214.00 (P75=188.00), commit_count=150.00 (P75=52.00), CvsLinEntropy=0.20 (P75=0.15), CvsLogEntropy=8.64 (P75=8.17), CvsExpEntropy=0.31 (P75=0.23)). This module experiences frequent, volatile changes; prioritize for mandatory senior code review and expanded regression test suites.",
+        "triggered_by_features": [
+          {
+            "feature": "code_churn",
+            "value": 214.0,
+            "p75_threshold": 188.0,
+            "shap_contribution": -0.0061712736553844365
+          },
+          {
+            "feature": "commit_count",
+            "value": 150.0,
+            "p75_threshold": 52.0,
+            "shap_contribution": 0.04988092023788944
+          },
+          {
+            "feature": "CvsLinEntropy",
+            "value": 0.197558,
+            "p75_threshold": 0.152618,
+            "shap_contribution": 0.014543751971790229
+          },
+          {
+            "feature": "CvsLogEntropy",
+            "value": 8.64097,
+            "p75_threshold": 8.16614,
+            "shap_contribution": 0.022831219987178367
+          },
+          {
+            "feature": "CvsExpEntropy",
+            "value": 0.311388,
+            "p75_threshold": 0.231202,
+            "shap_contribution": 0.01730939604775259
+          }
+        ]
+      },
+      {
+        "rule": "API Surface & Hierarchy Refactoring",
+        "recommendation": "Large method API surface / inherited complexity (numberOfMethods=22.0 (P75=14.0), numberOfMethodsInherited=85.0 (P75=73.0), numberOfPublicMethods=22.0 (P75=9.0)). Consider favoring composition over inheritance and segregating interfaces (Interface Segregation Principle).",
+        "triggered_by_features": [
+          {
+            "feature": "numberOfMethods",
+            "value": 22.0,
+            "p75_threshold": 14.0,
+            "shap_contribution": -0.004337161542959386
+          },
+          {
+            "feature": "numberOfMethodsInherited",
+            "value": 85.0,
+            "p75_threshold": 73.0,
+            "shap_contribution": 0.002978188539053249
+          },
+          {
+            "feature": "numberOfPublicMethods",
+            "value": 22.0,
+            "p75_threshold": 9.0,
+            "shap_contribution": -0.006497045435557084
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "module_id": "aeeem_equinox_hybrid_test_row_323",
+    "dataset": "aeeem_equinox_hybrid",
+    "feature_set": "hybrid",
+    "model_used": "random_forest",
+    "predicted_risk_score": 0.955,
+    "predicted_risk_level": "High Risk",
+    "top_shap_contributions": [
+      {
+        "feature": "CvsExpEntropy",
+        "value": 0.112682,
+        "shap_value": 0.05126137245705675
+      },
+      {
+        "feature": "CvsLinEntropy",
+        "value": 0.0516045,
+        "shap_value": 0.051035313244124324
+      },
+      {
+        "feature": "lines_added",
+        "value": 889.0,
+        "shap_value": 0.0468730314143039
+      },
+      {
+        "feature": "CvsLogEntropy",
+        "value": 0.43534,
+        "shap_value": 0.03756206538337059
+      },
+      {
+        "feature": "CvsWEntropy",
+        "value": 0.434833,
+        "shap_value": 0.028454218149558234
+      }
+    ],
+    "refactoring_recommendations": [
+      {
+        "rule": "Complexity & Size Management",
+        "recommendation": "High complexity (wmc=106.0 (P75=36.0)) combined with large module size (numberOfLinesOfCode=332.0 (P75=130.0)). Consider splitting this module/class into smaller, decoupled units using 'Extract Method' or 'Extract Class' refactorings.",
+        "triggered_by_features": [
+          {
+            "feature": "wmc",
+            "value": 106.0,
+            "p75_threshold": 36.0,
+            "shap_contribution": 0.018334185394711187
+          },
+          {
+            "feature": "numberOfLinesOfCode",
+            "value": 332.0,
+            "p75_threshold": 130.0,
+            "shap_contribution": 0.022673180813509546
+          }
+        ]
+      },
+      {
+        "rule": "Coupling & Dependency Reduction",
+        "recommendation": "Excessive inter-module coupling and dependency fan-out (cbo=37.0 (P75=13.2), fanOut=30.0 (P75=10.0), rfc=206.0 (P75=61.5)). Reduce tight coupling by applying Dependency Inversion (DIP) or introducing Facade/Adapter patterns.",
+        "triggered_by_features": [
+          {
+            "feature": "cbo",
+            "value": 37.0,
+            "p75_threshold": 13.25,
+            "shap_contribution": 0.010019134747296987
+          },
+          {
+            "feature": "fanOut",
+            "value": 30.0,
+            "p75_threshold": 10.0,
+            "shap_contribution": 0.0038911070574064676
+          },
+          {
+            "feature": "rfc",
+            "value": 206.0,
+            "p75_threshold": 61.5,
+            "shap_contribution": 0.005086266875770458
+          }
+        ]
+      },
+      {
+        "rule": "Process Churn & Modification Risk",
+        "recommendation": "High code churn and modification entropy (code_churn=798.00 (P75=110.75), commit_count=21.00 (P75=14.00), CvsLinEntropy=0.05 (P75=0.02), CvsLogEntropy=0.44 (P75=0.21), CvsExpEntropy=0.11 (P75=0.06)). This module experiences frequent, volatile changes; prioritize for mandatory senior code review and expanded regression test suites.",
+        "triggered_by_features": [
+          {
+            "feature": "code_churn",
+            "value": 798.0,
+            "p75_threshold": 110.75,
+            "shap_contribution": 0.0051007146441676325
+          },
+          {
+            "feature": "commit_count",
+            "value": 21.0,
+            "p75_threshold": 14.0,
+            "shap_contribution": 0.0281639783650454
+          },
+          {
+            "feature": "CvsLinEntropy",
+            "value": 0.0516045,
+            "p75_threshold": 0.023943199999999998,
+            "shap_contribution": 0.051035313244124324
+          },
+          {
+            "feature": "CvsLogEntropy",
+            "value": 0.43534,
+            "p75_threshold": 0.21304,
+            "shap_contribution": 0.03756206538337059
+          },
+          {
+            "feature": "CvsExpEntropy",
+            "value": 0.112682,
+            "p75_threshold": 0.057903675,
+            "shap_contribution": 0.05126137245705675
+          }
+        ]
+      },
+      {
+        "rule": "API Surface & Hierarchy Refactoring",
+        "recommendation": "Large method API surface / inherited complexity (numberOfMethods=40.0 (P75=12.0), numberOfMethodsInherited=30.0 (P75=17.0), numberOfPublicMethods=34.0 (P75=7.0)). Consider favoring composition over inheritance and segregating interfaces (Interface Segregation Principle).",
+        "triggered_by_features": [
+          {
+            "feature": "numberOfMethods",
+            "value": 40.0,
+            "p75_threshold": 12.0,
+            "shap_contribution": 0.018834012471569742
+          },
+          {
+            "feature": "numberOfMethodsInherited",
+            "value": 30.0,
+            "p75_threshold": 17.0,
+            "shap_contribution": 0.011434319259241401
+          },
+          {
+            "feature": "numberOfPublicMethods",
+            "value": 34.0,
+            "p75_threshold": 7.0,
+            "shap_contribution": 0.0050125287569978486
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "module_id": "aeeem_mylyn_hybrid_test_row_726",
+    "dataset": "aeeem_mylyn_hybrid",
+    "feature_set": "hybrid",
+    "model_used": "lightgbm",
+    "predicted_risk_score": 0.9938,
+    "predicted_risk_level": "High Risk",
+    "top_shap_contributions": [
+      {
+        "feature": "fanOut",
+        "value": 50.0,
+        "shap_value": 1.143983892384587
+      },
+      {
+        "feature": "cbo",
+        "value": 79.0,
+        "shap_value": 0.8501686339277934
+      },
+      {
+        "feature": "rfc",
+        "value": 381.0,
+        "shap_value": 0.7263360533621375
+      },
+      {
+        "feature": "dit",
+        "value": 2.0,
+        "shap_value": -0.6713891101811704
+      },
+      {
+        "feature": "numberOfLinesOfCode",
+        "value": 829.0,
+        "shap_value": 0.6388903735096767
+      }
+    ],
+    "refactoring_recommendations": [
+      {
+        "rule": "Complexity & Size Management",
+        "recommendation": "High complexity (wmc=127.0 (P75=19.0)) combined with large module size (numberOfLinesOfCode=829.0 (P75=88.0)). Consider splitting this module/class into smaller, decoupled units using 'Extract Method' or 'Extract Class' refactorings.",
+        "triggered_by_features": [
+          {
+            "feature": "wmc",
+            "value": 127.0,
+            "p75_threshold": 19.0,
+            "shap_contribution": 0.13749062412868038
+          },
+          {
+            "feature": "numberOfLinesOfCode",
+            "value": 829.0,
+            "p75_threshold": 88.0,
+            "shap_contribution": 0.6388903735096767
+          }
+        ]
+      },
+      {
+        "rule": "Coupling & Dependency Reduction",
+        "recommendation": "Excessive inter-module coupling and dependency fan-out (cbo=79.0 (P75=9.0), fanOut=50.0 (P75=6.0), rfc=381.0 (P75=37.0)). Reduce tight coupling by applying Dependency Inversion (DIP) or introducing Facade/Adapter patterns.",
+        "triggered_by_features": [
+          {
+            "feature": "cbo",
+            "value": 79.0,
+            "p75_threshold": 9.0,
+            "shap_contribution": 0.8501686339277934
+          },
+          {
+            "feature": "fanOut",
+            "value": 50.0,
+            "p75_threshold": 6.0,
+            "shap_contribution": 1.143983892384587
+          },
+          {
+            "feature": "rfc",
+            "value": 381.0,
+            "p75_threshold": 37.0,
+            "shap_contribution": 0.7263360533621375
+          }
+        ]
+      },
+      {
+        "rule": "Process Churn & Modification Risk",
+        "recommendation": "High code churn and modification entropy (code_churn=517.00 (P75=12.75), commit_count=101.00 (P75=12.00), CvsLinEntropy=0.25 (P75=0.17), CvsLogEntropy=9.48 (P75=9.28), CvsExpEntropy=0.55 (P75=0.30)). This module experiences frequent, volatile changes; prioritize for mandatory senior code review and expanded regression test suites.",
+        "triggered_by_features": [
+          {
+            "feature": "code_churn",
+            "value": 517.0,
+            "p75_threshold": 12.75,
+            "shap_contribution": 0.6011041809898986
+          },
+          {
+            "feature": "commit_count",
+            "value": 101.0,
+            "p75_threshold": 12.0,
+            "shap_contribution": 0.1393811434626798
+          },
+          {
+            "feature": "CvsLinEntropy",
+            "value": 0.248536,
+            "p75_threshold": 0.173853,
+            "shap_contribution": 0.1261291588064873
+          },
+          {
+            "feature": "CvsLogEntropy",
+            "value": 9.47878,
+            "p75_threshold": 9.2815425,
+            "shap_contribution": -0.11152319579111002
+          },
+          {
+            "feature": "CvsExpEntropy",
+            "value": 0.553577,
+            "p75_threshold": 0.29917574999999996,
+            "shap_contribution": 0.08796057197268871
+          }
+        ]
+      },
+      {
+        "rule": "API Surface & Hierarchy Refactoring",
+        "recommendation": "Large method API surface / inherited complexity (numberOfMethods=59.0 (P75=9.0), numberOfPublicMethods=40.0 (P75=7.0)). Consider favoring composition over inheritance and segregating interfaces (Interface Segregation Principle).",
+        "triggered_by_features": [
+          {
+            "feature": "numberOfMethods",
+            "value": 59.0,
+            "p75_threshold": 9.0,
+            "shap_contribution": -0.04059655199714592
+          },
+          {
+            "feature": "numberOfPublicMethods",
+            "value": 40.0,
+            "p75_threshold": 7.0,
+            "shap_contribution": -0.37440735271431475
+          }
+        ]
+      }
+    ]
+  }
+]

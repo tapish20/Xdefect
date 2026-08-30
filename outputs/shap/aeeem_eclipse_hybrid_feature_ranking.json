@@ -1,0 +1,212 @@
+[
+  {
+    "rank": 1,
+    "feature": "CvsEntropy",
+    "mean_abs_shap": 0.046750760027953205
+  },
+  {
+    "rank": 2,
+    "feature": "CvsWEntropy",
+    "mean_abs_shap": 0.03930290774233452
+  },
+  {
+    "rank": 3,
+    "feature": "CvsExpEntropy",
+    "mean_abs_shap": 0.03216849464334146
+  },
+  {
+    "rank": 4,
+    "feature": "CvsLogEntropy",
+    "mean_abs_shap": 0.031167822426491965
+  },
+  {
+    "rank": 5,
+    "feature": "CvsLinEntropy",
+    "mean_abs_shap": 0.030948497727596894
+  },
+  {
+    "rank": 6,
+    "feature": "numberOfLinesOfCode",
+    "mean_abs_shap": 0.023160368343277008
+  },
+  {
+    "rank": 7,
+    "feature": "commit_count",
+    "mean_abs_shap": 0.02264961432227013
+  },
+  {
+    "rank": 8,
+    "feature": "wmc",
+    "mean_abs_shap": 0.021394407581210816
+  },
+  {
+    "rank": 9,
+    "feature": "numberOfBugsFoundUntil",
+    "mean_abs_shap": 0.018027431274205266
+  },
+  {
+    "rank": 10,
+    "feature": "maxCodeChurnUntil",
+    "mean_abs_shap": 0.014936747029472047
+  },
+  {
+    "rank": 11,
+    "feature": "numberOfAttributesInherited",
+    "mean_abs_shap": 0.014453397427572078
+  },
+  {
+    "rank": 12,
+    "feature": "lines_deleted",
+    "mean_abs_shap": 0.013822028167194961
+  },
+  {
+    "rank": 13,
+    "feature": "numberOfMethodsInherited",
+    "mean_abs_shap": 0.01351015058249867
+  },
+  {
+    "rank": 14,
+    "feature": "avgLinesAddedUntil",
+    "mean_abs_shap": 0.01293963490323459
+  },
+  {
+    "rank": 15,
+    "feature": "rfc",
+    "mean_abs_shap": 0.012256407650404182
+  },
+  {
+    "rank": 16,
+    "feature": "lines_added",
+    "mean_abs_shap": 0.011543572405247055
+  },
+  {
+    "rank": 17,
+    "feature": "numberOfNonTrivialBugsFoundUntil",
+    "mean_abs_shap": 0.01139048744046284
+  },
+  {
+    "rank": 18,
+    "feature": "numberOfAttributes",
+    "mean_abs_shap": 0.008802935489758284
+  },
+  {
+    "rank": 19,
+    "feature": "numberOfPublicAttributes",
+    "mean_abs_shap": 0.00800114587661607
+  },
+  {
+    "rank": 20,
+    "feature": "maxLinesAddedUntil",
+    "mean_abs_shap": 0.007819238550337398
+  },
+  {
+    "rank": 21,
+    "feature": "fanOut",
+    "mean_abs_shap": 0.0069508463825943955
+  },
+  {
+    "rank": 22,
+    "feature": "numberOfPrivateAttributes",
+    "mean_abs_shap": 0.006934452753281548
+  },
+  {
+    "rank": 23,
+    "feature": "cbo",
+    "mean_abs_shap": 0.006728293477705442
+  },
+  {
+    "rank": 24,
+    "feature": "days_since_last_modified",
+    "mean_abs_shap": 0.006507848436592617
+  },
+  {
+    "rank": 25,
+    "feature": "code_churn",
+    "mean_abs_shap": 0.005940222882322662
+  },
+  {
+    "rank": 26,
+    "feature": "avgCodeChurnUntil",
+    "mean_abs_shap": 0.005712316890510633
+  },
+  {
+    "rank": 27,
+    "feature": "numberOfPublicMethods",
+    "mean_abs_shap": 0.0054237844865287635
+  },
+  {
+    "rank": 28,
+    "feature": "numberOfMethods",
+    "mean_abs_shap": 0.005335987036468941
+  },
+  {
+    "rank": 29,
+    "feature": "fanIn",
+    "mean_abs_shap": 0.004718922106414955
+  },
+  {
+    "rank": 30,
+    "feature": "bugfix_commit_count",
+    "mean_abs_shap": 0.004579236142975378
+  },
+  {
+    "rank": 31,
+    "feature": "dit",
+    "mean_abs_shap": 0.004518566060277993
+  },
+  {
+    "rank": 32,
+    "feature": "maxLinesRemovedUntil",
+    "mean_abs_shap": 0.004356133691491562
+  },
+  {
+    "rank": 33,
+    "feature": "lcom",
+    "mean_abs_shap": 0.00423989182659824
+  },
+  {
+    "rank": 34,
+    "feature": "avgLinesRemovedUntil",
+    "mean_abs_shap": 0.004191689820403891
+  },
+  {
+    "rank": 35,
+    "feature": "num_developers",
+    "mean_abs_shap": 0.003091284114626641
+  },
+  {
+    "rank": 36,
+    "feature": "numberOfMajorBugsFoundUntil",
+    "mean_abs_shap": 0.0030001466864557173
+  },
+  {
+    "rank": 37,
+    "feature": "weightedAgeWithRespectTo",
+    "mean_abs_shap": 0.0027796408422835644
+  },
+  {
+    "rank": 38,
+    "feature": "numberOfCriticalBugsFoundUntil",
+    "mean_abs_shap": 0.0024855383064916227
+  },
+  {
+    "rank": 39,
+    "feature": "noc",
+    "mean_abs_shap": 0.0023941466801549894
+  },
+  {
+    "rank": 40,
+    "feature": "numberOfHighPriorityBugsFoundUntil",
+    "mean_abs_shap": 0.0015536051411773819
+  },
+  {
+    "rank": 41,
+    "feature": "numberOfPrivateMethods",
+    "mean_abs_shap": 0.0011967949366270842
+  },
+  {
+    "rank": 42,
+    "feature": "numberOfRefactoringsUntil",
+    "mean_abs_shap": 4.103871001353715e-05
+  }
+]

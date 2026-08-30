@@ -1,0 +1,32 @@
+--- a/src/core/parser.py
++++ b/src/core/parser.py
+@@ -1,14 +1,20 @@
+ class ComplexParser:
+     def parse_source(self, data):
+-        # Monolithic function with high cyclomatic complexity (WMC=70, LOC=361)
++        # Refactored via Extract Method pattern
+         results = []
+         for line in data.split('\n'):
+-            if line.startswith('DEF'):
+-                tokens = line.split()
+-                if len(tokens) > 2 and tokens[1].isupper():
+-                    if 'EXPR' in tokens[2]:
+-                        val = int(tokens[3]) * 42
+-                        results.append((tokens[1], val))
+-            elif line.startswith('VAL'):
+-                pass
++            parsed_item = self._parse_single_line(line)
++            if parsed_item:
++                results.append(parsed_item)
+         return results
++
++    def _parse_single_line(self, line: str):
++        if not line.startswith('DEF'):
++            return None
++        tokens = line.split()
++        if len(tokens) <= 2 or not tokens[1].isupper():
++            return None
++        if 'EXPR' in tokens[2]:
++            val = int(tokens[3]) * 42
++            return (tokens[1], val)
++        return None

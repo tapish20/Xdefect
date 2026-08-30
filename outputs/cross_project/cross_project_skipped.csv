@@ -1,0 +1,7 @@
+source_dataset,target_dataset,feature_set,reason
+cm1,kc1,static,No common numeric feature columns between source and target.
+kc1,cm1,static,No common numeric feature columns between source and target.
+kc1,pc1,static,No common numeric feature columns between source and target.
+kc1,pc3,static,No common numeric feature columns between source and target.
+pc1,kc1,static,No common numeric feature columns between source and target.
+pc3,kc1,static,No common numeric feature columns between source and target.

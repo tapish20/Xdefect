@@ -1,0 +1,187 @@
+[
+  {
+    "rank": 1,
+    "feature": "LOC_BLANK",
+    "mean_abs_shap": 0.06380654879136498
+  },
+  {
+    "rank": 2,
+    "feature": "HALSTEAD_CONTENT",
+    "mean_abs_shap": 0.043839995697486187
+  },
+  {
+    "rank": 3,
+    "feature": "NUM_UNIQUE_OPERANDS",
+    "mean_abs_shap": 0.036080293000223536
+  },
+  {
+    "rank": 4,
+    "feature": "NUMBER_OF_LINES",
+    "mean_abs_shap": 0.03186991215658139
+  },
+  {
+    "rank": 5,
+    "feature": "PERCENT_COMMENTS",
+    "mean_abs_shap": 0.031796222577185285
+  },
+  {
+    "rank": 6,
+    "feature": "DESIGN_DENSITY",
+    "mean_abs_shap": 0.028222390151394723
+  },
+  {
+    "rank": 7,
+    "feature": "LOC_CODE_AND_COMMENT",
+    "mean_abs_shap": 0.021632090979947644
+  },
+  {
+    "rank": 8,
+    "feature": "PARAMETER_COUNT",
+    "mean_abs_shap": 0.02153311057140018
+  },
+  {
+    "rank": 9,
+    "feature": "HALSTEAD_VOLUME",
+    "mean_abs_shap": 0.017503638199791827
+  },
+  {
+    "rank": 10,
+    "feature": "HALSTEAD_LEVEL",
+    "mean_abs_shap": 0.015425790772585412
+  },
+  {
+    "rank": 11,
+    "feature": "DECISION_DENSITY",
+    "mean_abs_shap": 0.014578844417373088
+  },
+  {
+    "rank": 12,
+    "feature": "HALSTEAD_ERROR_EST",
+    "mean_abs_shap": 0.013723550202494385
+  },
+  {
+    "rank": 13,
+    "feature": "NUM_OPERANDS",
+    "mean_abs_shap": 0.013662493911878919
+  },
+  {
+    "rank": 14,
+    "feature": "HALSTEAD_LENGTH",
+    "mean_abs_shap": 0.010764429627566715
+  },
+  {
+    "rank": 15,
+    "feature": "MAINTENANCE_SEVERITY",
+    "mean_abs_shap": 0.00996960103078019
+  },
+  {
+    "rank": 16,
+    "feature": "HALSTEAD_EFFORT",
+    "mean_abs_shap": 0.009855303696353589
+  },
+  {
+    "rank": 17,
+    "feature": "HALSTEAD_DIFFICULTY",
+    "mean_abs_shap": 0.009773638479018682
+  },
+  {
+    "rank": 18,
+    "feature": "LOC_TOTAL",
+    "mean_abs_shap": 0.00968495871841241
+  },
+  {
+    "rank": 19,
+    "feature": "NUM_OPERATORS",
+    "mean_abs_shap": 0.00951436262266488
+  },
+  {
+    "rank": 20,
+    "feature": "LOC_COMMENTS",
+    "mean_abs_shap": 0.00911425350710657
+  },
+  {
+    "rank": 21,
+    "feature": "HALSTEAD_PROG_TIME",
+    "mean_abs_shap": 0.00893990107242857
+  },
+  {
+    "rank": 22,
+    "feature": "NORMALIZED_CYLOMATIC_COMPLEXITY",
+    "mean_abs_shap": 0.00864670258925897
+  },
+  {
+    "rank": 23,
+    "feature": "NUM_UNIQUE_OPERATORS",
+    "mean_abs_shap": 0.008642256390110967
+  },
+  {
+    "rank": 24,
+    "feature": "LOC_EXECUTABLE",
+    "mean_abs_shap": 0.00843254120015769
+  },
+  {
+    "rank": 25,
+    "feature": "CYCLOMATIC_DENSITY",
+    "mean_abs_shap": 0.007526497258507506
+  },
+  {
+    "rank": 26,
+    "feature": "BRANCH_COUNT",
+    "mean_abs_shap": 0.007124890675964854
+  },
+  {
+    "rank": 27,
+    "feature": "ESSENTIAL_COMPLEXITY",
+    "mean_abs_shap": 0.005498114990784102
+  },
+  {
+    "rank": 28,
+    "feature": "EDGE_COUNT",
+    "mean_abs_shap": 0.005287495845275886
+  },
+  {
+    "rank": 29,
+    "feature": "CONDITION_COUNT",
+    "mean_abs_shap": 0.0051565405313977455
+  },
+  {
+    "rank": 30,
+    "feature": "CALL_PAIRS",
+    "mean_abs_shap": 0.0051376044030183735
+  },
+  {
+    "rank": 31,
+    "feature": "CYCLOMATIC_COMPLEXITY",
+    "mean_abs_shap": 0.004056667234329796
+  },
+  {
+    "rank": 32,
+    "feature": "DECISION_COUNT",
+    "mean_abs_shap": 0.0037740130285763966
+  },
+  {
+    "rank": 33,
+    "feature": "ESSENTIAL_DENSITY",
+    "mean_abs_shap": 0.003671347054665061
+  },
+  {
+    "rank": 34,
+    "feature": "DESIGN_COMPLEXITY",
+    "mean_abs_shap": 0.003412598904659239
+  },
+  {
+    "rank": 35,
+    "feature": "NODE_COUNT",
+    "mean_abs_shap": 0.003268205994426443
+  },
+  {
+    "rank": 36,
+    "feature": "MULTIPLE_CONDITION_COUNT",
+    "mean_abs_shap": 0.0021218090546008487
+  },
+  {
+    "rank": 37,
+    "feature": "MODIFIED_CONDITION_COUNT",
+    "mean_abs_shap": 0.0017793308936107045
+  }
+]

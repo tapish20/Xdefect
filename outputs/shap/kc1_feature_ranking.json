@@ -1,0 +1,472 @@
+[
+  {
+    "rank": 1,
+    "feature": "sumHALSTEAD_PROG_TIME",
+    "mean_abs_shap": 0.030231694092708466
+  },
+  {
+    "rank": 2,
+    "feature": "sumLOC_EXECUTABLE",
+    "mean_abs_shap": 0.02373219804563962
+  },
+  {
+    "rank": 3,
+    "feature": "sumHALSTEAD_EFFORT",
+    "mean_abs_shap": 0.023231688282497834
+  },
+  {
+    "rank": 4,
+    "feature": "sumHALSTEAD_ERROR_EST",
+    "mean_abs_shap": 0.021336771578455913
+  },
+  {
+    "rank": 5,
+    "feature": "sumNUM_OPERANDS",
+    "mean_abs_shap": 0.020891985620828796
+  },
+  {
+    "rank": 6,
+    "feature": "sumHALSTEAD_VOLUME",
+    "mean_abs_shap": 0.01735059430239479
+  },
+  {
+    "rank": 7,
+    "feature": "avgESSENTIAL_COMPLEXITY",
+    "mean_abs_shap": 0.016624236889051184
+  },
+  {
+    "rank": 8,
+    "feature": "sumNUM_OPERATORS",
+    "mean_abs_shap": 0.01650819491393657
+  },
+  {
+    "rank": 9,
+    "feature": "maxHALSTEAD_LENGTH",
+    "mean_abs_shap": 0.012967915145085567
+  },
+  {
+    "rank": 10,
+    "feature": "maxNUM_UNIQUE_OPERANDS",
+    "mean_abs_shap": 0.01294066795666844
+  },
+  {
+    "rank": 11,
+    "feature": "maxLOC_TOTAL",
+    "mean_abs_shap": 0.011915032598572036
+  },
+  {
+    "rank": 12,
+    "feature": "sumHALSTEAD_LENGTH",
+    "mean_abs_shap": 0.011654580224450815
+  },
+  {
+    "rank": 13,
+    "feature": "avgHALSTEAD_ERROR_EST",
+    "mean_abs_shap": 0.011279381083536629
+  },
+  {
+    "rank": 14,
+    "feature": "sumHALSTEAD_DIFFICULTY",
+    "mean_abs_shap": 0.01102151306097376
+  },
+  {
+    "rank": 15,
+    "feature": "sumLOC_TOTAL",
+    "mean_abs_shap": 0.008751525468266378
+  },
+  {
+    "rank": 16,
+    "feature": "maxHALSTEAD_EFFORT",
+    "mean_abs_shap": 0.008349367098073313
+  },
+  {
+    "rank": 17,
+    "feature": "maxESSENTIAL_COMPLEXITY",
+    "mean_abs_shap": 0.008268009003507425
+  },
+  {
+    "rank": 18,
+    "feature": "avgNUM_OPERATORS",
+    "mean_abs_shap": 0.0077812413171211535
+  },
+  {
+    "rank": 19,
+    "feature": "maxLOC_EXECUTABLE",
+    "mean_abs_shap": 0.007731864310794026
+  },
+  {
+    "rank": 20,
+    "feature": "maxHALSTEAD_PROG_TIME",
+    "mean_abs_shap": 0.007583115094012788
+  },
+  {
+    "rank": 21,
+    "feature": "maxHALSTEAD_ERROR_EST",
+    "mean_abs_shap": 0.007567210389927929
+  },
+  {
+    "rank": 22,
+    "feature": "DEPTH",
+    "mean_abs_shap": 0.007313542614421254
+  },
+  {
+    "rank": 23,
+    "feature": "WEIGHTED_METHODS_PER_CLASS",
+    "mean_abs_shap": 0.007218157079654315
+  },
+  {
+    "rank": 24,
+    "feature": "avgNUM_OPERANDS",
+    "mean_abs_shap": 0.007017388402353122
+  },
+  {
+    "rank": 25,
+    "feature": "avgHALSTEAD_DIFFICULTY",
+    "mean_abs_shap": 0.006952922888885096
+  },
+  {
+    "rank": 26,
+    "feature": "maxNUM_OPERANDS",
+    "mean_abs_shap": 0.0067627134520981845
+  },
+  {
+    "rank": 27,
+    "feature": "maxNUM_OPERATORS",
+    "mean_abs_shap": 0.0066410881913144815
+  },
+  {
+    "rank": 28,
+    "feature": "sumNUM_UNIQUE_OPERANDS",
+    "mean_abs_shap": 0.006524662385003415
+  },
+  {
+    "rank": 29,
+    "feature": "avgHALSTEAD_EFFORT",
+    "mean_abs_shap": 0.006240488900244306
+  },
+  {
+    "rank": 30,
+    "feature": "sumESSENTIAL_COMPLEXITY",
+    "mean_abs_shap": 0.006186081779226687
+  },
+  {
+    "rank": 31,
+    "feature": "avgHALSTEAD_PROG_TIME",
+    "mean_abs_shap": 0.005766445608091737
+  },
+  {
+    "rank": 32,
+    "feature": "avgHALSTEAD_VOLUME",
+    "mean_abs_shap": 0.00566890602488079
+  },
+  {
+    "rank": 33,
+    "feature": "avgHALSTEAD_LEVEL",
+    "mean_abs_shap": 0.005651344343793161
+  },
+  {
+    "rank": 34,
+    "feature": "sumNUM_UNIQUE_OPERATORS",
+    "mean_abs_shap": 0.005604644856425835
+  },
+  {
+    "rank": 35,
+    "feature": "maxHALSTEAD_DIFFICULTY",
+    "mean_abs_shap": 0.005241034545909057
+  },
+  {
+    "rank": 36,
+    "feature": "avgLOC_COMMENTS",
+    "mean_abs_shap": 0.005239977496948585
+  },
+  {
+    "rank": 37,
+    "feature": "avgLOC_TOTAL",
+    "mean_abs_shap": 0.004838022429764805
+  },
+  {
+    "rank": 38,
+    "feature": "sumHALSTEAD_CONTENT",
+    "mean_abs_shap": 0.004412803931388195
+  },
+  {
+    "rank": 39,
+    "feature": "maxHALSTEAD_VOLUME",
+    "mean_abs_shap": 0.004257554054897633
+  },
+  {
+    "rank": 40,
+    "feature": "sumLOC_BLANK",
+    "mean_abs_shap": 0.004162304162802455
+  },
+  {
+    "rank": 41,
+    "feature": "avgHALSTEAD_LENGTH",
+    "mean_abs_shap": 0.004126471404038134
+  },
+  {
+    "rank": 42,
+    "feature": "avgLOC_EXECUTABLE",
+    "mean_abs_shap": 0.003935568265388301
+  },
+  {
+    "rank": 43,
+    "feature": "maxLOC_BLANK",
+    "mean_abs_shap": 0.003912254690634953
+  },
+  {
+    "rank": 44,
+    "feature": "sumHALSTEAD_LEVEL",
+    "mean_abs_shap": 0.003822050700334378
+  },
+  {
+    "rank": 45,
+    "feature": "maxHALSTEAD_LEVEL",
+    "mean_abs_shap": 0.0037647014877868535
+  },
+  {
+    "rank": 46,
+    "feature": "maxHALSTEAD_CONTENT",
+    "mean_abs_shap": 0.0037487275211117847
+  },
+  {
+    "rank": 47,
+    "feature": "avgDESIGN_COMPLEXITY",
+    "mean_abs_shap": 0.0036331738602226973
+  },
+  {
+    "rank": 48,
+    "feature": "RESPONSE_FOR_CLASS",
+    "mean_abs_shap": 0.0036037678382860286
+  },
+  {
+    "rank": 49,
+    "feature": "FAN_IN",
+    "mean_abs_shap": 0.003266192508669733
+  },
+  {
+    "rank": 50,
+    "feature": "sumBRANCH_COUNT",
+    "mean_abs_shap": 0.003265776283346405
+  },
+  {
+    "rank": 51,
+    "feature": "avgHALSTEAD_CONTENT",
+    "mean_abs_shap": 0.003258527384471181
+  },
+  {
+    "rank": 52,
+    "feature": "COUPLING_BETWEEN_OBJECTS",
+    "mean_abs_shap": 0.0031528525532809734
+  },
+  {
+    "rank": 53,
+    "feature": "avgNUM_UNIQUE_OPERANDS",
+    "mean_abs_shap": 0.002941549837892735
+  },
+  {
+    "rank": 54,
+    "feature": "LACK_OF_COHESION_OF_METHODS",
+    "mean_abs_shap": 0.002805263812064489
+  },
+  {
+    "rank": 55,
+    "feature": "maxBRANCH_COUNT",
+    "mean_abs_shap": 0.002773831992666485
+  },
+  {
+    "rank": 56,
+    "feature": "minHALSTEAD_LEVEL",
+    "mean_abs_shap": 0.002515304591197222
+  },
+  {
+    "rank": 57,
+    "feature": "sumCYCLOMATIC_COMPLEXITY",
+    "mean_abs_shap": 0.002482936316734459
+  },
+  {
+    "rank": 58,
+    "feature": "avgLOC_BLANK",
+    "mean_abs_shap": 0.002281406249525272
+  },
+  {
+    "rank": 59,
+    "feature": "sumDESIGN_COMPLEXITY",
+    "mean_abs_shap": 0.002165687138589441
+  },
+  {
+    "rank": 60,
+    "feature": "sumLOC_COMMENTS",
+    "mean_abs_shap": 0.002093209483816942
+  },
+  {
+    "rank": 61,
+    "feature": "avgBRANCH_COUNT",
+    "mean_abs_shap": 0.002081263726579606
+  },
+  {
+    "rank": 62,
+    "feature": "avgNUM_UNIQUE_OPERATORS",
+    "mean_abs_shap": 0.002007735116732166
+  },
+  {
+    "rank": 63,
+    "feature": "maxNUM_UNIQUE_OPERATORS",
+    "mean_abs_shap": 0.0019943476522219293
+  },
+  {
+    "rank": 64,
+    "feature": "maxDESIGN_COMPLEXITY",
+    "mean_abs_shap": 0.0019578836176007046
+  },
+  {
+    "rank": 65,
+    "feature": "avgCYCLOMATIC_COMPLEXITY",
+    "mean_abs_shap": 0.0018655649105543733
+  },
+  {
+    "rank": 66,
+    "feature": "minHALSTEAD_VOLUME",
+    "mean_abs_shap": 0.0018275268508696708
+  },
+  {
+    "rank": 67,
+    "feature": "maxCYCLOMATIC_COMPLEXITY",
+    "mean_abs_shap": 0.001746865757744009
+  },
+  {
+    "rank": 68,
+    "feature": "NUM_OF_CHILDREN",
+    "mean_abs_shap": 0.0015500146011799838
+  },
+  {
+    "rank": 69,
+    "feature": "avgLOC_CODE_AND_COMMENT",
+    "mean_abs_shap": 0.0014599908659293573
+  },
+  {
+    "rank": 70,
+    "feature": "minHALSTEAD_PROG_TIME",
+    "mean_abs_shap": 0.0014403126744119484
+  },
+  {
+    "rank": 71,
+    "feature": "PERCENT_PUB_DATA",
+    "mean_abs_shap": 0.0014096675184808722
+  },
+  {
+    "rank": 72,
+    "feature": "minHALSTEAD_DIFFICULTY",
+    "mean_abs_shap": 0.0014043210541944918
+  },
+  {
+    "rank": 73,
+    "feature": "maxLOC_COMMENTS",
+    "mean_abs_shap": 0.001393724938916765
+  },
+  {
+    "rank": 74,
+    "feature": "minNUM_UNIQUE_OPERANDS",
+    "mean_abs_shap": 0.001341823214888541
+  },
+  {
+    "rank": 75,
+    "feature": "minHALSTEAD_LENGTH",
+    "mean_abs_shap": 0.0012345537652418955
+  },
+  {
+    "rank": 76,
+    "feature": "minHALSTEAD_CONTENT",
+    "mean_abs_shap": 0.0011005097231076783
+  },
+  {
+    "rank": 77,
+    "feature": "minHALSTEAD_EFFORT",
+    "mean_abs_shap": 0.0009719281871749168
+  },
+  {
+    "rank": 78,
+    "feature": "minNUM_OPERANDS",
+    "mean_abs_shap": 0.0008368252406746438
+  },
+  {
+    "rank": 79,
+    "feature": "minNUM_OPERATORS",
+    "mean_abs_shap": 0.0007972234000323054
+  },
+  {
+    "rank": 80,
+    "feature": "minLOC_EXECUTABLE",
+    "mean_abs_shap": 0.0007227190533990274
+  },
+  {
+    "rank": 81,
+    "feature": "sumLOC_CODE_AND_COMMENT",
+    "mean_abs_shap": 0.0006005197201621012
+  },
+  {
+    "rank": 82,
+    "feature": "maxLOC_CODE_AND_COMMENT",
+    "mean_abs_shap": 0.0005121213967871534
+  },
+  {
+    "rank": 83,
+    "feature": "minLOC_TOTAL",
+    "mean_abs_shap": 0.00046389138536146314
+  },
+  {
+    "rank": 84,
+    "feature": "minNUM_UNIQUE_OPERATORS",
+    "mean_abs_shap": 0.00045815896297549997
+  },
+  {
+    "rank": 85,
+    "feature": "minHALSTEAD_ERROR_EST",
+    "mean_abs_shap": 0.000340883479828713
+  },
+  {
+    "rank": 86,
+    "feature": "ACCESS_TO_PUB_DATA",
+    "mean_abs_shap": 0.0
+  },
+  {
+    "rank": 87,
+    "feature": "DEP_ON_CHILD",
+    "mean_abs_shap": 0.0
+  },
+  {
+    "rank": 88,
+    "feature": "minLOC_BLANK",
+    "mean_abs_shap": 0.0
+  },
+  {
+    "rank": 89,
+    "feature": "minBRANCH_COUNT",
+    "mean_abs_shap": 0.0
+  },
+  {
+    "rank": 90,
+    "feature": "minLOC_CODE_AND_COMMENT",
+    "mean_abs_shap": 0.0
+  },
+  {
+    "rank": 91,
+    "feature": "minLOC_COMMENTS",
+    "mean_abs_shap": 0.0
+  },
+  {
+    "rank": 92,
+    "feature": "minCYCLOMATIC_COMPLEXITY",
+    "mean_abs_shap": 0.0
+  },
+  {
+    "rank": 93,
+    "feature": "minDESIGN_COMPLEXITY",
+    "mean_abs_shap": 0.0
+  },
+  {
+    "rank": 94,
+    "feature": "minESSENTIAL_COMPLEXITY",
+    "mean_abs_shap": 0.0
+  }
+]

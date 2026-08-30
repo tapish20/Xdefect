@@ -1,0 +1,1607 @@
+[
+  {
+    "module_id": "cm1_row_297",
+    "dataset": "cm1",
+    "model_used": "random_forest",
+    "counterfactual_analysis": {
+      "initial_risk": 0.815,
+      "target_risk": 0.35,
+      "counterfactual_risk": 0.29,
+      "changes_required": [
+        {
+          "feature": "LOC_BLANK",
+          "original_value": 39.0,
+          "target_value": 31.200000000000003,
+          "reduction_amount": 7.799999999999997,
+          "percentage_reduction": 20.0
+        },
+        {
+          "feature": "BRANCH_COUNT",
+          "original_value": 37.0,
+          "target_value": 29.6,
+          "reduction_amount": 7.399999999999999,
+          "percentage_reduction": 20.0
+        },
+        {
+          "feature": "CALL_PAIRS",
+          "original_value": 6.0,
+          "target_value": 4.800000000000001,
+          "reduction_amount": 1.1999999999999993,
+          "percentage_reduction": 20.0
+        },
+        {
+          "feature": "LOC_CODE_AND_COMMENT",
+          "original_value": 6.0,
+          "target_value": 4.800000000000001,
+          "reduction_amount": 1.1999999999999993,
+          "percentage_reduction": 20.0
+        },
+        {
+          "feature": "LOC_COMMENTS",
+          "original_value": 51.0,
+          "target_value": 40.800000000000004,
+          "reduction_amount": 10.199999999999996,
+          "percentage_reduction": 20.0
+        },
+        {
+          "feature": "CONDITION_COUNT",
+          "original_value": 66.0,
+          "target_value": 52.800000000000004,
+          "reduction_amount": 13.199999999999996,
+          "percentage_reduction": 20.0
+        },
+        {
+          "feature": "CYCLOMATIC_COMPLEXITY",
+          "original_value": 19.0,
+          "target_value": 15.200000000000001,
+          "reduction_amount": 3.799999999999999,
+          "percentage_reduction": 20.0
+        },
+        {
+          "feature": "CYCLOMATIC_DENSITY",
+          "original_value": 0.2,
+          "target_value": 0.16000000000000003,
+          "reduction_amount": 0.03999999999999998,
+          "percentage_reduction": 20.0
+        },
+        {
+          "feature": "DECISION_COUNT",
+          "original_value": 30.0,
+          "target_value": 24.0,
+          "reduction_amount": 6.0,
+          "percentage_reduction": 20.0
+        },
+        {
+          "feature": "DECISION_DENSITY",
+          "original_value": 2.2,
+          "target_value": 1.7600000000000002,
+          "reduction_amount": 0.43999999999999995,
+          "percentage_reduction": 20.0
+        },
+        {
+          "feature": "DESIGN_COMPLEXITY",
+          "original_value": 9.0,
+          "target_value": 7.2,
+          "reduction_amount": 1.7999999999999998,
+          "percentage_reduction": 20.0
+        },
+        {
+          "feature": "DESIGN_DENSITY",
+          "original_value": 0.47,
+          "target_value": 0.376,
+          "reduction_amount": 0.09399999999999997,
+          "percentage_reduction": 20.0
+        },
+        {
+          "feature": "EDGE_COUNT",
+          "original_value": 77.0,
+          "target_value": 61.6,
+          "reduction_amount": 15.399999999999999,
+          "percentage_reduction": 20.0
+        },
+        {
+          "feature": "ESSENTIAL_COMPLEXITY",
+          "original_value": 9.0,
+          "target_value": 7.2,
+          "reduction_amount": 1.7999999999999998,
+          "percentage_reduction": 20.0
+        },
+        {
+          "feature": "ESSENTIAL_DENSITY",
+          "original_value": 0.44,
+          "target_value": 0.35200000000000004,
+          "reduction_amount": 0.08799999999999997,
+          "percentage_reduction": 20.0
+        },
+        {
+          "feature": "LOC_EXECUTABLE",
+          "original_value": 88.0,
+          "target_value": 70.4,
+          "reduction_amount": 17.599999999999994,
+          "percentage_reduction": 20.0
+        },
+        {
+          "feature": "PARAMETER_COUNT",
+          "original_value": 1.0,
+          "target_value": 0.8,
+          "reduction_amount": 0.19999999999999996,
+          "percentage_reduction": 20.0
+        },
+        {
+          "feature": "HALSTEAD_CONTENT",
+          "original_value": 66.11,
+          "target_value": 52.888000000000005,
+          "reduction_amount": 13.221999999999994,
+          "percentage_reduction": 20.0
+        },
+        {
+          "feature": "HALSTEAD_DIFFICULTY",
+          "original_value": 50.27,
+          "target_value": 40.21600000000001,
+          "reduction_amount": 10.053999999999995,
+          "percentage_reduction": 20.0
+        },
+        {
+          "feature": "HALSTEAD_EFFORT",
+          "original_value": 167072.98,
+          "target_value": 133658.38400000002,
+          "reduction_amount": 33414.59599999999,
+          "percentage_reduction": 20.0
+        },
+        {
+          "feature": "HALSTEAD_ERROR_EST",
+          "original_value": 1.11,
+          "target_value": 0.8880000000000001,
+          "reduction_amount": 0.22199999999999998,
+          "percentage_reduction": 20.0
+        },
+        {
+          "feature": "HALSTEAD_LENGTH",
+          "original_value": 496.0,
+          "target_value": 396.8,
+          "reduction_amount": 99.19999999999999,
+          "percentage_reduction": 20.0
+        },
+        {
+          "feature": "HALSTEAD_LEVEL",
+          "original_value": 0.02,
+          "target_value": 0.016,
+          "reduction_amount": 0.004,
+          "percentage_reduction": 20.0
+        },
+        {
+          "feature": "HALSTEAD_PROG_TIME",
+          "original_value": 9281.83,
+          "target_value": 7425.464,
+          "reduction_amount": 1856.366,
+          "percentage_reduction": 20.0
+        },
+        {
+          "feature": "HALSTEAD_VOLUME",
+          "original_value": 3323.42,
+          "target_value": 2658.7360000000003,
+          "reduction_amount": 664.6839999999997,
+          "percentage_reduction": 20.0
+        },
+        {
+          "feature": "MAINTENANCE_SEVERITY",
+          "original_value": 0.47,
+          "target_value": 0.376,
+          "reduction_amount": 0.09399999999999997,
+          "percentage_reduction": 20.0
+        },
+        {
+          "feature": "MODIFIED_CONDITION_COUNT",
+          "original_value": 18.0,
+          "target_value": 14.4,
+          "reduction_amount": 3.5999999999999996,
+          "percentage_reduction": 20.0
+        },
+        {
+          "feature": "MULTIPLE_CONDITION_COUNT",
+          "original_value": 33.0,
+          "target_value": 26.400000000000002,
+          "reduction_amount": 6.599999999999998,
+          "percentage_reduction": 20.0
+        },
+        {
+          "feature": "NODE_COUNT",
+          "original_value": 60.0,
+          "target_value": 48.0,
+          "reduction_amount": 12.0,
+          "percentage_reduction": 20.0
+        },
+        {
+          "feature": "NORMALIZED_CYLOMATIC_COMPLEXITY",
+          "original_value": 0.1,
+          "target_value": 0.08000000000000002,
+          "reduction_amount": 0.01999999999999999,
+          "percentage_reduction": 20.0
+        },
+        {
+          "feature": "NUM_OPERANDS",
+          "original_value": 207.0,
+          "target_value": 165.60000000000002,
+          "reduction_amount": 41.39999999999998,
+          "percentage_reduction": 20.0
+        },
+        {
+          "feature": "NUM_OPERATORS",
+          "original_value": 289.0,
+          "target_value": 231.20000000000002,
+          "reduction_amount": 57.79999999999998,
+          "percentage_reduction": 20.0
+        },
+        {
+          "feature": "NUM_UNIQUE_OPERANDS",
+          "original_value": 70.0,
+          "target_value": 56.0,
+          "reduction_amount": 14.0,
+          "percentage_reduction": 20.0
+        },
+        {
+          "feature": "NUM_UNIQUE_OPERATORS",
+          "original_value": 34.0,
+          "target_value": 27.200000000000003,
+          "reduction_amount": 6.799999999999997,
+          "percentage_reduction": 20.0
+        },
+        {
+          "feature": "NUMBER_OF_LINES",
+          "original_value": 185.0,
+          "target_value": 148.0,
+          "reduction_amount": 37.0,
+          "percentage_reduction": 20.0
+        },
+        {
+          "feature": "PERCENT_COMMENTS",
+          "original_value": 39.31,
+          "target_value": 31.448000000000004,
+          "reduction_amount": 7.861999999999998,
+          "percentage_reduction": 20.0
+        },
+        {
+          "feature": "LOC_TOTAL",
+          "original_value": 94.0,
+          "target_value": 75.2,
+          "reduction_amount": 18.799999999999997,
+          "percentage_reduction": 20.0
+        }
+      ],
+      "status": "Counterfactual successfully generated."
+    }
+  },
+  {
+    "module_id": "kc1_row_8",
+    "dataset": "kc1",
+    "model_used": "random_forest",
+    "counterfactual_analysis": {
+      "initial_risk": 0.92,
+      "target_risk": 0.35,
+      "counterfactual_risk": 0.205,
+      "changes_required": [
+        {
+          "feature": "COUPLING_BETWEEN_OBJECTS",
+          "original_value": 18.0,
+          "target_value": 7.2,
+          "reduction_amount": 10.8,
+          "percentage_reduction": 60.0
+        },
+        {
+          "feature": "DEPTH",
+          "original_value": 2.0,
+          "target_value": 0.8,
+          "reduction_amount": 1.2,
+          "percentage_reduction": 60.0
+        },
+        {
+          "feature": "LACK_OF_COHESION_OF_METHODS",
+          "original_value": 100.0,
+          "target_value": 40.0,
+          "reduction_amount": 60.0,
+          "percentage_reduction": 60.0
+        },
+        {
+          "feature": "NUM_OF_CHILDREN",
+          "original_value": 1.0,
+          "target_value": 0.4,
+          "reduction_amount": 0.6,
+          "percentage_reduction": 60.0
+        },
+        {
+          "feature": "DEP_ON_CHILD",
+          "original_value": 1.0,
+          "target_value": 0.4,
+          "reduction_amount": 0.6,
+          "percentage_reduction": 60.0
+        },
+        {
+          "feature": "FAN_IN",
+          "original_value": 1.0,
+          "target_value": 0.4,
+          "reduction_amount": 0.6,
+          "percentage_reduction": 60.0
+        },
+        {
+          "feature": "RESPONSE_FOR_CLASS",
+          "original_value": 38.0,
+          "target_value": 15.200000000000001,
+          "reduction_amount": 22.799999999999997,
+          "percentage_reduction": 60.0
+        },
+        {
+          "feature": "WEIGHTED_METHODS_PER_CLASS",
+          "original_value": 13.0,
+          "target_value": 5.2,
+          "reduction_amount": 7.8,
+          "percentage_reduction": 60.0
+        },
+        {
+          "feature": "minBRANCH_COUNT",
+          "original_value": 1.0,
+          "target_value": 0.4,
+          "reduction_amount": 0.6,
+          "percentage_reduction": 60.0
+        },
+        {
+          "feature": "minCYCLOMATIC_COMPLEXITY",
+          "original_value": 1.0,
+          "target_value": 0.4,
+          "reduction_amount": 0.6,
+          "percentage_reduction": 60.0
+        },
+        {
+          "feature": "minDESIGN_COMPLEXITY",
+          "original_value": 1.0,
+          "target_value": 0.4,
+          "reduction_amount": 0.6,
+          "percentage_reduction": 60.0
+        },
+        {
+          "feature": "minESSENTIAL_COMPLEXITY",
+          "original_value": 1.0,
+          "target_value": 0.4,
+          "reduction_amount": 0.6,
+          "percentage_reduction": 60.0
+        },
+        {
+          "feature": "minHALSTEAD_LENGTH",
+          "original_value": 1.0,
+          "target_value": 0.4,
+          "reduction_amount": 0.6,
+          "percentage_reduction": 60.0
+        },
+        {
+          "feature": "minNUM_OPERATORS",
+          "original_value": 1.0,
+          "target_value": 0.4,
+          "reduction_amount": 0.6,
+          "percentage_reduction": 60.0
+        },
+        {
+          "feature": "minNUM_UNIQUE_OPERATORS",
+          "original_value": 1.0,
+          "target_value": 0.4,
+          "reduction_amount": 0.6,
+          "percentage_reduction": 60.0
+        },
+        {
+          "feature": "minLOC_TOTAL",
+          "original_value": 2.0,
+          "target_value": 0.8,
+          "reduction_amount": 1.2,
+          "percentage_reduction": 60.0
+        },
+        {
+          "feature": "maxLOC_BLANK",
+          "original_value": 10.0,
+          "target_value": 4.0,
+          "reduction_amount": 6.0,
+          "percentage_reduction": 60.0
+        },
+        {
+          "feature": "maxBRANCH_COUNT",
+          "original_value": 31.0,
+          "target_value": 12.4,
+          "reduction_amount": 18.6,
+          "percentage_reduction": 60.0
+        },
+        {
+          "feature": "maxLOC_CODE_AND_COMMENT",
+          "original_value": 1.0,
+          "target_value": 0.4,
+          "reduction_amount": 0.6,
+          "percentage_reduction": 60.0
+        },
+        {
+          "feature": "maxCYCLOMATIC_COMPLEXITY",
+          "original_value": 16.0,
+          "target_value": 6.4,
+          "reduction_amount": 9.6,
+          "percentage_reduction": 60.0
+        },
+        {
+          "feature": "maxDESIGN_COMPLEXITY",
+          "original_value": 16.0,
+          "target_value": 6.4,
+          "reduction_amount": 9.6,
+          "percentage_reduction": 60.0
+        },
+        {
+          "feature": "maxESSENTIAL_COMPLEXITY",
+          "original_value": 9.0,
+          "target_value": 3.6,
+          "reduction_amount": 5.4,
+          "percentage_reduction": 60.0
+        },
+        {
+          "feature": "maxLOC_EXECUTABLE",
+          "original_value": 82.0,
+          "target_value": 32.800000000000004,
+          "reduction_amount": 49.199999999999996,
+          "percentage_reduction": 60.0
+        },
+        {
+          "feature": "maxHALSTEAD_CONTENT",
+          "original_value": 54.5,
+          "target_value": 21.8,
+          "reduction_amount": 32.7,
+          "percentage_reduction": 60.0
+        },
+        {
+          "feature": "maxHALSTEAD_DIFFICULTY",
+          "original_value": 27.64,
+          "target_value": 11.056000000000001,
+          "reduction_amount": 16.584,
+          "percentage_reduction": 60.0
+        },
+        {
+          "feature": "maxHALSTEAD_EFFORT",
+          "original_value": 41638.64,
+          "target_value": 16655.456000000002,
+          "reduction_amount": 24983.183999999997,
+          "percentage_reduction": 60.0
+        },
+        {
+          "feature": "maxHALSTEAD_ERROR_EST",
+          "original_value": 0.5,
+          "target_value": 0.2,
+          "reduction_amount": 0.3,
+          "percentage_reduction": 60.0
+        },
+        {
+          "feature": "maxHALSTEAD_LENGTH",
+          "original_value": 254.0,
+          "target_value": 101.60000000000001,
+          "reduction_amount": 152.39999999999998,
+          "percentage_reduction": 60.0
+        },
+        {
+          "feature": "maxHALSTEAD_LEVEL",
+          "original_value": 1.0,
+          "target_value": 0.4,
+          "reduction_amount": 0.6,
+          "percentage_reduction": 60.0
+        },
+        {
+          "feature": "maxHALSTEAD_PROG_TIME",
+          "original_value": 2313.26,
+          "target_value": 925.3040000000001,
+          "reduction_amount": 1387.9560000000001,
+          "percentage_reduction": 60.0
+        },
+        {
+          "feature": "maxHALSTEAD_VOLUME",
+          "original_value": 1506.41,
+          "target_value": 602.5640000000001,
+          "reduction_amount": 903.846,
+          "percentage_reduction": 60.0
+        },
+        {
+          "feature": "maxNUM_OPERANDS",
+          "original_value": 98.0,
+          "target_value": 39.2,
+          "reduction_amount": 58.8,
+          "percentage_reduction": 60.0
+        },
+        {
+          "feature": "maxNUM_OPERATORS",
+          "original_value": 156.0,
+          "target_value": 62.400000000000006,
+          "reduction_amount": 93.6,
+          "percentage_reduction": 60.0
+        },
+        {
+          "feature": "maxNUM_UNIQUE_OPERANDS",
+          "original_value": 39.0,
+          "target_value": 15.600000000000001,
+          "reduction_amount": 23.4,
+          "percentage_reduction": 60.0
+        },
+        {
+          "feature": "maxNUM_UNIQUE_OPERATORS",
+          "original_value": 22.0,
+          "target_value": 8.8,
+          "reduction_amount": 13.2,
+          "percentage_reduction": 60.0
+        },
+        {
+          "feature": "maxLOC_TOTAL",
+          "original_value": 95.0,
+          "target_value": 38.0,
+          "reduction_amount": 57.0,
+          "percentage_reduction": 60.0
+        },
+        {
+          "feature": "avgLOC_BLANK",
+          "original_value": 1.666667,
+          "target_value": 0.6666668,
+          "reduction_amount": 1.0000002,
+          "percentage_reduction": 60.0
+        },
+        {
+          "feature": "avgBRANCH_COUNT",
+          "original_value": 5.166667,
+          "target_value": 2.0666668,
+          "reduction_amount": 3.1000002,
+          "percentage_reduction": 60.0
+        },
+        {
+          "feature": "avgLOC_CODE_AND_COMMENT",
+          "original_value": 0.083333,
+          "target_value": 0.0333332,
+          "reduction_amount": 0.049999800000000004,
+          "percentage_reduction": 60.0
+        },
+        {
+          "feature": "avgCYCLOMATIC_COMPLEXITY",
+          "original_value": 3.083333,
+          "target_value": 1.2333332000000001,
+          "reduction_amount": 1.8499998,
+          "percentage_reduction": 60.0
+        },
+        {
+          "feature": "avgDESIGN_COMPLEXITY",
+          "original_value": 3.0,
+          "target_value": 1.2000000000000002,
+          "reduction_amount": 1.7999999999999998,
+          "percentage_reduction": 60.0
+        },
+        {
+          "feature": "avgESSENTIAL_COMPLEXITY",
+          "original_value": 1.666667,
+          "target_value": 0.6666668,
+          "reduction_amount": 1.0000002,
+          "percentage_reduction": 60.0
+        },
+        {
+          "feature": "avgLOC_EXECUTABLE",
+          "original_value": 15.75,
+          "target_value": 6.300000000000001,
+          "reduction_amount": 9.45,
+          "percentage_reduction": 60.0
+        },
+        {
+          "feature": "avgHALSTEAD_CONTENT",
+          "original_value": 19.494167,
+          "target_value": 7.797666800000001,
+          "reduction_amount": 11.6965002,
+          "percentage_reduction": 60.0
+        },
+        {
+          "feature": "avgHALSTEAD_DIFFICULTY",
+          "original_value": 6.0925,
+          "target_value": 2.4370000000000003,
+          "reduction_amount": 3.6555,
+          "percentage_reduction": 60.0
+        },
+        {
+          "feature": "avgHALSTEAD_EFFORT",
+          "original_value": 4539.075833,
+          "target_value": 1815.6303332,
+          "reduction_amount": 2723.4454998,
+          "percentage_reduction": 60.0
+        },
+        {
+          "feature": "avgHALSTEAD_ERROR_EST",
+          "original_value": 0.075,
+          "target_value": 0.03,
+          "reduction_amount": 0.045,
+          "percentage_reduction": 60.0
+        },
+        {
+          "feature": "avgHALSTEAD_LENGTH",
+          "original_value": 43.833333,
+          "target_value": 17.5333332,
+          "reduction_amount": 26.299999800000002,
+          "percentage_reduction": 60.0
+        },
+        {
+          "feature": "avgHALSTEAD_LEVEL",
+          "original_value": 0.4075,
+          "target_value": 0.163,
+          "reduction_amount": 0.24449999999999997,
+          "percentage_reduction": 60.0
+        },
+        {
+          "feature": "avgHALSTEAD_PROG_TIME",
+          "original_value": 252.171667,
+          "target_value": 100.86866680000001,
+          "reduction_amount": 151.30300019999999,
+          "percentage_reduction": 60.0
+        },
+        {
+          "feature": "avgHALSTEAD_VOLUME",
+          "original_value": 224.245,
+          "target_value": 89.69800000000001,
+          "reduction_amount": 134.547,
+          "percentage_reduction": 60.0
+        },
+        {
+          "feature": "avgNUM_OPERANDS",
+          "original_value": 18.333333,
+          "target_value": 7.3333332,
+          "reduction_amount": 10.9999998,
+          "percentage_reduction": 60.0
+        },
+        {
+          "feature": "avgNUM_OPERATORS",
+          "original_value": 25.5,
+          "target_value": 10.200000000000001,
+          "reduction_amount": 15.299999999999999,
+          "percentage_reduction": 60.0
+        },
+        {
+          "feature": "avgNUM_UNIQUE_OPERANDS",
+          "original_value": 8.833333,
+          "target_value": 3.5333332,
+          "reduction_amount": 5.2999998,
+          "percentage_reduction": 60.0
+        },
+        {
+          "feature": "avgNUM_UNIQUE_OPERATORS",
+          "original_value": 6.5,
+          "target_value": 2.6,
+          "reduction_amount": 3.9,
+          "percentage_reduction": 60.0
+        },
+        {
+          "feature": "avgLOC_TOTAL",
+          "original_value": 20.166667,
+          "target_value": 8.0666668,
+          "reduction_amount": 12.1000002,
+          "percentage_reduction": 60.0
+        },
+        {
+          "feature": "sumLOC_BLANK",
+          "original_value": 20.0,
+          "target_value": 8.0,
+          "reduction_amount": 12.0,
+          "percentage_reduction": 60.0
+        },
+        {
+          "feature": "sumBRANCH_COUNT",
+          "original_value": 62.0,
+          "target_value": 24.8,
+          "reduction_amount": 37.2,
+          "percentage_reduction": 60.0
+        },
+        {
+          "feature": "sumLOC_CODE_AND_COMMENT",
+          "original_value": 1.0,
+          "target_value": 0.4,
+          "reduction_amount": 0.6,
+          "percentage_reduction": 60.0
+        },
+        {
+          "feature": "sumCYCLOMATIC_COMPLEXITY",
+          "original_value": 37.0,
+          "target_value": 14.8,
+          "reduction_amount": 22.2,
+          "percentage_reduction": 60.0
+        },
+        {
+          "feature": "sumDESIGN_COMPLEXITY",
+          "original_value": 36.0,
+          "target_value": 14.4,
+          "reduction_amount": 21.6,
+          "percentage_reduction": 60.0
+        },
+        {
+          "feature": "sumESSENTIAL_COMPLEXITY",
+          "original_value": 20.0,
+          "target_value": 8.0,
+          "reduction_amount": 12.0,
+          "percentage_reduction": 60.0
+        },
+        {
+          "feature": "sumLOC_EXECUTABLE",
+          "original_value": 189.0,
+          "target_value": 75.60000000000001,
+          "reduction_amount": 113.39999999999999,
+          "percentage_reduction": 60.0
+        },
+        {
+          "feature": "sumHALSTEAD_CONTENT",
+          "original_value": 233.93,
+          "target_value": 93.572,
+          "reduction_amount": 140.358,
+          "percentage_reduction": 60.0
+        },
+        {
+          "feature": "sumHALSTEAD_DIFFICULTY",
+          "original_value": 73.11,
+          "target_value": 29.244,
+          "reduction_amount": 43.866,
+          "percentage_reduction": 60.0
+        },
+        {
+          "feature": "sumHALSTEAD_EFFORT",
+          "original_value": 54468.91,
+          "target_value": 21787.564000000002,
+          "reduction_amount": 32681.346,
+          "percentage_reduction": 60.0
+        },
+        {
+          "feature": "sumHALSTEAD_ERROR_EST",
+          "original_value": 0.9,
+          "target_value": 0.36000000000000004,
+          "reduction_amount": 0.54,
+          "percentage_reduction": 60.0
+        },
+        {
+          "feature": "sumHALSTEAD_LENGTH",
+          "original_value": 526.0,
+          "target_value": 210.4,
+          "reduction_amount": 315.6,
+          "percentage_reduction": 60.0
+        },
+        {
+          "feature": "sumHALSTEAD_LEVEL",
+          "original_value": 4.89,
+          "target_value": 1.956,
+          "reduction_amount": 2.9339999999999997,
+          "percentage_reduction": 60.0
+        },
+        {
+          "feature": "sumHALSTEAD_PROG_TIME",
+          "original_value": 3026.06,
+          "target_value": 1210.424,
+          "reduction_amount": 1815.636,
+          "percentage_reduction": 60.0
+        },
+        {
+          "feature": "sumHALSTEAD_VOLUME",
+          "original_value": 2690.94,
+          "target_value": 1076.376,
+          "reduction_amount": 1614.564,
+          "percentage_reduction": 60.0
+        },
+        {
+          "feature": "sumNUM_OPERANDS",
+          "original_value": 220.0,
+          "target_value": 88.0,
+          "reduction_amount": 132.0,
+          "percentage_reduction": 60.0
+        },
+        {
+          "feature": "sumNUM_OPERATORS",
+          "original_value": 306.0,
+          "target_value": 122.4,
+          "reduction_amount": 183.6,
+          "percentage_reduction": 60.0
+        },
+        {
+          "feature": "sumNUM_UNIQUE_OPERANDS",
+          "original_value": 106.0,
+          "target_value": 42.400000000000006,
+          "reduction_amount": 63.599999999999994,
+          "percentage_reduction": 60.0
+        },
+        {
+          "feature": "sumNUM_UNIQUE_OPERATORS",
+          "original_value": 78.0,
+          "target_value": 31.200000000000003,
+          "reduction_amount": 46.8,
+          "percentage_reduction": 60.0
+        },
+        {
+          "feature": "sumLOC_TOTAL",
+          "original_value": 242.0,
+          "target_value": 96.80000000000001,
+          "reduction_amount": 145.2,
+          "percentage_reduction": 60.0
+        }
+      ],
+      "status": "Counterfactual successfully generated."
+    }
+  },
+  {
+    "module_id": "pc1_row_229",
+    "dataset": "pc1",
+    "model_used": "random_forest",
+    "counterfactual_analysis": {
+      "initial_risk": 0.885,
+      "target_risk": 0.35,
+      "counterfactual_risk": 0.22,
+      "changes_required": [
+        {
+          "feature": "LOC_BLANK",
+          "original_value": 12.0,
+          "target_value": 9.600000000000001,
+          "reduction_amount": 2.3999999999999986,
+          "percentage_reduction": 20.0
+        },
+        {
+          "feature": "BRANCH_COUNT",
+          "original_value": 7.0,
+          "target_value": 5.6000000000000005,
+          "reduction_amount": 1.3999999999999995,
+          "percentage_reduction": 20.0
+        },
+        {
+          "feature": "CALL_PAIRS",
+          "original_value": 1.0,
+          "target_value": 0.8,
+          "reduction_amount": 0.19999999999999996,
+          "percentage_reduction": 20.0
+        },
+        {
+          "feature": "CONDITION_COUNT",
+          "original_value": 12.0,
+          "target_value": 9.600000000000001,
+          "reduction_amount": 2.3999999999999986,
+          "percentage_reduction": 20.0
+        },
+        {
+          "feature": "CYCLOMATIC_COMPLEXITY",
+          "original_value": 4.0,
+          "target_value": 3.2,
+          "reduction_amount": 0.7999999999999998,
+          "percentage_reduction": 20.0
+        },
+        {
+          "feature": "CYCLOMATIC_DENSITY",
+          "original_value": 0.17,
+          "target_value": 0.136,
+          "reduction_amount": 0.034,
+          "percentage_reduction": 20.0
+        },
+        {
+          "feature": "DECISION_COUNT",
+          "original_value": 6.0,
+          "target_value": 4.800000000000001,
+          "reduction_amount": 1.1999999999999993,
+          "percentage_reduction": 20.0
+        },
+        {
+          "feature": "DECISION_DENSITY",
+          "original_value": 2.0,
+          "target_value": 1.6,
+          "reduction_amount": 0.3999999999999999,
+          "percentage_reduction": 20.0
+        },
+        {
+          "feature": "DESIGN_COMPLEXITY",
+          "original_value": 4.0,
+          "target_value": 3.2,
+          "reduction_amount": 0.7999999999999998,
+          "percentage_reduction": 20.0
+        },
+        {
+          "feature": "DESIGN_DENSITY",
+          "original_value": 1.0,
+          "target_value": 0.8,
+          "reduction_amount": 0.19999999999999996,
+          "percentage_reduction": 20.0
+        },
+        {
+          "feature": "EDGE_COUNT",
+          "original_value": 12.0,
+          "target_value": 9.600000000000001,
+          "reduction_amount": 2.3999999999999986,
+          "percentage_reduction": 20.0
+        },
+        {
+          "feature": "ESSENTIAL_COMPLEXITY",
+          "original_value": 1.0,
+          "target_value": 0.8,
+          "reduction_amount": 0.19999999999999996,
+          "percentage_reduction": 20.0
+        },
+        {
+          "feature": "LOC_EXECUTABLE",
+          "original_value": 23.0,
+          "target_value": 18.400000000000002,
+          "reduction_amount": 4.599999999999998,
+          "percentage_reduction": 20.0
+        },
+        {
+          "feature": "PARAMETER_COUNT",
+          "original_value": 1.0,
+          "target_value": 0.8,
+          "reduction_amount": 0.19999999999999996,
+          "percentage_reduction": 20.0
+        },
+        {
+          "feature": "HALSTEAD_CONTENT",
+          "original_value": 44.56,
+          "target_value": 35.648,
+          "reduction_amount": 8.911999999999999,
+          "percentage_reduction": 20.0
+        },
+        {
+          "feature": "HALSTEAD_DIFFICULTY",
+          "original_value": 12.22,
+          "target_value": 9.776000000000002,
+          "reduction_amount": 2.443999999999999,
+          "percentage_reduction": 20.0
+        },
+        {
+          "feature": "HALSTEAD_EFFORT",
+          "original_value": 6656.52,
+          "target_value": 5325.216,
+          "reduction_amount": 1331.304,
+          "percentage_reduction": 20.0
+        },
+        {
+          "feature": "HALSTEAD_ERROR_EST",
+          "original_value": 0.18,
+          "target_value": 0.144,
+          "reduction_amount": 0.036000000000000004,
+          "percentage_reduction": 20.0
+        },
+        {
+          "feature": "HALSTEAD_LENGTH",
+          "original_value": 101.0,
+          "target_value": 80.80000000000001,
+          "reduction_amount": 20.19999999999999,
+          "percentage_reduction": 20.0
+        },
+        {
+          "feature": "HALSTEAD_LEVEL",
+          "original_value": 0.08,
+          "target_value": 0.064,
+          "reduction_amount": 0.016,
+          "percentage_reduction": 20.0
+        },
+        {
+          "feature": "HALSTEAD_PROG_TIME",
+          "original_value": 369.81,
+          "target_value": 295.848,
+          "reduction_amount": 73.96199999999999,
+          "percentage_reduction": 20.0
+        },
+        {
+          "feature": "HALSTEAD_VOLUME",
+          "original_value": 544.62,
+          "target_value": 435.696,
+          "reduction_amount": 108.92399999999998,
+          "percentage_reduction": 20.0
+        },
+        {
+          "feature": "MAINTENANCE_SEVERITY",
+          "original_value": 0.25,
+          "target_value": 0.2,
+          "reduction_amount": 0.04999999999999999,
+          "percentage_reduction": 20.0
+        },
+        {
+          "feature": "MODIFIED_CONDITION_COUNT",
+          "original_value": 3.0,
+          "target_value": 2.4000000000000004,
+          "reduction_amount": 0.5999999999999996,
+          "percentage_reduction": 20.0
+        },
+        {
+          "feature": "MULTIPLE_CONDITION_COUNT",
+          "original_value": 6.0,
+          "target_value": 4.800000000000001,
+          "reduction_amount": 1.1999999999999993,
+          "percentage_reduction": 20.0
+        },
+        {
+          "feature": "NODE_COUNT",
+          "original_value": 10.0,
+          "target_value": 8.0,
+          "reduction_amount": 2.0,
+          "percentage_reduction": 20.0
+        },
+        {
+          "feature": "NORMALIZED_CYLOMATIC_COMPLEXITY",
+          "original_value": 0.11,
+          "target_value": 0.08800000000000001,
+          "reduction_amount": 0.021999999999999992,
+          "percentage_reduction": 20.0
+        },
+        {
+          "feature": "NUM_OPERANDS",
+          "original_value": 44.0,
+          "target_value": 35.2,
+          "reduction_amount": 8.799999999999997,
+          "percentage_reduction": 20.0
+        },
+        {
+          "feature": "NUM_OPERATORS",
+          "original_value": 57.0,
+          "target_value": 45.6,
+          "reduction_amount": 11.399999999999999,
+          "percentage_reduction": 20.0
+        },
+        {
+          "feature": "NUM_UNIQUE_OPERANDS",
+          "original_value": 27.0,
+          "target_value": 21.6,
+          "reduction_amount": 5.399999999999999,
+          "percentage_reduction": 20.0
+        },
+        {
+          "feature": "NUM_UNIQUE_OPERATORS",
+          "original_value": 15.0,
+          "target_value": 12.0,
+          "reduction_amount": 3.0,
+          "percentage_reduction": 20.0
+        },
+        {
+          "feature": "NUMBER_OF_LINES",
+          "original_value": 36.0,
+          "target_value": 28.8,
+          "reduction_amount": 7.199999999999999,
+          "percentage_reduction": 20.0
+        },
+        {
+          "feature": "LOC_TOTAL",
+          "original_value": 23.0,
+          "target_value": 18.400000000000002,
+          "reduction_amount": 4.599999999999998,
+          "percentage_reduction": 20.0
+        }
+      ],
+      "status": "Counterfactual successfully generated."
+    }
+  },
+  {
+    "module_id": "aeeem_eclipse_hybrid_row_300",
+    "dataset": "aeeem_eclipse_hybrid",
+    "model_used": "random_forest",
+    "counterfactual_analysis": {
+      "initial_risk": 0.94,
+      "target_risk": 0.35,
+      "counterfactual_risk": 0.655,
+      "changes_required": [
+        {
+          "feature": "cbo",
+          "original_value": 50.0,
+          "target_value": 12.5,
+          "reduction_amount": 37.5,
+          "percentage_reduction": 75.0
+        },
+        {
+          "feature": "fanIn",
+          "original_value": 18.0,
+          "target_value": 4.5,
+          "reduction_amount": 13.5,
+          "percentage_reduction": 75.0
+        },
+        {
+          "feature": "fanOut",
+          "original_value": 37.0,
+          "target_value": 9.25,
+          "reduction_amount": 27.75,
+          "percentage_reduction": 75.0
+        },
+        {
+          "feature": "lcom",
+          "original_value": 1891.0,
+          "target_value": 472.75,
+          "reduction_amount": 1418.25,
+          "percentage_reduction": 75.0
+        },
+        {
+          "feature": "numberOfAttributes",
+          "original_value": 22.0,
+          "target_value": 5.5,
+          "reduction_amount": 16.5,
+          "percentage_reduction": 75.0
+        },
+        {
+          "feature": "numberOfAttributesInherited",
+          "original_value": 249.0,
+          "target_value": 62.25,
+          "reduction_amount": 186.75,
+          "percentage_reduction": 75.0
+        },
+        {
+          "feature": "numberOfLinesOfCode",
+          "original_value": 6113.0,
+          "target_value": 1528.25,
+          "reduction_amount": 4584.75,
+          "percentage_reduction": 75.0
+        },
+        {
+          "feature": "numberOfMethods",
+          "original_value": 62.0,
+          "target_value": 15.5,
+          "reduction_amount": 46.5,
+          "percentage_reduction": 75.0
+        },
+        {
+          "feature": "numberOfMethodsInherited",
+          "original_value": 8.0,
+          "target_value": 2.0,
+          "reduction_amount": 6.0,
+          "percentage_reduction": 75.0
+        },
+        {
+          "feature": "numberOfPrivateMethods",
+          "original_value": 22.0,
+          "target_value": 5.5,
+          "reduction_amount": 16.5,
+          "percentage_reduction": 75.0
+        },
+        {
+          "feature": "numberOfPublicAttributes",
+          "original_value": 17.0,
+          "target_value": 4.25,
+          "reduction_amount": 12.75,
+          "percentage_reduction": 75.0
+        },
+        {
+          "feature": "numberOfPublicMethods",
+          "original_value": 39.0,
+          "target_value": 9.75,
+          "reduction_amount": 29.25,
+          "percentage_reduction": 75.0
+        },
+        {
+          "feature": "rfc",
+          "original_value": 1095.0,
+          "target_value": 273.75,
+          "reduction_amount": 821.25,
+          "percentage_reduction": 75.0
+        },
+        {
+          "feature": "wmc",
+          "original_value": 1042.0,
+          "target_value": 260.5,
+          "reduction_amount": 781.5,
+          "percentage_reduction": 75.0
+        },
+        {
+          "feature": "code_churn",
+          "original_value": 6094.0,
+          "target_value": 1523.5,
+          "reduction_amount": 4570.5,
+          "percentage_reduction": 75.0
+        },
+        {
+          "feature": "commit_count",
+          "original_value": 226.0,
+          "target_value": 56.5,
+          "reduction_amount": 169.5,
+          "percentage_reduction": 75.0
+        },
+        {
+          "feature": "num_developers",
+          "original_value": 10.0,
+          "target_value": 2.5,
+          "reduction_amount": 7.5,
+          "percentage_reduction": 75.0
+        },
+        {
+          "feature": "bugfix_commit_count",
+          "original_value": 71.0,
+          "target_value": 17.75,
+          "reduction_amount": 53.25,
+          "percentage_reduction": 75.0
+        },
+        {
+          "feature": "days_since_last_modified",
+          "original_value": 367.0,
+          "target_value": 91.75,
+          "reduction_amount": 275.25,
+          "percentage_reduction": 75.0
+        },
+        {
+          "feature": "lines_added",
+          "original_value": 50221.0,
+          "target_value": 12555.25,
+          "reduction_amount": 37665.75,
+          "percentage_reduction": 75.0
+        },
+        {
+          "feature": "lines_deleted",
+          "original_value": 44127.0,
+          "target_value": 11031.75,
+          "reduction_amount": 33095.25,
+          "percentage_reduction": 75.0
+        },
+        {
+          "feature": "maxLinesAddedUntil",
+          "original_value": 3693.0,
+          "target_value": 923.25,
+          "reduction_amount": 2769.75,
+          "percentage_reduction": 75.0
+        },
+        {
+          "feature": "avgLinesAddedUntil",
+          "original_value": 222.217,
+          "target_value": 55.55425,
+          "reduction_amount": 166.66275000000002,
+          "percentage_reduction": 75.0
+        },
+        {
+          "feature": "maxLinesRemovedUntil",
+          "original_value": 2958.0,
+          "target_value": 739.5,
+          "reduction_amount": 2218.5,
+          "percentage_reduction": 75.0
+        },
+        {
+          "feature": "avgLinesRemovedUntil",
+          "original_value": 195.252,
+          "target_value": 48.813,
+          "reduction_amount": 146.43900000000002,
+          "percentage_reduction": 75.0
+        },
+        {
+          "feature": "maxCodeChurnUntil",
+          "original_value": 2050.0,
+          "target_value": 512.5,
+          "reduction_amount": 1537.5,
+          "percentage_reduction": 75.0
+        },
+        {
+          "feature": "avgCodeChurnUntil",
+          "original_value": 26.9646,
+          "target_value": 6.74115,
+          "reduction_amount": 20.22345,
+          "percentage_reduction": 75.0
+        },
+        {
+          "feature": "weightedAgeWithRespectTo",
+          "original_value": 91.0942,
+          "target_value": 22.77355,
+          "reduction_amount": 68.32065,
+          "percentage_reduction": 75.0
+        },
+        {
+          "feature": "numberOfBugsFoundUntil",
+          "original_value": 69.0,
+          "target_value": 17.25,
+          "reduction_amount": 51.75,
+          "percentage_reduction": 75.0
+        },
+        {
+          "feature": "numberOfNonTrivialBugsFoundUntil",
+          "original_value": 64.0,
+          "target_value": 16.0,
+          "reduction_amount": 48.0,
+          "percentage_reduction": 75.0
+        },
+        {
+          "feature": "numberOfMajorBugsFoundUntil",
+          "original_value": 7.0,
+          "target_value": 1.75,
+          "reduction_amount": 5.25,
+          "percentage_reduction": 75.0
+        },
+        {
+          "feature": "numberOfCriticalBugsFoundUntil",
+          "original_value": 5.0,
+          "target_value": 1.25,
+          "reduction_amount": 3.75,
+          "percentage_reduction": 75.0
+        },
+        {
+          "feature": "numberOfHighPriorityBugsFoundUntil",
+          "original_value": 3.0,
+          "target_value": 0.75,
+          "reduction_amount": 2.25,
+          "percentage_reduction": 75.0
+        },
+        {
+          "feature": "CvsEntropy",
+          "original_value": 43.9774,
+          "target_value": 10.99435,
+          "reduction_amount": 32.983050000000006,
+          "percentage_reduction": 75.0
+        },
+        {
+          "feature": "CvsWEntropy",
+          "original_value": 1.52601,
+          "target_value": 0.3815025,
+          "reduction_amount": 1.1445075,
+          "percentage_reduction": 75.0
+        },
+        {
+          "feature": "CvsLogEntropy",
+          "original_value": 9.18277,
+          "target_value": 2.2956925,
+          "reduction_amount": 6.8870775,
+          "percentage_reduction": 75.0
+        }
+      ],
+      "status": "Counterfactual achieved via targeted feature scaling."
+    }
+  },
+  {
+    "module_id": "aeeem_equinox_hybrid_row_151",
+    "dataset": "aeeem_equinox_hybrid",
+    "model_used": "random_forest",
+    "counterfactual_analysis": {
+      "initial_risk": 0.955,
+      "target_risk": 0.35,
+      "counterfactual_risk": 0.24,
+      "changes_required": [
+        {
+          "feature": "cbo",
+          "original_value": 23.0,
+          "target_value": 2.2999999999999994,
+          "reduction_amount": 20.7,
+          "percentage_reduction": 90.0
+        },
+        {
+          "feature": "dit",
+          "original_value": 1.0,
+          "target_value": 0.09999999999999998,
+          "reduction_amount": 0.9,
+          "percentage_reduction": 90.0
+        },
+        {
+          "feature": "fanIn",
+          "original_value": 3.0,
+          "target_value": 0.29999999999999993,
+          "reduction_amount": 2.7,
+          "percentage_reduction": 90.0
+        },
+        {
+          "feature": "fanOut",
+          "original_value": 22.0,
+          "target_value": 2.1999999999999993,
+          "reduction_amount": 19.8,
+          "percentage_reduction": 90.0
+        },
+        {
+          "feature": "lcom",
+          "original_value": 630.0,
+          "target_value": 62.999999999999986,
+          "reduction_amount": 567.0,
+          "percentage_reduction": 90.0
+        },
+        {
+          "feature": "numberOfAttributes",
+          "original_value": 16.0,
+          "target_value": 1.5999999999999996,
+          "reduction_amount": 14.4,
+          "percentage_reduction": 90.0
+        },
+        {
+          "feature": "numberOfLinesOfCode",
+          "original_value": 596.0,
+          "target_value": 59.59999999999999,
+          "reduction_amount": 536.4,
+          "percentage_reduction": 90.0
+        },
+        {
+          "feature": "numberOfMethods",
+          "original_value": 36.0,
+          "target_value": 3.599999999999999,
+          "reduction_amount": 32.4,
+          "percentage_reduction": 90.0
+        },
+        {
+          "feature": "numberOfMethodsInherited",
+          "original_value": 7.0,
+          "target_value": 0.6999999999999998,
+          "reduction_amount": 6.3,
+          "percentage_reduction": 90.0
+        },
+        {
+          "feature": "numberOfPrivateAttributes",
+          "original_value": 9.0,
+          "target_value": 0.8999999999999998,
+          "reduction_amount": 8.1,
+          "percentage_reduction": 90.0
+        },
+        {
+          "feature": "numberOfPrivateMethods",
+          "original_value": 29.0,
+          "target_value": 2.8999999999999995,
+          "reduction_amount": 26.1,
+          "percentage_reduction": 90.0
+        },
+        {
+          "feature": "numberOfPublicMethods",
+          "original_value": 3.0,
+          "target_value": 0.29999999999999993,
+          "reduction_amount": 2.7,
+          "percentage_reduction": 90.0
+        },
+        {
+          "feature": "rfc",
+          "original_value": 331.0,
+          "target_value": 33.099999999999994,
+          "reduction_amount": 297.9,
+          "percentage_reduction": 90.0
+        },
+        {
+          "feature": "wmc",
+          "original_value": 146.0,
+          "target_value": 14.599999999999996,
+          "reduction_amount": 131.4,
+          "percentage_reduction": 90.0
+        },
+        {
+          "feature": "code_churn",
+          "original_value": 951.0,
+          "target_value": 95.09999999999998,
+          "reduction_amount": 855.9,
+          "percentage_reduction": 90.0
+        },
+        {
+          "feature": "commit_count",
+          "original_value": 50.0,
+          "target_value": 4.999999999999999,
+          "reduction_amount": 45.0,
+          "percentage_reduction": 90.0
+        },
+        {
+          "feature": "num_developers",
+          "original_value": 7.0,
+          "target_value": 0.6999999999999998,
+          "reduction_amount": 6.3,
+          "percentage_reduction": 90.0
+        },
+        {
+          "feature": "bugfix_commit_count",
+          "original_value": 6.0,
+          "target_value": 0.5999999999999999,
+          "reduction_amount": 5.4,
+          "percentage_reduction": 90.0
+        },
+        {
+          "feature": "days_since_last_modified",
+          "original_value": 239.143,
+          "target_value": 23.914299999999994,
+          "reduction_amount": 215.2287,
+          "percentage_reduction": 90.0
+        },
+        {
+          "feature": "lines_added",
+          "original_value": 1467.0,
+          "target_value": 146.69999999999996,
+          "reduction_amount": 1320.3,
+          "percentage_reduction": 90.0
+        },
+        {
+          "feature": "lines_deleted",
+          "original_value": 516.0,
+          "target_value": 51.59999999999999,
+          "reduction_amount": 464.40000000000003,
+          "percentage_reduction": 90.0
+        },
+        {
+          "feature": "maxLinesAddedUntil",
+          "original_value": 430.0,
+          "target_value": 42.99999999999999,
+          "reduction_amount": 387.0,
+          "percentage_reduction": 90.0
+        },
+        {
+          "feature": "avgLinesAddedUntil",
+          "original_value": 29.34,
+          "target_value": 2.9339999999999993,
+          "reduction_amount": 26.406,
+          "percentage_reduction": 90.0
+        },
+        {
+          "feature": "maxLinesRemovedUntil",
+          "original_value": 170.0,
+          "target_value": 16.999999999999996,
+          "reduction_amount": 153.0,
+          "percentage_reduction": 90.0
+        },
+        {
+          "feature": "avgLinesRemovedUntil",
+          "original_value": 10.32,
+          "target_value": 1.0319999999999998,
+          "reduction_amount": 9.288,
+          "percentage_reduction": 90.0
+        },
+        {
+          "feature": "maxCodeChurnUntil",
+          "original_value": 374.0,
+          "target_value": 37.39999999999999,
+          "reduction_amount": 336.6,
+          "percentage_reduction": 90.0
+        },
+        {
+          "feature": "avgCodeChurnUntil",
+          "original_value": 19.02,
+          "target_value": 1.9019999999999995,
+          "reduction_amount": 17.118,
+          "percentage_reduction": 90.0
+        },
+        {
+          "feature": "weightedAgeWithRespectTo",
+          "original_value": 74.5032,
+          "target_value": 7.450319999999999,
+          "reduction_amount": 67.05288,
+          "percentage_reduction": 90.0
+        },
+        {
+          "feature": "numberOfBugsFoundUntil",
+          "original_value": 20.0,
+          "target_value": 1.9999999999999996,
+          "reduction_amount": 18.0,
+          "percentage_reduction": 90.0
+        },
+        {
+          "feature": "numberOfNonTrivialBugsFoundUntil",
+          "original_value": 19.0,
+          "target_value": 1.8999999999999995,
+          "reduction_amount": 17.1,
+          "percentage_reduction": 90.0
+        },
+        {
+          "feature": "numberOfMajorBugsFoundUntil",
+          "original_value": 3.0,
+          "target_value": 0.29999999999999993,
+          "reduction_amount": 2.7,
+          "percentage_reduction": 90.0
+        },
+        {
+          "feature": "numberOfCriticalBugsFoundUntil",
+          "original_value": 2.0,
+          "target_value": 0.19999999999999996,
+          "reduction_amount": 1.8,
+          "percentage_reduction": 90.0
+        },
+        {
+          "feature": "numberOfHighPriorityBugsFoundUntil",
+          "original_value": 1.0,
+          "target_value": 0.09999999999999998,
+          "reduction_amount": 0.9,
+          "percentage_reduction": 90.0
+        },
+        {
+          "feature": "CvsEntropy",
+          "original_value": 21.5348,
+          "target_value": 2.1534799999999996,
+          "reduction_amount": 19.381320000000002,
+          "percentage_reduction": 90.0
+        },
+        {
+          "feature": "CvsWEntropy",
+          "original_value": 0.479871,
+          "target_value": 0.04798709999999999,
+          "reduction_amount": 0.4318839,
+          "percentage_reduction": 90.0
+        },
+        {
+          "feature": "CvsLinEntropy",
+          "original_value": 0.0542056,
+          "target_value": 0.005420559999999999,
+          "reduction_amount": 0.04878504,
+          "percentage_reduction": 90.0
+        },
+        {
+          "feature": "CvsLogEntropy",
+          "original_value": 0.566668,
+          "target_value": 0.05666679999999998,
+          "reduction_amount": 0.5100011999999999,
+          "percentage_reduction": 90.0
+        },
+        {
+          "feature": "CvsExpEntropy",
+          "original_value": 0.100592,
+          "target_value": 0.010059199999999997,
+          "reduction_amount": 0.0905328,
+          "percentage_reduction": 90.0
+        }
+      ],
+      "status": "Counterfactual successfully generated."
+    }
+  }
+]

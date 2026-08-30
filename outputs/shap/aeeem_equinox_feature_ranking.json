@@ -1,0 +1,87 @@
+[
+  {
+    "rank": 1,
+    "feature": "wmc",
+    "mean_abs_shap": 0.7057982683181763
+  },
+  {
+    "rank": 2,
+    "feature": "numberOfAttributes",
+    "mean_abs_shap": 0.6811467409133911
+  },
+  {
+    "rank": 3,
+    "feature": "numberOfLinesOfCode",
+    "mean_abs_shap": 0.5533640384674072
+  },
+  {
+    "rank": 4,
+    "feature": "numberOfMethodsInherited",
+    "mean_abs_shap": 0.38424962759017944
+  },
+  {
+    "rank": 5,
+    "feature": "numberOfPublicMethods",
+    "mean_abs_shap": 0.3311636745929718
+  },
+  {
+    "rank": 6,
+    "feature": "numberOfMethods",
+    "mean_abs_shap": 0.3187206983566284
+  },
+  {
+    "rank": 7,
+    "feature": "fanIn",
+    "mean_abs_shap": 0.2797985374927521
+  },
+  {
+    "rank": 8,
+    "feature": "cbo",
+    "mean_abs_shap": 0.20967404544353485
+  },
+  {
+    "rank": 9,
+    "feature": "lcom",
+    "mean_abs_shap": 0.16787008941173553
+  },
+  {
+    "rank": 10,
+    "feature": "numberOfPrivateAttributes",
+    "mean_abs_shap": 0.16018469631671906
+  },
+  {
+    "rank": 11,
+    "feature": "rfc",
+    "mean_abs_shap": 0.15951195359230042
+  },
+  {
+    "rank": 12,
+    "feature": "fanOut",
+    "mean_abs_shap": 0.14180153608322144
+  },
+  {
+    "rank": 13,
+    "feature": "noc",
+    "mean_abs_shap": 0.09722284972667694
+  },
+  {
+    "rank": 14,
+    "feature": "numberOfAttributesInherited",
+    "mean_abs_shap": 0.08422723412513733
+  },
+  {
+    "rank": 15,
+    "feature": "dit",
+    "mean_abs_shap": 0.07436153292655945
+  },
+  {
+    "rank": 16,
+    "feature": "numberOfPrivateMethods",
+    "mean_abs_shap": 0.0584883876144886
+  },
+  {
+    "rank": 17,
+    "feature": "numberOfPublicAttributes",
+    "mean_abs_shap": 0.025092080235481262
+  }
+]

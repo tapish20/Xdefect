@@ -1,0 +1,6 @@
+dataset,static_best_abs_corr,repo_best_abs_corr,raw_correlation_stronger_feature_set
+aeeem_eclipse,0.706360619182534,0.45846018730397436,static
+aeeem_equinox,0.6362086501622317,0.42272729999548675,static
+aeeem_lucene,0.7403395079226585,0.4192264392361295,static
+aeeem_mylyn,0.7832493653816616,0.22168387603663764,static
+aeeem_pde,0.5916877144009414,0.29851340061088094,static

@@ -1,0 +1,22 @@
+--- a/src/network/client.py
++++ b/src/network/client.py
+@@ -1,11 +1,11 @@
+ class NetworkClient:
+-    def __init__(self):
+-        # High Coupling Between Objects (CBO=18)
+-        self.sql_db = DatabaseConnection("localhost", 5432)
+-        self.s3_storage = S3StorageClient("aws-region-1")
+-        self.logger = FileLogger("/var/log/app.log")
++    def __init__(self, db_service, storage_service, logger_service):
++        # Refactored via Dependency Inversion Principle (DIP)
++        self.db_service = db_service
++        self.storage_service = storage_service
++        self.logger_service = logger_service
+ 
+     def sync_data(self, payload):
+-        self.logger.log("Syncing payload")
+-        self.sql_db.execute_query(payload)
+-        self.s3_storage.upload_object(payload)
++        self.logger_service.log("Syncing payload")
++        self.db_service.execute(payload)
++        self.storage_service.store(payload)

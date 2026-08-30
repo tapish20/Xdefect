@@ -1,0 +1,1109 @@
+comparison,dataset,test,statistic,p_value,significant_at_0.05
+random_forest vs lightgbm (instance accuracy),aeeem_eclipse_hybrid_10fold,mcnemar,2.127659574468085,0.14466148777280496,False
+lightgbm vs logistic_regression (auc_roc diff normality),aeeem_eclipse_hybrid_10fold,shapiro_wilk,0.921887796591355,0.3729693776273285,False
+lightgbm vs logistic_regression (auc_roc),aeeem_eclipse_hybrid_10fold,wilcoxon_auc_roc,0.0,0.001953125,True
+lightgbm vs logistic_regression (auc_roc),aeeem_eclipse_hybrid_10fold,paired_ttest_auc_roc,5.2735272294959605,0.0005114719244990833,True
+lightgbm vs logistic_regression (f1 diff normality),aeeem_eclipse_hybrid_10fold,shapiro_wilk,0.8766333448560428,0.11934932487719302,False
+lightgbm vs logistic_regression (f1),aeeem_eclipse_hybrid_10fold,wilcoxon_f1,8.0,0.0546875,False
+lightgbm vs logistic_regression (f1),aeeem_eclipse_hybrid_10fold,paired_ttest_f1,2.1170995260420957,0.06333530250982185,False
+lightgbm vs random_forest (auc_roc diff normality),aeeem_eclipse_hybrid_10fold,shapiro_wilk,0.9523353215164644,0.6961707691977677,False
+lightgbm vs random_forest (auc_roc),aeeem_eclipse_hybrid_10fold,wilcoxon_auc_roc,24.0,0.76953125,False
+lightgbm vs random_forest (auc_roc),aeeem_eclipse_hybrid_10fold,paired_ttest_auc_roc,-0.5108216262154103,0.6217696841728879,False
+lightgbm vs random_forest (f1 diff normality),aeeem_eclipse_hybrid_10fold,shapiro_wilk,0.9583072416173845,0.7664114573133701,False
+lightgbm vs random_forest (f1),aeeem_eclipse_hybrid_10fold,wilcoxon_f1,13.0,0.2109375,False
+lightgbm vs random_forest (f1),aeeem_eclipse_hybrid_10fold,paired_ttest_f1,1.3808171583976485,0.20065576743424723,False
+lightgbm vs xgboost (auc_roc diff normality),aeeem_eclipse_hybrid_10fold,shapiro_wilk,0.9599328994660569,0.7851070186834717,False
+lightgbm vs xgboost (auc_roc),aeeem_eclipse_hybrid_10fold,wilcoxon_auc_roc,10.0,0.083984375,False
+lightgbm vs xgboost (auc_roc),aeeem_eclipse_hybrid_10fold,paired_ttest_auc_roc,1.731834682250625,0.11734661194342591,False
+lightgbm vs xgboost (f1 diff normality),aeeem_eclipse_hybrid_10fold,shapiro_wilk,0.9491955960303843,0.6589922232823713,False
+lightgbm vs xgboost (f1),aeeem_eclipse_hybrid_10fold,wilcoxon_f1,20.0,0.5234375,False
+lightgbm vs xgboost (f1),aeeem_eclipse_hybrid_10fold,paired_ttest_f1,0.8049270775203479,0.44160637147098647,False
+logistic_regression vs random_forest (auc_roc diff normality),aeeem_eclipse_hybrid_10fold,shapiro_wilk,0.9092217485045442,0.27568793967242106,False
+logistic_regression vs random_forest (auc_roc),aeeem_eclipse_hybrid_10fold,wilcoxon_auc_roc,0.0,0.001953125,True
+logistic_regression vs random_forest (auc_roc),aeeem_eclipse_hybrid_10fold,paired_ttest_auc_roc,-4.04412440345192,0.002910503111916612,True
+logistic_regression vs random_forest (f1 diff normality),aeeem_eclipse_hybrid_10fold,shapiro_wilk,0.9678886451313955,0.8706086457375095,False
+logistic_regression vs random_forest (f1),aeeem_eclipse_hybrid_10fold,wilcoxon_f1,13.0,0.16015625,False
+logistic_regression vs random_forest (f1),aeeem_eclipse_hybrid_10fold,paired_ttest_f1,-1.4466014768499813,0.1819214517417939,False
+logistic_regression vs xgboost (auc_roc diff normality),aeeem_eclipse_hybrid_10fold,shapiro_wilk,0.9377884011490278,0.5286771040748452,False
+logistic_regression vs xgboost (auc_roc),aeeem_eclipse_hybrid_10fold,wilcoxon_auc_roc,0.0,0.001953125,True
+logistic_regression vs xgboost (auc_roc),aeeem_eclipse_hybrid_10fold,paired_ttest_auc_roc,-4.384643279115092,0.0017591994686206919,True
+logistic_regression vs xgboost (f1 diff normality),aeeem_eclipse_hybrid_10fold,shapiro_wilk,0.8923298597238312,0.18010956840653225,False
+logistic_regression vs xgboost (f1),aeeem_eclipse_hybrid_10fold,wilcoxon_f1,11.0,0.10546875,False
+logistic_regression vs xgboost (f1),aeeem_eclipse_hybrid_10fold,paired_ttest_f1,-2.031373537019671,0.07277274732350283,False
+random_forest vs xgboost (auc_roc diff normality),aeeem_eclipse_hybrid_10fold,shapiro_wilk,0.9101964477861476,0.28234313659135457,False
+random_forest vs xgboost (auc_roc),aeeem_eclipse_hybrid_10fold,wilcoxon_auc_roc,8.0,0.048828125,True
+random_forest vs xgboost (auc_roc),aeeem_eclipse_hybrid_10fold,paired_ttest_auc_roc,1.8318634442182429,0.10019865632745195,False
+random_forest vs xgboost (f1 diff normality),aeeem_eclipse_hybrid_10fold,shapiro_wilk,0.8920966996516274,0.17902926756893917,False
+random_forest vs xgboost (f1),aeeem_eclipse_hybrid_10fold,wilcoxon_f1,25.0,0.8828125,False
+random_forest vs xgboost (f1),aeeem_eclipse_hybrid_10fold,paired_ttest_f1,-0.47053524746155606,0.649167126441045,False
+lightgbm vs random_forest (instance accuracy),aeeem_eclipse_hybrid_5fold,mcnemar,1.1636363636363636,0.2807126652684928,False
+lightgbm vs logistic_regression (auc_roc diff normality),aeeem_eclipse_hybrid_5fold,shapiro_wilk,0.8221525468153139,0.12130539347033992,False
+lightgbm vs logistic_regression (auc_roc),aeeem_eclipse_hybrid_5fold,wilcoxon_auc_roc,0.0,0.0625,False
+lightgbm vs logistic_regression (auc_roc),aeeem_eclipse_hybrid_5fold,paired_ttest_auc_roc,2.7939977581885582,0.049111251340314035,True
+lightgbm vs logistic_regression (f1 diff normality),aeeem_eclipse_hybrid_5fold,shapiro_wilk,0.7792133849396101,0.054268947289772856,False
+lightgbm vs logistic_regression (f1),aeeem_eclipse_hybrid_5fold,wilcoxon_f1,1.0,0.125,False
+lightgbm vs logistic_regression (f1),aeeem_eclipse_hybrid_5fold,paired_ttest_f1,2.6288582187133165,0.058255842129468355,False
+lightgbm vs random_forest (auc_roc diff normality),aeeem_eclipse_hybrid_5fold,shapiro_wilk,0.8320159097993872,0.14403325967055636,False
+lightgbm vs random_forest (auc_roc),aeeem_eclipse_hybrid_5fold,wilcoxon_auc_roc,6.0,0.8125,False
+lightgbm vs random_forest (auc_roc),aeeem_eclipse_hybrid_5fold,paired_ttest_auc_roc,0.10314110054715749,0.9228151384447162,False
+lightgbm vs random_forest (f1 diff normality),aeeem_eclipse_hybrid_5fold,shapiro_wilk,0.8197984794594232,0.11635010096348053,False
+lightgbm vs random_forest (f1),aeeem_eclipse_hybrid_5fold,wilcoxon_f1,5.0,0.75,False
+lightgbm vs random_forest (f1),aeeem_eclipse_hybrid_5fold,paired_ttest_f1,0.43405323804825674,0.6866361007689993,False
+lightgbm vs xgboost (auc_roc diff normality),aeeem_eclipse_hybrid_5fold,shapiro_wilk,0.9809151941403891,0.9394558049654116,False
+lightgbm vs xgboost (auc_roc),aeeem_eclipse_hybrid_5fold,wilcoxon_auc_roc,2.0,0.1875,False
+lightgbm vs xgboost (auc_roc),aeeem_eclipse_hybrid_5fold,paired_ttest_auc_roc,1.5814843508682332,0.18892669035380708,False
+lightgbm vs xgboost (f1 diff normality),aeeem_eclipse_hybrid_5fold,shapiro_wilk,0.7940847026629677,0.07245710172555185,False
+lightgbm vs xgboost (f1),aeeem_eclipse_hybrid_5fold,wilcoxon_f1,6.0,0.8125,False
+lightgbm vs xgboost (f1),aeeem_eclipse_hybrid_5fold,paired_ttest_f1,0.14098036996680569,0.8947002707472128,False
+logistic_regression vs random_forest (auc_roc diff normality),aeeem_eclipse_hybrid_5fold,shapiro_wilk,0.8087355481602382,0.09528678336937185,False
+logistic_regression vs random_forest (auc_roc),aeeem_eclipse_hybrid_5fold,wilcoxon_auc_roc,0.0,0.0625,False
+logistic_regression vs random_forest (auc_roc),aeeem_eclipse_hybrid_5fold,paired_ttest_auc_roc,-2.9822940361840993,0.040646530799780194,True
+logistic_regression vs random_forest (f1 diff normality),aeeem_eclipse_hybrid_5fold,shapiro_wilk,0.8291626658866246,0.13712153936055765,False
+logistic_regression vs random_forest (f1),aeeem_eclipse_hybrid_5fold,wilcoxon_f1,2.0,0.1875,False
+logistic_regression vs random_forest (f1),aeeem_eclipse_hybrid_5fold,paired_ttest_f1,-1.2111039477926784,0.2925140479607743,False
+logistic_regression vs xgboost (auc_roc diff normality),aeeem_eclipse_hybrid_5fold,shapiro_wilk,0.9225062016347915,0.5462349130396846,False
+logistic_regression vs xgboost (auc_roc),aeeem_eclipse_hybrid_5fold,wilcoxon_auc_roc,0.0,0.0625,False
+logistic_regression vs xgboost (auc_roc),aeeem_eclipse_hybrid_5fold,paired_ttest_auc_roc,-3.0850049317843053,0.036752277245035964,True
+logistic_regression vs xgboost (f1 diff normality),aeeem_eclipse_hybrid_5fold,shapiro_wilk,0.9138798172242287,0.49125307723020273,False
+logistic_regression vs xgboost (f1),aeeem_eclipse_hybrid_5fold,wilcoxon_f1,3.0,0.3125,False
+logistic_regression vs xgboost (f1),aeeem_eclipse_hybrid_5fold,paired_ttest_f1,-1.7116119997850723,0.16213438350592313,False
+random_forest vs xgboost (auc_roc diff normality),aeeem_eclipse_hybrid_5fold,shapiro_wilk,0.901860037633248,0.4202512709964358,False
+random_forest vs xgboost (auc_roc),aeeem_eclipse_hybrid_5fold,wilcoxon_auc_roc,1.0,0.125,False
+random_forest vs xgboost (auc_roc),aeeem_eclipse_hybrid_5fold,paired_ttest_auc_roc,1.6760452880618524,0.1690374880290721,False
+random_forest vs xgboost (f1 diff normality),aeeem_eclipse_hybrid_5fold,shapiro_wilk,0.95466201310368,0.7704111843378318,False
+random_forest vs xgboost (f1),aeeem_eclipse_hybrid_5fold,wilcoxon_f1,7.0,1.0,False
+random_forest vs xgboost (f1),aeeem_eclipse_hybrid_5fold,paired_ttest_f1,-0.2811261558328762,0.7925564086846689,False
+random_forest vs xgboost (instance accuracy),aeeem_eclipse_static_10fold,mcnemar,0.018518518518518517,0.8917558535067943,False
+lightgbm vs logistic_regression (auc_roc diff normality),aeeem_eclipse_static_10fold,shapiro_wilk,0.9399340435015713,0.5522796821646423,False
+lightgbm vs logistic_regression (auc_roc),aeeem_eclipse_static_10fold,wilcoxon_auc_roc,5.0,0.01953125,True
+lightgbm vs logistic_regression (auc_roc),aeeem_eclipse_static_10fold,paired_ttest_auc_roc,3.140350134058583,0.01192130367472006,True
+lightgbm vs logistic_regression (f1 diff normality),aeeem_eclipse_static_10fold,shapiro_wilk,0.9187486633899321,0.34663642286836427,False
+lightgbm vs logistic_regression (f1),aeeem_eclipse_static_10fold,wilcoxon_f1,15.0,0.232421875,False
+lightgbm vs logistic_regression (f1),aeeem_eclipse_static_10fold,paired_ttest_f1,1.3171772858704889,0.22032632771800062,False
+lightgbm vs random_forest (auc_roc diff normality),aeeem_eclipse_static_10fold,shapiro_wilk,0.917374581387423,0.33557728489064054,False
+lightgbm vs random_forest (auc_roc),aeeem_eclipse_static_10fold,wilcoxon_auc_roc,10.0,0.083984375,False
+lightgbm vs random_forest (auc_roc),aeeem_eclipse_static_10fold,paired_ttest_auc_roc,-2.179195299556523,0.05724949625860347,False
+lightgbm vs random_forest (f1 diff normality),aeeem_eclipse_static_10fold,shapiro_wilk,0.9471270145241851,0.634651376570642,False
+lightgbm vs random_forest (f1),aeeem_eclipse_static_10fold,wilcoxon_f1,26.0,0.9609375,False
+lightgbm vs random_forest (f1),aeeem_eclipse_static_10fold,paired_ttest_f1,0.025312034771323957,0.9803584241995204,False
+lightgbm vs xgboost (auc_roc diff normality),aeeem_eclipse_static_10fold,shapiro_wilk,0.9682817987232302,0.8744732032879259,False
+lightgbm vs xgboost (auc_roc),aeeem_eclipse_static_10fold,wilcoxon_auc_roc,16.0,0.275390625,False
+lightgbm vs xgboost (auc_roc),aeeem_eclipse_static_10fold,paired_ttest_auc_roc,-1.4725385669139543,0.17496311068381484,False
+lightgbm vs xgboost (f1 diff normality),aeeem_eclipse_static_10fold,shapiro_wilk,0.8998408381736354,0.21821629629453015,False
+lightgbm vs xgboost (f1),aeeem_eclipse_static_10fold,wilcoxon_f1,17.0,0.34765625,False
+lightgbm vs xgboost (f1),aeeem_eclipse_static_10fold,paired_ttest_f1,-1.0389744491497634,0.32592297163014017,False
+logistic_regression vs random_forest (auc_roc diff normality),aeeem_eclipse_static_10fold,shapiro_wilk,0.9808481042378601,0.9695444276472759,False
+logistic_regression vs random_forest (auc_roc),aeeem_eclipse_static_10fold,wilcoxon_auc_roc,1.0,0.00390625,True
+logistic_regression vs random_forest (auc_roc),aeeem_eclipse_static_10fold,paired_ttest_auc_roc,-4.265645321295227,0.0020936808370131802,True
+logistic_regression vs random_forest (f1 diff normality),aeeem_eclipse_static_10fold,shapiro_wilk,0.8868922897267456,0.1564038699275792,False
+logistic_regression vs random_forest (f1),aeeem_eclipse_static_10fold,wilcoxon_f1,11.0,0.10546875,False
+logistic_regression vs random_forest (f1),aeeem_eclipse_static_10fold,paired_ttest_f1,-1.3896749861849578,0.1980403185071991,False
+logistic_regression vs xgboost (auc_roc diff normality),aeeem_eclipse_static_10fold,shapiro_wilk,0.9718485857315287,0.9074354644280274,False
+logistic_regression vs xgboost (auc_roc),aeeem_eclipse_static_10fold,wilcoxon_auc_roc,2.0,0.005859375,True
+logistic_regression vs xgboost (auc_roc),aeeem_eclipse_static_10fold,paired_ttest_auc_roc,-3.802634143894916,0.004200342170315348,True
+logistic_regression vs xgboost (f1 diff normality),aeeem_eclipse_static_10fold,shapiro_wilk,0.9289566695864159,0.4377087177344961,False
+logistic_regression vs xgboost (f1),aeeem_eclipse_static_10fold,wilcoxon_f1,4.0,0.013671875,True
+logistic_regression vs xgboost (f1),aeeem_eclipse_static_10fold,paired_ttest_f1,-3.0796054813925933,0.01314834199728909,True
+random_forest vs xgboost (auc_roc diff normality),aeeem_eclipse_static_10fold,shapiro_wilk,0.9407975133726317,0.5619212862671804,False
+random_forest vs xgboost (auc_roc),aeeem_eclipse_static_10fold,wilcoxon_auc_roc,13.0,0.16015625,False
+random_forest vs xgboost (auc_roc),aeeem_eclipse_static_10fold,paired_ttest_auc_roc,1.1087863048816207,0.29627088600676665,False
+random_forest vs xgboost (f1 diff normality),aeeem_eclipse_static_10fold,shapiro_wilk,0.8819107672701187,0.13724477633834525,False
+random_forest vs xgboost (f1),aeeem_eclipse_static_10fold,wilcoxon_f1,20.0,0.4921875,False
+random_forest vs xgboost (f1),aeeem_eclipse_static_10fold,paired_ttest_f1,-1.2626181984510494,0.23845880590087884,False
+random_forest vs lightgbm (instance accuracy),aeeem_eclipse_static_5fold,mcnemar,0.0,1.0,False
+lightgbm vs logistic_regression (auc_roc diff normality),aeeem_eclipse_static_5fold,shapiro_wilk,0.9343269913090275,0.626159253236801,False
+lightgbm vs logistic_regression (auc_roc),aeeem_eclipse_static_5fold,wilcoxon_auc_roc,0.0,0.0625,False
+lightgbm vs logistic_regression (auc_roc),aeeem_eclipse_static_5fold,paired_ttest_auc_roc,5.432079594227572,0.005572186931924602,True
+lightgbm vs logistic_regression (f1 diff normality),aeeem_eclipse_static_5fold,shapiro_wilk,0.8611746716982928,0.23249663434177464,False
+lightgbm vs logistic_regression (f1),aeeem_eclipse_static_5fold,wilcoxon_f1,6.0,0.8125,False
+lightgbm vs logistic_regression (f1),aeeem_eclipse_static_5fold,paired_ttest_f1,0.9551572000512403,0.39358721946622205,False
+lightgbm vs random_forest (auc_roc diff normality),aeeem_eclipse_static_5fold,shapiro_wilk,0.888378399092773,0.3490148637118725,False
+lightgbm vs random_forest (auc_roc),aeeem_eclipse_static_5fold,wilcoxon_auc_roc,2.0,0.1875,False
+lightgbm vs random_forest (auc_roc),aeeem_eclipse_static_5fold,paired_ttest_auc_roc,-1.8021407918110206,0.1458745821966539,False
+lightgbm vs random_forest (f1 diff normality),aeeem_eclipse_static_5fold,shapiro_wilk,0.7856598463111014,0.06159726288450351,False
+lightgbm vs random_forest (f1),aeeem_eclipse_static_5fold,wilcoxon_f1,5.0,0.75,False
+lightgbm vs random_forest (f1),aeeem_eclipse_static_5fold,paired_ttest_f1,0.2896829970758237,0.7864542206919787,False
+lightgbm vs xgboost (auc_roc diff normality),aeeem_eclipse_static_5fold,shapiro_wilk,0.9529157639927025,0.7579937626168172,False
+lightgbm vs xgboost (auc_roc),aeeem_eclipse_static_5fold,wilcoxon_auc_roc,7.0,1.0,False
+lightgbm vs xgboost (auc_roc),aeeem_eclipse_static_5fold,paired_ttest_auc_roc,0.19969308482660766,0.851461553598559,False
+lightgbm vs xgboost (f1 diff normality),aeeem_eclipse_static_5fold,shapiro_wilk,0.8684554323874681,0.26022563333297216,False
+lightgbm vs xgboost (f1),aeeem_eclipse_static_5fold,wilcoxon_f1,7.0,1.0,False
+lightgbm vs xgboost (f1),aeeem_eclipse_static_5fold,paired_ttest_f1,0.45998905750318253,0.6694165104907746,False
+logistic_regression vs random_forest (auc_roc diff normality),aeeem_eclipse_static_5fold,shapiro_wilk,0.8385578935074017,0.16097500119349167,False
+logistic_regression vs random_forest (auc_roc),aeeem_eclipse_static_5fold,wilcoxon_auc_roc,0.0,0.0625,False
+logistic_regression vs random_forest (auc_roc),aeeem_eclipse_static_5fold,paired_ttest_auc_roc,-9.337759396530652,0.0007322914058854644,True
+logistic_regression vs random_forest (f1 diff normality),aeeem_eclipse_static_5fold,shapiro_wilk,0.8882599322823955,0.3484291204783547,False
+logistic_regression vs random_forest (f1),aeeem_eclipse_static_5fold,wilcoxon_f1,5.0,0.625,False
+logistic_regression vs random_forest (f1),aeeem_eclipse_static_5fold,paired_ttest_f1,-0.9226210366769777,0.4084191159595136,False
+logistic_regression vs xgboost (auc_roc diff normality),aeeem_eclipse_static_5fold,shapiro_wilk,0.8438259090871032,0.17577827116047684,False
+logistic_regression vs xgboost (auc_roc),aeeem_eclipse_static_5fold,wilcoxon_auc_roc,0.0,0.0625,False
+logistic_regression vs xgboost (auc_roc),aeeem_eclipse_static_5fold,paired_ttest_auc_roc,-8.823500491582937,0.0009105101051094052,True
+logistic_regression vs xgboost (f1 diff normality),aeeem_eclipse_static_5fold,shapiro_wilk,0.8387923303767375,0.16161129703235505,False
+logistic_regression vs xgboost (f1),aeeem_eclipse_static_5fold,wilcoxon_f1,3.0,0.3125,False
+logistic_regression vs xgboost (f1),aeeem_eclipse_static_5fold,paired_ttest_f1,-1.3390726518225053,0.2515772704151054,False
+random_forest vs xgboost (auc_roc diff normality),aeeem_eclipse_static_5fold,shapiro_wilk,0.8632012451530966,0.23997156792409458,False
+random_forest vs xgboost (auc_roc),aeeem_eclipse_static_5fold,wilcoxon_auc_roc,1.0,0.125,False
+random_forest vs xgboost (auc_roc),aeeem_eclipse_static_5fold,paired_ttest_auc_roc,1.908264319713749,0.12900370722076432,False
+random_forest vs xgboost (f1 diff normality),aeeem_eclipse_static_5fold,shapiro_wilk,0.8967903198070427,0.3924007695942946,False
+random_forest vs xgboost (f1),aeeem_eclipse_static_5fold,wilcoxon_f1,7.0,1.0,False
+random_forest vs xgboost (f1),aeeem_eclipse_static_5fold,paired_ttest_f1,0.05724738003179605,0.9570937545750753,False
+random_forest vs xgboost (instance accuracy),aeeem_equinox_hybrid_10fold,mcnemar,4.0,0.0192108154296875,True
+lightgbm vs logistic_regression (auc_roc diff normality),aeeem_equinox_hybrid_10fold,shapiro_wilk,0.9366769615405404,0.5166634340410731,False
+lightgbm vs logistic_regression (auc_roc),aeeem_equinox_hybrid_10fold,wilcoxon_auc_roc,12.0,0.130859375,False
+lightgbm vs logistic_regression (auc_roc),aeeem_equinox_hybrid_10fold,paired_ttest_auc_roc,1.2913904327114305,0.2287474183020518,False
+lightgbm vs logistic_regression (f1 diff normality),aeeem_equinox_hybrid_10fold,shapiro_wilk,0.9785041410908514,0.9566620574080532,False
+lightgbm vs logistic_regression (f1),aeeem_equinox_hybrid_10fold,wilcoxon_f1,14.0,0.2109375,False
+lightgbm vs logistic_regression (f1),aeeem_equinox_hybrid_10fold,paired_ttest_f1,1.311103809188463,0.2222859252976919,False
+lightgbm vs random_forest (auc_roc diff normality),aeeem_equinox_hybrid_10fold,shapiro_wilk,0.954687485314169,0.7240163318890361,False
+lightgbm vs random_forest (auc_roc),aeeem_equinox_hybrid_10fold,wilcoxon_auc_roc,24.0,0.76953125,False
+lightgbm vs random_forest (auc_roc),aeeem_equinox_hybrid_10fold,paired_ttest_auc_roc,-0.3658326119965362,0.7229410319061821,False
+lightgbm vs random_forest (f1 diff normality),aeeem_equinox_hybrid_10fold,shapiro_wilk,0.9638675649299326,0.8289078637330871,False
+lightgbm vs random_forest (f1),aeeem_equinox_hybrid_10fold,wilcoxon_f1,5.0,0.01953125,True
+lightgbm vs random_forest (f1),aeeem_equinox_hybrid_10fold,paired_ttest_f1,-2.8990928680775108,0.017621382175318546,True
+lightgbm vs xgboost (auc_roc diff normality),aeeem_equinox_hybrid_10fold,shapiro_wilk,0.9515272017334511,0.6865902263257891,False
+lightgbm vs xgboost (auc_roc),aeeem_equinox_hybrid_10fold,wilcoxon_auc_roc,21.0,0.58984375,False
+lightgbm vs xgboost (auc_roc),aeeem_equinox_hybrid_10fold,paired_ttest_auc_roc,-0.24969104380809468,0.8084319964190174,False
+lightgbm vs xgboost (f1 diff normality),aeeem_equinox_hybrid_10fold,shapiro_wilk,0.9221088487183531,0.37487988146362483,False
+lightgbm vs xgboost (f1),aeeem_equinox_hybrid_10fold,wilcoxon_f1,26.0,0.9609375,False
+lightgbm vs xgboost (f1),aeeem_equinox_hybrid_10fold,paired_ttest_f1,0.09160939034233956,0.929015022994473,False
+logistic_regression vs random_forest (auc_roc diff normality),aeeem_equinox_hybrid_10fold,shapiro_wilk,0.9536425392602069,0.7116596965821069,False
+logistic_regression vs random_forest (auc_roc),aeeem_equinox_hybrid_10fold,wilcoxon_auc_roc,16.0,0.275390625,False
+logistic_regression vs random_forest (auc_roc),aeeem_equinox_hybrid_10fold,paired_ttest_auc_roc,-1.4856153514354034,0.1715439457069419,False
+logistic_regression vs random_forest (f1 diff normality),aeeem_equinox_hybrid_10fold,shapiro_wilk,0.9135315312720865,0.30614038505491503,False
+logistic_regression vs random_forest (f1),aeeem_equinox_hybrid_10fold,wilcoxon_f1,9.0,0.064453125,False
+logistic_regression vs random_forest (f1),aeeem_equinox_hybrid_10fold,paired_ttest_f1,-2.405391682306943,0.03954672815307671,True
+logistic_regression vs xgboost (auc_roc diff normality),aeeem_equinox_hybrid_10fold,shapiro_wilk,0.9289159880644957,0.43731485501842216,False
+logistic_regression vs xgboost (auc_roc),aeeem_equinox_hybrid_10fold,wilcoxon_auc_roc,18.0,0.375,False
+logistic_regression vs xgboost (auc_roc),aeeem_equinox_hybrid_10fold,paired_ttest_auc_roc,-1.3698894247361808,0.20392305860682552,False
+logistic_regression vs xgboost (f1 diff normality),aeeem_equinox_hybrid_10fold,shapiro_wilk,0.9664215034636349,0.8558299590001274,False
+logistic_regression vs xgboost (f1),aeeem_equinox_hybrid_10fold,wilcoxon_f1,16.0,0.275390625,False
+logistic_regression vs xgboost (f1),aeeem_equinox_hybrid_10fold,paired_ttest_f1,-0.9306573284132154,0.37631944677652135,False
+random_forest vs xgboost (auc_roc diff normality),aeeem_equinox_hybrid_10fold,shapiro_wilk,0.8336141485797933,0.036985314169022405,True
+random_forest vs xgboost (auc_roc),aeeem_equinox_hybrid_10fold,wilcoxon_auc_roc,17.0,0.322265625,False
+random_forest vs xgboost (auc_roc),aeeem_equinox_hybrid_10fold,paired_ttest_auc_roc_normality_violated,0.32163453199212555,0.7550739143158222,False
+random_forest vs xgboost (f1 diff normality),aeeem_equinox_hybrid_10fold,shapiro_wilk,0.9432798230055978,0.5900516673930696,False
+random_forest vs xgboost (f1),aeeem_equinox_hybrid_10fold,wilcoxon_f1,0.0,0.0078125,True
+random_forest vs xgboost (f1),aeeem_equinox_hybrid_10fold,paired_ttest_f1,4.534351476066508,0.001417332577501287,True
+random_forest vs xgboost (instance accuracy),aeeem_equinox_hybrid_5fold,mcnemar,6.0,0.03468966484069824,True
+lightgbm vs logistic_regression (auc_roc diff normality),aeeem_equinox_hybrid_5fold,shapiro_wilk,0.9230153354214553,0.5495757676169502,False
+lightgbm vs logistic_regression (auc_roc),aeeem_equinox_hybrid_5fold,wilcoxon_auc_roc,1.0,0.125,False
+lightgbm vs logistic_regression (auc_roc),aeeem_equinox_hybrid_5fold,paired_ttest_auc_roc,2.4011975126836083,0.07425982263443134,False
+lightgbm vs logistic_regression (f1 diff normality),aeeem_equinox_hybrid_5fold,shapiro_wilk,0.943268946768548,0.6891326060219347,False
+lightgbm vs logistic_regression (f1),aeeem_equinox_hybrid_5fold,wilcoxon_f1,3.0,0.3125,False
+lightgbm vs logistic_regression (f1),aeeem_equinox_hybrid_5fold,paired_ttest_f1,0.8616106102344901,0.4374899831271794,False
+lightgbm vs random_forest (auc_roc diff normality),aeeem_equinox_hybrid_5fold,shapiro_wilk,0.9258890729826424,0.568617836808177,False
+lightgbm vs random_forest (auc_roc),aeeem_equinox_hybrid_5fold,wilcoxon_auc_roc,5.0,0.625,False
+lightgbm vs random_forest (auc_roc),aeeem_equinox_hybrid_5fold,paired_ttest_auc_roc,-1.0292956463362475,0.3615071009491451,False
+lightgbm vs random_forest (f1 diff normality),aeeem_equinox_hybrid_5fold,shapiro_wilk,0.8671572230490205,0.25510249787190503,False
+lightgbm vs random_forest (f1),aeeem_equinox_hybrid_5fold,wilcoxon_f1,4.0,0.4375,False
+lightgbm vs random_forest (f1),aeeem_equinox_hybrid_5fold,paired_ttest_f1,-1.0767433281271723,0.3422034680028606,False
+lightgbm vs xgboost (auc_roc diff normality),aeeem_equinox_hybrid_5fold,shapiro_wilk,0.8708999998668009,0.27008718694956585,False
+lightgbm vs xgboost (auc_roc),aeeem_equinox_hybrid_5fold,wilcoxon_auc_roc,4.0,0.4375,False
+lightgbm vs xgboost (auc_roc),aeeem_equinox_hybrid_5fold,paired_ttest_auc_roc,-1.0180135653808209,0.3662367765139295,False
+lightgbm vs xgboost (f1 diff normality),aeeem_equinox_hybrid_5fold,shapiro_wilk,0.8564162512504028,0.21566483008100912,False
+lightgbm vs xgboost (f1),aeeem_equinox_hybrid_5fold,wilcoxon_f1,0.0,0.125,False
+lightgbm vs xgboost (f1),aeeem_equinox_hybrid_5fold,paired_ttest_f1,3.6973831638712906,0.02088321130699175,True
+logistic_regression vs random_forest (auc_roc diff normality),aeeem_equinox_hybrid_5fold,shapiro_wilk,0.9288735220325108,0.5887090226952252,False
+logistic_regression vs random_forest (auc_roc),aeeem_equinox_hybrid_5fold,wilcoxon_auc_roc,0.0,0.0625,False
+logistic_regression vs random_forest (auc_roc),aeeem_equinox_hybrid_5fold,paired_ttest_auc_roc,-5.124381180846149,0.0068652172796574516,True
+logistic_regression vs random_forest (f1 diff normality),aeeem_equinox_hybrid_5fold,shapiro_wilk,0.9313963462797794,0.6059232517904793,False
+logistic_regression vs random_forest (f1),aeeem_equinox_hybrid_5fold,wilcoxon_f1,0.0,0.0625,False
+logistic_regression vs random_forest (f1),aeeem_equinox_hybrid_5fold,paired_ttest_f1,-2.2605398112069417,0.08662872535355964,False
+logistic_regression vs xgboost (auc_roc diff normality),aeeem_equinox_hybrid_5fold,shapiro_wilk,0.7826794237649084,0.05810880093763779,False
+logistic_regression vs xgboost (auc_roc),aeeem_equinox_hybrid_5fold,wilcoxon_auc_roc,0.0,0.0625,False
+logistic_regression vs xgboost (auc_roc),aeeem_equinox_hybrid_5fold,paired_ttest_auc_roc,-4.181159458954493,0.013905289770760585,True
+logistic_regression vs xgboost (f1 diff normality),aeeem_equinox_hybrid_5fold,shapiro_wilk,0.9104487136394159,0.4702915986536874,False
+logistic_regression vs xgboost (f1),aeeem_equinox_hybrid_5fold,wilcoxon_f1,6.0,0.8125,False
+logistic_regression vs xgboost (f1),aeeem_equinox_hybrid_5fold,paired_ttest_f1,-0.27921703980561197,0.7939203427002427,False
+random_forest vs xgboost (auc_roc diff normality),aeeem_equinox_hybrid_5fold,shapiro_wilk,0.82526212827467,0.1281215380618449,False
+random_forest vs xgboost (auc_roc),aeeem_equinox_hybrid_5fold,wilcoxon_auc_roc,5.0,0.625,False
+random_forest vs xgboost (auc_roc),aeeem_equinox_hybrid_5fold,paired_ttest_auc_roc,0.9558747852700168,0.3932653235780821,False
+random_forest vs xgboost (f1 diff normality),aeeem_equinox_hybrid_5fold,shapiro_wilk,0.8542331234037591,0.20827340874075206,False
+random_forest vs xgboost (f1),aeeem_equinox_hybrid_5fold,wilcoxon_f1,2.0,0.25,False
+random_forest vs xgboost (f1),aeeem_equinox_hybrid_5fold,paired_ttest_f1,1.8820284720887808,0.1329691792657146,False
+logistic_regression vs lightgbm (instance accuracy),aeeem_equinox_static_10fold,mcnemar,0.014285714285714285,0.9048611294504482,False
+lightgbm vs logistic_regression (auc_roc diff normality),aeeem_equinox_static_10fold,shapiro_wilk,0.9695893466744998,0.8870118402488815,False
+lightgbm vs logistic_regression (auc_roc),aeeem_equinox_static_10fold,wilcoxon_auc_roc,26.5,0.943359375,False
+lightgbm vs logistic_regression (auc_roc),aeeem_equinox_static_10fold,paired_ttest_auc_roc,-0.11641210527993359,0.9098821917745121,False
+lightgbm vs logistic_regression (f1 diff normality),aeeem_equinox_static_10fold,shapiro_wilk,0.9224149478934146,0.37753764462313777,False
+lightgbm vs logistic_regression (f1),aeeem_equinox_static_10fold,wilcoxon_f1,25.0,0.8828125,False
+lightgbm vs logistic_regression (f1),aeeem_equinox_static_10fold,paired_ttest_f1,0.17939532331527444,0.8616011320152125,False
+lightgbm vs random_forest (auc_roc diff normality),aeeem_equinox_static_10fold,shapiro_wilk,0.9472551629556022,0.6361534992801625,False
+lightgbm vs random_forest (auc_roc),aeeem_equinox_static_10fold,wilcoxon_auc_roc,24.0,0.76953125,False
+lightgbm vs random_forest (auc_roc),aeeem_equinox_static_10fold,paired_ttest_auc_roc,0.9191337198393597,0.38199912419964305,False
+lightgbm vs random_forest (f1 diff normality),aeeem_equinox_static_10fold,shapiro_wilk,0.9660334145257192,0.8518317638484969,False
+lightgbm vs random_forest (f1),aeeem_equinox_static_10fold,wilcoxon_f1,27.0,1.0,False
+lightgbm vs random_forest (f1),aeeem_equinox_static_10fold,paired_ttest_f1,-0.2220384601439812,0.829240508717726,False
+lightgbm vs xgboost (auc_roc diff normality),aeeem_equinox_static_10fold,shapiro_wilk,0.949042133529825,0.6571804838909672,False
+lightgbm vs xgboost (auc_roc),aeeem_equinox_static_10fold,wilcoxon_auc_roc,21.0,0.58984375,False
+lightgbm vs xgboost (auc_roc),aeeem_equinox_static_10fold,paired_ttest_auc_roc,0.8461000510597058,0.41942371583022053,False
+lightgbm vs xgboost (f1 diff normality),aeeem_equinox_static_10fold,shapiro_wilk,0.9441676775751601,0.6002475899080114,False
+lightgbm vs xgboost (f1),aeeem_equinox_static_10fold,wilcoxon_f1,15.0,0.296875,False
+lightgbm vs xgboost (f1),aeeem_equinox_static_10fold,paired_ttest_f1,1.0752368800300744,0.3102476028334433,False
+logistic_regression vs random_forest (auc_roc diff normality),aeeem_equinox_static_10fold,shapiro_wilk,0.926401457232553,0.4134436926223446,False
+logistic_regression vs random_forest (auc_roc),aeeem_equinox_static_10fold,wilcoxon_auc_roc,21.0,0.556640625,False
+logistic_regression vs random_forest (auc_roc),aeeem_equinox_static_10fold,paired_ttest_auc_roc,0.5730786820975514,0.5806254013840778,False
+logistic_regression vs random_forest (f1 diff normality),aeeem_equinox_static_10fold,shapiro_wilk,0.9516379182922545,0.6879027225816519,False
+logistic_regression vs random_forest (f1),aeeem_equinox_static_10fold,wilcoxon_f1,22.0,0.625,False
+logistic_regression vs random_forest (f1),aeeem_equinox_static_10fold,paired_ttest_f1,-0.3425151941056602,0.7398266096829806,False
+logistic_regression vs xgboost (auc_roc diff normality),aeeem_equinox_static_10fold,shapiro_wilk,0.8815605446649906,0.13598346211535595,False
+logistic_regression vs xgboost (auc_roc),aeeem_equinox_static_10fold,wilcoxon_auc_roc,21.0,0.556640625,False
+logistic_regression vs xgboost (auc_roc),aeeem_equinox_static_10fold,paired_ttest_auc_roc,0.42673637498974404,0.6795975928543592,False
+logistic_regression vs xgboost (f1 diff normality),aeeem_equinox_static_10fold,shapiro_wilk,0.8724579717485942,0.10677168322758346,False
+logistic_regression vs xgboost (f1),aeeem_equinox_static_10fold,wilcoxon_f1,27.0,1.0,False
+logistic_regression vs xgboost (f1),aeeem_equinox_static_10fold,paired_ttest_f1,0.07911056887211039,0.9386757421124734,False
+random_forest vs xgboost (auc_roc diff normality),aeeem_equinox_static_10fold,shapiro_wilk,0.9516126715784221,0.6876034282057661,False
+random_forest vs xgboost (auc_roc),aeeem_equinox_static_10fold,wilcoxon_auc_roc,24.0,0.76953125,False
+random_forest vs xgboost (auc_roc),aeeem_equinox_static_10fold,paired_ttest_auc_roc,-0.475527838470468,0.6457402433681119,False
+random_forest vs xgboost (f1 diff normality),aeeem_equinox_static_10fold,shapiro_wilk,0.927539449338234,0.4241310272576362,False
+random_forest vs xgboost (f1),aeeem_equinox_static_10fold,wilcoxon_f1,24.0,0.76953125,False
+random_forest vs xgboost (f1),aeeem_equinox_static_10fold,paired_ttest_f1,0.5972389181092818,0.5650688483163945,False
+logistic_regression vs xgboost (instance accuracy),aeeem_equinox_static_5fold,mcnemar,0.015151515151515152,0.9020346492544503,False
+lightgbm vs logistic_regression (auc_roc diff normality),aeeem_equinox_static_5fold,shapiro_wilk,0.9207810722260381,0.5349910416529625,False
+lightgbm vs logistic_regression (auc_roc),aeeem_equinox_static_5fold,wilcoxon_auc_roc,4.0,0.4375,False
+lightgbm vs logistic_regression (auc_roc),aeeem_equinox_static_5fold,paired_ttest_auc_roc,-1.1948953952325785,0.2981313048779981,False
+lightgbm vs logistic_regression (f1 diff normality),aeeem_equinox_static_5fold,shapiro_wilk,0.9067838839651771,0.4485068465580777,False
+lightgbm vs logistic_regression (f1),aeeem_equinox_static_5fold,wilcoxon_f1,7.0,1.0,False
+lightgbm vs logistic_regression (f1),aeeem_equinox_static_5fold,paired_ttest_f1,-0.0843052966785846,0.9368644765940253,False
+lightgbm vs random_forest (auc_roc diff normality),aeeem_equinox_static_5fold,shapiro_wilk,0.883169041272802,0.32391905874804994,False
+lightgbm vs random_forest (auc_roc),aeeem_equinox_static_5fold,wilcoxon_auc_roc,7.0,1.0,False
+lightgbm vs random_forest (auc_roc),aeeem_equinox_static_5fold,paired_ttest_auc_roc,-0.37789166939414104,0.7247086539410675,False
+lightgbm vs random_forest (f1 diff normality),aeeem_equinox_static_5fold,shapiro_wilk,0.9880358543338102,0.9723706170189881,False
+lightgbm vs random_forest (f1),aeeem_equinox_static_5fold,wilcoxon_f1,6.0,0.8125,False
+lightgbm vs random_forest (f1),aeeem_equinox_static_5fold,paired_ttest_f1,-0.5231938889520318,0.6284838382950745,False
+lightgbm vs xgboost (auc_roc diff normality),aeeem_equinox_static_5fold,shapiro_wilk,0.9894944921226122,0.9778934748361656,False
+lightgbm vs xgboost (auc_roc),aeeem_equinox_static_5fold,wilcoxon_auc_roc,3.0,0.3125,False
+lightgbm vs xgboost (auc_roc),aeeem_equinox_static_5fold,paired_ttest_auc_roc,-1.2885332613922431,0.2670384578874181,False
+lightgbm vs xgboost (f1 diff normality),aeeem_equinox_static_5fold,shapiro_wilk,0.9223953551810051,0.5455088990935646,False
+lightgbm vs xgboost (f1),aeeem_equinox_static_5fold,wilcoxon_f1,3.0,0.3125,False
+lightgbm vs xgboost (f1),aeeem_equinox_static_5fold,paired_ttest_f1,-1.6290790109407387,0.17862838315098445,False
+logistic_regression vs random_forest (auc_roc diff normality),aeeem_equinox_static_5fold,shapiro_wilk,0.9432544496450354,0.6890294272747552,False
+logistic_regression vs random_forest (auc_roc),aeeem_equinox_static_5fold,wilcoxon_auc_roc,3.0,0.3125,False
+logistic_regression vs random_forest (auc_roc),aeeem_equinox_static_5fold,paired_ttest_auc_roc,1.5754884829403242,0.1902669271166911,False
+logistic_regression vs random_forest (f1 diff normality),aeeem_equinox_static_5fold,shapiro_wilk,0.9327517622601882,0.6152521530641238,False
+logistic_regression vs random_forest (f1),aeeem_equinox_static_5fold,wilcoxon_f1,2.0,0.1875,False
+logistic_regression vs random_forest (f1),aeeem_equinox_static_5fold,paired_ttest_f1,-1.6138339844073524,0.18186212365629864,False
+logistic_regression vs xgboost (auc_roc diff normality),aeeem_equinox_static_5fold,shapiro_wilk,0.8459782198845636,0.18213712415942018,False
+logistic_regression vs xgboost (auc_roc),aeeem_equinox_static_5fold,wilcoxon_auc_roc,6.0,0.8125,False
+logistic_regression vs xgboost (auc_roc),aeeem_equinox_static_5fold,paired_ttest_auc_roc,1.0974905453776196,0.334057004908862,False
+logistic_regression vs xgboost (f1 diff normality),aeeem_equinox_static_5fold,shapiro_wilk,0.8467117657714059,0.18434651285164244,False
+logistic_regression vs xgboost (f1),aeeem_equinox_static_5fold,wilcoxon_f1,5.0,0.625,False
+logistic_regression vs xgboost (f1),aeeem_equinox_static_5fold,paired_ttest_f1,-0.7605580498533403,0.4892853185133282,False
+random_forest vs xgboost (auc_roc diff normality),aeeem_equinox_static_5fold,shapiro_wilk,0.8108124356063957,0.0989732870005865,False
+random_forest vs xgboost (auc_roc),aeeem_equinox_static_5fold,wilcoxon_auc_roc,2.0,0.25,False
+random_forest vs xgboost (auc_roc),aeeem_equinox_static_5fold,paired_ttest_auc_roc,-1.7467657786706907,0.15560296392031475,False
+random_forest vs xgboost (f1 diff normality),aeeem_equinox_static_5fold,shapiro_wilk,0.8038359834523361,0.08705055376566262,False
+random_forest vs xgboost (f1),aeeem_equinox_static_5fold,wilcoxon_f1,6.0,0.8125,False
+random_forest vs xgboost (f1),aeeem_equinox_static_5fold,paired_ttest_f1,-0.2043794752182534,0.8480348554770527,False
+random_forest vs xgboost (instance accuracy),aeeem_lucene_hybrid_10fold,mcnemar,0.0,1.0,False
+lightgbm vs logistic_regression (auc_roc diff normality),aeeem_lucene_hybrid_10fold,shapiro_wilk,0.9403961464184776,0.5574298040140138,False
+lightgbm vs logistic_regression (auc_roc),aeeem_lucene_hybrid_10fold,wilcoxon_auc_roc,8.0,0.048828125,True
+lightgbm vs logistic_regression (auc_roc),aeeem_lucene_hybrid_10fold,paired_ttest_auc_roc,1.9535885665314363,0.08248987609270393,False
+lightgbm vs logistic_regression (f1 diff normality),aeeem_lucene_hybrid_10fold,shapiro_wilk,0.8889399929968818,0.16497318620167178,False
+lightgbm vs logistic_regression (f1),aeeem_lucene_hybrid_10fold,wilcoxon_f1,21.0,0.556640625,False
+lightgbm vs logistic_regression (f1),aeeem_lucene_hybrid_10fold,paired_ttest_f1,0.35201224201272585,0.7329307994704115,False
+lightgbm vs random_forest (auc_roc diff normality),aeeem_lucene_hybrid_10fold,shapiro_wilk,0.909833397680788,0.2798486005992828,False
+lightgbm vs random_forest (auc_roc),aeeem_lucene_hybrid_10fold,wilcoxon_auc_roc,7.0,0.04296875,True
+lightgbm vs random_forest (auc_roc),aeeem_lucene_hybrid_10fold,paired_ttest_auc_roc,-2.2763896713117835,0.04885004083356136,True
+lightgbm vs random_forest (f1 diff normality),aeeem_lucene_hybrid_10fold,shapiro_wilk,0.8355086504923968,0.03897594681966822,True
+lightgbm vs random_forest (f1),aeeem_lucene_hybrid_10fold,wilcoxon_f1,25.0,0.845703125,False
+lightgbm vs random_forest (f1),aeeem_lucene_hybrid_10fold,paired_ttest_f1_normality_violated,-0.783935602585055,0.4532147161862309,False
+lightgbm vs xgboost (auc_roc diff normality),aeeem_lucene_hybrid_10fold,shapiro_wilk,0.9244340180630436,0.39542374552520515,False
+lightgbm vs xgboost (auc_roc),aeeem_lucene_hybrid_10fold,wilcoxon_auc_roc,13.0,0.16015625,False
+lightgbm vs xgboost (auc_roc),aeeem_lucene_hybrid_10fold,paired_ttest_auc_roc,-1.9662336557513365,0.0808302727394649,False
+lightgbm vs xgboost (f1 diff normality),aeeem_lucene_hybrid_10fold,shapiro_wilk,0.9057335028159529,0.2529508579966778,False
+lightgbm vs xgboost (f1),aeeem_lucene_hybrid_10fold,wilcoxon_f1,17.0,0.484375,False
+lightgbm vs xgboost (f1),aeeem_lucene_hybrid_10fold,paired_ttest_f1,-1.1392728732653228,0.2840031497460485,False
+logistic_regression vs random_forest (auc_roc diff normality),aeeem_lucene_hybrid_10fold,shapiro_wilk,0.9434524204617273,0.5920285829119795,False
+logistic_regression vs random_forest (auc_roc),aeeem_lucene_hybrid_10fold,wilcoxon_auc_roc,7.0,0.037109375,True
+logistic_regression vs random_forest (auc_roc),aeeem_lucene_hybrid_10fold,paired_ttest_auc_roc,-2.4820113497829754,0.0348761575136508,True
+logistic_regression vs random_forest (f1 diff normality),aeeem_lucene_hybrid_10fold,shapiro_wilk,0.9833175048893509,0.980430176144657,False
+logistic_regression vs random_forest (f1),aeeem_lucene_hybrid_10fold,wilcoxon_f1,15.0,0.232421875,False
+logistic_regression vs random_forest (f1),aeeem_lucene_hybrid_10fold,paired_ttest_f1,-1.5249205943965547,0.1616177551541493,False
+logistic_regression vs xgboost (auc_roc diff normality),aeeem_lucene_hybrid_10fold,shapiro_wilk,0.9073171070844954,0.26306608131051046,False
+logistic_regression vs xgboost (auc_roc),aeeem_lucene_hybrid_10fold,wilcoxon_auc_roc,9.0,0.064453125,False
+logistic_regression vs xgboost (auc_roc),aeeem_lucene_hybrid_10fold,paired_ttest_auc_roc,-2.2848159015636726,0.04818149328083096,True
+logistic_regression vs xgboost (f1 diff normality),aeeem_lucene_hybrid_10fold,shapiro_wilk,0.9464938961453105,0.6272434656636665,False
+logistic_regression vs xgboost (f1),aeeem_lucene_hybrid_10fold,wilcoxon_f1,6.0,0.02734375,True
+logistic_regression vs xgboost (f1),aeeem_lucene_hybrid_10fold,paired_ttest_f1,-2.4488607423861803,0.03682547578653634,True
+random_forest vs xgboost (auc_roc diff normality),aeeem_lucene_hybrid_10fold,shapiro_wilk,0.9023137781799769,0.2322482952922299,False
+random_forest vs xgboost (auc_roc),aeeem_lucene_hybrid_10fold,wilcoxon_auc_roc,21.0,0.5390625,False
+random_forest vs xgboost (auc_roc),aeeem_lucene_hybrid_10fold,paired_ttest_auc_roc,1.0222722575091359,0.3333433621298803,False
+random_forest vs xgboost (f1 diff normality),aeeem_lucene_hybrid_10fold,shapiro_wilk,0.7775526647402181,0.0077295148571449096,True
+random_forest vs xgboost (f1),aeeem_lucene_hybrid_10fold,wilcoxon_f1,19.0,0.5234375,False
+random_forest vs xgboost (f1),aeeem_lucene_hybrid_10fold,paired_ttest_f1_normality_violated,0.06871423879264069,0.9467195372800178,False
+random_forest vs xgboost (instance accuracy),aeeem_lucene_hybrid_5fold,mcnemar,0.029411764705882353,0.8638317428547264,False
+lightgbm vs logistic_regression (auc_roc diff normality),aeeem_lucene_hybrid_5fold,shapiro_wilk,0.7866868176926092,0.06284065150531869,False
+lightgbm vs logistic_regression (auc_roc),aeeem_lucene_hybrid_5fold,wilcoxon_auc_roc,0.0,0.0625,False
+lightgbm vs logistic_regression (auc_roc),aeeem_lucene_hybrid_5fold,paired_ttest_auc_roc,6.519368382570192,0.0028582694060323203,True
+lightgbm vs logistic_regression (f1 diff normality),aeeem_lucene_hybrid_5fold,shapiro_wilk,0.8735272918132926,0.28100166475540034,False
+lightgbm vs logistic_regression (f1),aeeem_lucene_hybrid_5fold,wilcoxon_f1,2.0,0.1875,False
+lightgbm vs logistic_regression (f1),aeeem_lucene_hybrid_5fold,paired_ttest_f1,1.6836980042256495,0.16752652441493127,False
+lightgbm vs random_forest (auc_roc diff normality),aeeem_lucene_hybrid_5fold,shapiro_wilk,0.9518922698911819,0.7506984034650224,False
+lightgbm vs random_forest (auc_roc),aeeem_lucene_hybrid_5fold,wilcoxon_auc_roc,1.0,0.125,False
+lightgbm vs random_forest (auc_roc),aeeem_lucene_hybrid_5fold,paired_ttest_auc_roc,-2.3824312424684577,0.07578861002455269,False
+lightgbm vs random_forest (f1 diff normality),aeeem_lucene_hybrid_5fold,shapiro_wilk,0.978599194368198,0.9269894281365122,False
+lightgbm vs random_forest (f1),aeeem_lucene_hybrid_5fold,wilcoxon_f1,7.0,1.0,False
+lightgbm vs random_forest (f1),aeeem_lucene_hybrid_5fold,paired_ttest_f1,0.0569039404639247,0.9573508105587233,False
+lightgbm vs xgboost (auc_roc diff normality),aeeem_lucene_hybrid_5fold,shapiro_wilk,0.9626803150565001,0.826513687279405,False
+lightgbm vs xgboost (auc_roc),aeeem_lucene_hybrid_5fold,wilcoxon_auc_roc,7.0,1.0,False
+lightgbm vs xgboost (auc_roc),aeeem_lucene_hybrid_5fold,paired_ttest_auc_roc,-0.04120833447513108,0.9691046781748649,False
+lightgbm vs xgboost (f1 diff normality),aeeem_lucene_hybrid_5fold,shapiro_wilk,0.7766252270896938,0.051547573627593594,False
+lightgbm vs xgboost (f1),aeeem_lucene_hybrid_5fold,wilcoxon_f1,5.0,0.625,False
+lightgbm vs xgboost (f1),aeeem_lucene_hybrid_5fold,paired_ttest_f1,-1.038954546595002,0.35750078529501833,False
+logistic_regression vs random_forest (auc_roc diff normality),aeeem_lucene_hybrid_5fold,shapiro_wilk,0.9801532838670624,0.9354371378895734,False
+logistic_regression vs random_forest (auc_roc),aeeem_lucene_hybrid_5fold,wilcoxon_auc_roc,0.0,0.0625,False
+logistic_regression vs random_forest (auc_roc),aeeem_lucene_hybrid_5fold,paired_ttest_auc_roc,-8.734099398897222,0.0009467752867167815,True
+logistic_regression vs random_forest (f1 diff normality),aeeem_lucene_hybrid_5fold,shapiro_wilk,0.9869675213542857,0.9680343791858307,False
+logistic_regression vs random_forest (f1),aeeem_lucene_hybrid_5fold,wilcoxon_f1,2.0,0.1875,False
+logistic_regression vs random_forest (f1),aeeem_lucene_hybrid_5fold,paired_ttest_f1,-1.6924464899552958,0.16581656834741026,False
+logistic_regression vs xgboost (auc_roc diff normality),aeeem_lucene_hybrid_5fold,shapiro_wilk,0.8035814001438059,0.08663976708959115,False
+logistic_regression vs xgboost (auc_roc),aeeem_lucene_hybrid_5fold,wilcoxon_auc_roc,0.0,0.0625,False
+logistic_regression vs xgboost (auc_roc),aeeem_lucene_hybrid_5fold,paired_ttest_auc_roc,-9.952425193712191,0.0005724746289273396,True
+logistic_regression vs xgboost (f1 diff normality),aeeem_lucene_hybrid_5fold,shapiro_wilk,0.9382370311914312,0.6535023398309905,False
+logistic_regression vs xgboost (f1),aeeem_lucene_hybrid_5fold,wilcoxon_f1,2.0,0.1875,False
+logistic_regression vs xgboost (f1),aeeem_lucene_hybrid_5fold,paired_ttest_f1,-1.8957658123909495,0.13087662863070648,False
+random_forest vs xgboost (auc_roc diff normality),aeeem_lucene_hybrid_5fold,shapiro_wilk,0.9923519810658059,0.9872475558333279,False
+random_forest vs xgboost (auc_roc),aeeem_lucene_hybrid_5fold,wilcoxon_auc_roc,0.0,0.0625,False
+random_forest vs xgboost (auc_roc),aeeem_lucene_hybrid_5fold,paired_ttest_auc_roc,3.994535172539003,0.01620360901070678,True
+random_forest vs xgboost (f1 diff normality),aeeem_lucene_hybrid_5fold,shapiro_wilk,0.9899665722060262,0.9795772728764881,False
+random_forest vs xgboost (f1),aeeem_lucene_hybrid_5fold,wilcoxon_f1,5.0,0.625,False
+random_forest vs xgboost (f1),aeeem_lucene_hybrid_5fold,paired_ttest_f1,-0.6032517700582304,0.5788772171548131,False
+random_forest vs lightgbm (instance accuracy),aeeem_lucene_static_10fold,mcnemar,2.1315789473684212,0.14429205544010104,False
+lightgbm vs logistic_regression (auc_roc diff normality),aeeem_lucene_static_10fold,shapiro_wilk,0.9491130740868654,0.6580178916312291,False
+lightgbm vs logistic_regression (auc_roc),aeeem_lucene_static_10fold,wilcoxon_auc_roc,17.0,0.322265625,False
+lightgbm vs logistic_regression (auc_roc),aeeem_lucene_static_10fold,paired_ttest_auc_roc,1.1580402704207324,0.2766538503092027,False
+lightgbm vs logistic_regression (f1 diff normality),aeeem_lucene_static_10fold,shapiro_wilk,0.9360610463751549,0.5100715731602995,False
+lightgbm vs logistic_regression (f1),aeeem_lucene_static_10fold,wilcoxon_f1,16.0,0.275390625,False
+lightgbm vs logistic_regression (f1),aeeem_lucene_static_10fold,paired_ttest_f1,1.2565498825344332,0.24055007229831465,False
+lightgbm vs random_forest (auc_roc diff normality),aeeem_lucene_static_10fold,shapiro_wilk,0.8294037241989078,0.032911947250747774,True
+lightgbm vs random_forest (auc_roc),aeeem_lucene_static_10fold,wilcoxon_auc_roc,11.0,0.10546875,False
+lightgbm vs random_forest (auc_roc),aeeem_lucene_static_10fold,paired_ttest_auc_roc_normality_violated,-1.564222474967071,0.1522039559580196,False
+lightgbm vs random_forest (f1 diff normality),aeeem_lucene_static_10fold,shapiro_wilk,0.9088939778232213,0.2734799217157796,False
+lightgbm vs random_forest (f1),aeeem_lucene_static_10fold,wilcoxon_f1,15.0,0.375,False
+lightgbm vs random_forest (f1),aeeem_lucene_static_10fold,paired_ttest_f1,0.6046358759964334,0.5603533725054507,False
+lightgbm vs xgboost (auc_roc diff normality),aeeem_lucene_static_10fold,shapiro_wilk,0.9453454072779393,0.6138679810973059,False
+lightgbm vs xgboost (auc_roc),aeeem_lucene_static_10fold,wilcoxon_auc_roc,14.0,0.2109375,False
+lightgbm vs xgboost (auc_roc),aeeem_lucene_static_10fold,paired_ttest_auc_roc,1.5936187437346325,0.145485613160547,False
+lightgbm vs xgboost (f1 diff normality),aeeem_lucene_static_10fold,shapiro_wilk,0.8423334956050779,0.04705607653123517,True
+lightgbm vs xgboost (f1),aeeem_lucene_static_10fold,wilcoxon_f1,10.0,0.09375,False
+lightgbm vs xgboost (f1),aeeem_lucene_static_10fold,paired_ttest_f1_normality_violated,1.4857178276545182,0.17151738437723935,False
+logistic_regression vs random_forest (auc_roc diff normality),aeeem_lucene_static_10fold,shapiro_wilk,0.9134680613471372,0.3056724876920406,False
+logistic_regression vs random_forest (auc_roc),aeeem_lucene_static_10fold,wilcoxon_auc_roc,6.0,0.02734375,True
+logistic_regression vs random_forest (auc_roc),aeeem_lucene_static_10fold,paired_ttest_auc_roc,-2.590077777415902,0.02920974686598157,True
+logistic_regression vs random_forest (f1 diff normality),aeeem_lucene_static_10fold,shapiro_wilk,0.9099538044169253,0.2806738573555724,False
+logistic_regression vs random_forest (f1),aeeem_lucene_static_10fold,wilcoxon_f1,19.0,0.431640625,False
+logistic_regression vs random_forest (f1),aeeem_lucene_static_10fold,paired_ttest_f1,-0.6704083599004526,0.5194280281488562,False
+logistic_regression vs xgboost (auc_roc diff normality),aeeem_lucene_static_10fold,shapiro_wilk,0.873285555687849,0.10916050746571959,False
+logistic_regression vs xgboost (auc_roc),aeeem_lucene_static_10fold,wilcoxon_auc_roc,25.0,0.845703125,False
+logistic_regression vs xgboost (auc_roc),aeeem_lucene_static_10fold,paired_ttest_auc_roc,-0.19446330791897717,0.8501318246702073,False
+logistic_regression vs xgboost (f1 diff normality),aeeem_lucene_static_10fold,shapiro_wilk,0.9327123741627742,0.4750952991107996,False
+logistic_regression vs xgboost (f1),aeeem_lucene_static_10fold,wilcoxon_f1,25.0,0.845703125,False
+logistic_regression vs xgboost (f1),aeeem_lucene_static_10fold,paired_ttest_f1,0.14128659534718088,0.8907554565118205,False
+random_forest vs xgboost (auc_roc diff normality),aeeem_lucene_static_10fold,shapiro_wilk,0.8847400240377842,0.14784081210241634,False
+random_forest vs xgboost (auc_roc),aeeem_lucene_static_10fold,wilcoxon_auc_roc,2.0,0.005859375,True
+random_forest vs xgboost (auc_roc),aeeem_lucene_static_10fold,paired_ttest_auc_roc,3.39257697327184,0.007966492146998303,True
+random_forest vs xgboost (f1 diff normality),aeeem_lucene_static_10fold,shapiro_wilk,0.8233712457550693,0.027834497925969294,True
+random_forest vs xgboost (f1),aeeem_lucene_static_10fold,wilcoxon_f1,16.0,0.34375,False
+random_forest vs xgboost (f1),aeeem_lucene_static_10fold,paired_ttest_f1_normality_violated,0.9602149956130771,0.36203187805618076,False
+random_forest vs lightgbm (instance accuracy),aeeem_lucene_static_5fold,mcnemar,0.025,0.8743670611628918,False
+lightgbm vs logistic_regression (auc_roc diff normality),aeeem_lucene_static_5fold,shapiro_wilk,0.9912082280272397,0.9837498899460303,False
+lightgbm vs logistic_regression (auc_roc),aeeem_lucene_static_5fold,wilcoxon_auc_roc,2.0,0.1875,False
+lightgbm vs logistic_regression (auc_roc),aeeem_lucene_static_5fold,paired_ttest_auc_roc,1.557740043861513,0.19429186513393681,False
+lightgbm vs logistic_regression (f1 diff normality),aeeem_lucene_static_5fold,shapiro_wilk,0.782009352088382,0.057348572272264337,False
+lightgbm vs logistic_regression (f1),aeeem_lucene_static_5fold,wilcoxon_f1,4.0,0.4375,False
+lightgbm vs logistic_regression (f1),aeeem_lucene_static_5fold,paired_ttest_f1,-1.280890703702864,0.26945523529215176,False
+lightgbm vs random_forest (auc_roc diff normality),aeeem_lucene_static_5fold,shapiro_wilk,0.9644704554747825,0.8387169815808331,False
+lightgbm vs random_forest (auc_roc),aeeem_lucene_static_5fold,wilcoxon_auc_roc,3.0,0.3125,False
+lightgbm vs random_forest (auc_roc),aeeem_lucene_static_5fold,paired_ttest_auc_roc,-1.360393411508193,0.24532002785000775,False
+lightgbm vs random_forest (f1 diff normality),aeeem_lucene_static_5fold,shapiro_wilk,0.9321853633079165,0.61134727883743,False
+lightgbm vs random_forest (f1),aeeem_lucene_static_5fold,wilcoxon_f1,2.0,0.25,False
+lightgbm vs random_forest (f1),aeeem_lucene_static_5fold,paired_ttest_f1,-1.8998765558996107,0.13025739909098596,False
+lightgbm vs xgboost (auc_roc diff normality),aeeem_lucene_static_5fold,shapiro_wilk,0.9673723707278072,0.8581363805142603,False
+lightgbm vs xgboost (auc_roc),aeeem_lucene_static_5fold,wilcoxon_auc_roc,2.0,0.1875,False
+lightgbm vs xgboost (auc_roc),aeeem_lucene_static_5fold,paired_ttest_auc_roc,1.6564802421337015,0.17296573706737886,False
+lightgbm vs xgboost (f1 diff normality),aeeem_lucene_static_5fold,shapiro_wilk,0.8759630800468248,0.29141626174956503,False
+lightgbm vs xgboost (f1),aeeem_lucene_static_5fold,wilcoxon_f1,6.0,0.8125,False
+lightgbm vs xgboost (f1),aeeem_lucene_static_5fold,paired_ttest_f1,0.24413609882230267,0.8191365230914521,False
+logistic_regression vs random_forest (auc_roc diff normality),aeeem_lucene_static_5fold,shapiro_wilk,0.8752947665591774,0.2885302829516869,False
+logistic_regression vs random_forest (auc_roc),aeeem_lucene_static_5fold,wilcoxon_auc_roc,0.0,0.0625,False
+logistic_regression vs random_forest (auc_roc),aeeem_lucene_static_5fold,paired_ttest_auc_roc,-3.600856114381663,0.02274080214329817,True
+logistic_regression vs random_forest (f1 diff normality),aeeem_lucene_static_5fold,shapiro_wilk,0.9639066526887086,0.8348902947147948,False
+logistic_regression vs random_forest (f1),aeeem_lucene_static_5fold,wilcoxon_f1,7.0,1.0,False
+logistic_regression vs random_forest (f1),aeeem_lucene_static_5fold,paired_ttest_f1,0.16317979793621085,0.8782893605953718,False
+logistic_regression vs xgboost (auc_roc diff normality),aeeem_lucene_static_5fold,shapiro_wilk,0.8379929829268221,0.15945020112751723,False
+logistic_regression vs xgboost (auc_roc),aeeem_lucene_static_5fold,wilcoxon_auc_roc,4.0,0.4375,False
+logistic_regression vs xgboost (auc_roc),aeeem_lucene_static_5fold,paired_ttest_auc_roc,-0.8628097274095613,0.43690270066010334,False
+logistic_regression vs xgboost (f1 diff normality),aeeem_lucene_static_5fold,shapiro_wilk,0.9977322376050571,0.9984953518171068,False
+logistic_regression vs xgboost (f1),aeeem_lucene_static_5fold,wilcoxon_f1,2.0,0.1875,False
+logistic_regression vs xgboost (f1),aeeem_lucene_static_5fold,paired_ttest_f1,1.6464638136188645,0.175013666410843,False
+random_forest vs xgboost (auc_roc diff normality),aeeem_lucene_static_5fold,shapiro_wilk,0.9528189954822148,0.7573044789025548,False
+random_forest vs xgboost (auc_roc),aeeem_lucene_static_5fold,wilcoxon_auc_roc,0.0,0.0625,False
+random_forest vs xgboost (auc_roc),aeeem_lucene_static_5fold,paired_ttest_auc_roc,4.290723179351998,0.01273885090116389,True
+random_forest vs xgboost (f1 diff normality),aeeem_lucene_static_5fold,shapiro_wilk,0.8553657835358784,0.21208263500350727,False
+random_forest vs xgboost (f1),aeeem_lucene_static_5fold,wilcoxon_f1,0.0,0.0625,False
+random_forest vs xgboost (f1),aeeem_lucene_static_5fold,paired_ttest_f1,3.2478122951623667,0.03144069337826109,True
+lightgbm vs xgboost (instance accuracy),aeeem_mylyn_hybrid_10fold,mcnemar,6.793478260869565,0.009149147579593769,True
+lightgbm vs logistic_regression (auc_roc diff normality),aeeem_mylyn_hybrid_10fold,shapiro_wilk,0.8913941025714065,0.17580946728167884,False
+lightgbm vs logistic_regression (auc_roc),aeeem_mylyn_hybrid_10fold,wilcoxon_auc_roc,0.0,0.001953125,True
+lightgbm vs logistic_regression (auc_roc),aeeem_mylyn_hybrid_10fold,paired_ttest_auc_roc,3.983416147036076,0.003189291717641292,True
+lightgbm vs logistic_regression (f1 diff normality),aeeem_mylyn_hybrid_10fold,shapiro_wilk,0.982900482087335,0.9787854604984714,False
+lightgbm vs logistic_regression (f1),aeeem_mylyn_hybrid_10fold,wilcoxon_f1,9.0,0.064453125,False
+lightgbm vs logistic_regression (f1),aeeem_mylyn_hybrid_10fold,paired_ttest_f1,2.3211871596970055,0.04539748956918614,True
+lightgbm vs random_forest (auc_roc diff normality),aeeem_mylyn_hybrid_10fold,shapiro_wilk,0.8913185592714992,0.17546643247509935,False
+lightgbm vs random_forest (auc_roc),aeeem_mylyn_hybrid_10fold,wilcoxon_auc_roc,16.0,0.275390625,False
+lightgbm vs random_forest (auc_roc),aeeem_mylyn_hybrid_10fold,paired_ttest_auc_roc,1.4158592558933638,0.19047933958709806,False
+lightgbm vs random_forest (f1 diff normality),aeeem_mylyn_hybrid_10fold,shapiro_wilk,0.9130961955891098,0.3029429129082177,False
+lightgbm vs random_forest (f1),aeeem_mylyn_hybrid_10fold,wilcoxon_f1,27.0,1.0,False
+lightgbm vs random_forest (f1),aeeem_mylyn_hybrid_10fold,paired_ttest_f1,0.06748228943729413,0.9476731565646787,False
+lightgbm vs xgboost (auc_roc diff normality),aeeem_mylyn_hybrid_10fold,shapiro_wilk,0.8550357193697945,0.06666382899235526,False
+lightgbm vs xgboost (auc_roc),aeeem_mylyn_hybrid_10fold,wilcoxon_auc_roc,17.0,0.322265625,False
+lightgbm vs xgboost (auc_roc),aeeem_mylyn_hybrid_10fold,paired_ttest_auc_roc,1.4706742951888694,0.1754553851886516,False
+lightgbm vs xgboost (f1 diff normality),aeeem_mylyn_hybrid_10fold,shapiro_wilk,0.96082720867909,0.7952628213074915,False
+lightgbm vs xgboost (f1),aeeem_mylyn_hybrid_10fold,wilcoxon_f1,20.0,0.4921875,False
+lightgbm vs xgboost (f1),aeeem_mylyn_hybrid_10fold,paired_ttest_f1,-0.5686855789661058,0.5834792390056228,False
+logistic_regression vs random_forest (auc_roc diff normality),aeeem_mylyn_hybrid_10fold,shapiro_wilk,0.7951416498845065,0.012654926070400916,True
+logistic_regression vs random_forest (auc_roc),aeeem_mylyn_hybrid_10fold,wilcoxon_auc_roc,1.0,0.00390625,True
+logistic_regression vs random_forest (auc_roc),aeeem_mylyn_hybrid_10fold,paired_ttest_auc_roc_normality_violated,-3.1097681675472146,0.012523541601997428,True
+logistic_regression vs random_forest (f1 diff normality),aeeem_mylyn_hybrid_10fold,shapiro_wilk,0.8555634159278772,0.067630294431208,False
+logistic_regression vs random_forest (f1),aeeem_mylyn_hybrid_10fold,wilcoxon_f1,11.0,0.10546875,False
+logistic_regression vs random_forest (f1),aeeem_mylyn_hybrid_10fold,paired_ttest_f1,-2.072718735690316,0.06806358531709532,False
+logistic_regression vs xgboost (auc_roc diff normality),aeeem_mylyn_hybrid_10fold,shapiro_wilk,0.8874668395633025,0.158765970877492,False
+logistic_regression vs xgboost (auc_roc),aeeem_mylyn_hybrid_10fold,wilcoxon_auc_roc,0.0,0.001953125,True
+logistic_regression vs xgboost (auc_roc),aeeem_mylyn_hybrid_10fold,paired_ttest_auc_roc,-4.2970060306773945,0.0019994122805120458,True
+logistic_regression vs xgboost (f1 diff normality),aeeem_mylyn_hybrid_10fold,shapiro_wilk,0.9748225791654085,0.9316077156311621,False
+logistic_regression vs xgboost (f1),aeeem_mylyn_hybrid_10fold,wilcoxon_f1,1.0,0.00390625,True
+logistic_regression vs xgboost (f1),aeeem_mylyn_hybrid_10fold,paired_ttest_f1,-4.226460381574812,0.002218177427913663,True
+random_forest vs xgboost (auc_roc diff normality),aeeem_mylyn_hybrid_10fold,shapiro_wilk,0.8974324384012746,0.20527734186410418,False
+random_forest vs xgboost (auc_roc),aeeem_mylyn_hybrid_10fold,wilcoxon_auc_roc,18.0,0.375,False
+random_forest vs xgboost (auc_roc),aeeem_mylyn_hybrid_10fold,paired_ttest_auc_roc,-0.4644786001606891,0.6533360989803952,False
+random_forest vs xgboost (f1 diff normality),aeeem_mylyn_hybrid_10fold,shapiro_wilk,0.9266742170645803,0.41598771436661786,False
+random_forest vs xgboost (f1),aeeem_mylyn_hybrid_10fold,wilcoxon_f1,24.0,0.76953125,False
+random_forest vs xgboost (f1),aeeem_mylyn_hybrid_10fold,paired_ttest_f1,-0.6276762350261832,0.5458100194354464,False
+xgboost vs lightgbm (instance accuracy),aeeem_mylyn_hybrid_5fold,mcnemar,6.201834862385321,0.012761794772874521,True
+lightgbm vs logistic_regression (auc_roc diff normality),aeeem_mylyn_hybrid_5fold,shapiro_wilk,0.9281744041650163,0.5839751251482205,False
+lightgbm vs logistic_regression (auc_roc),aeeem_mylyn_hybrid_5fold,wilcoxon_auc_roc,0.0,0.0625,False
+lightgbm vs logistic_regression (auc_roc),aeeem_mylyn_hybrid_5fold,paired_ttest_auc_roc,2.2398316679932067,0.08863848756631226,False
+lightgbm vs logistic_regression (f1 diff normality),aeeem_mylyn_hybrid_5fold,shapiro_wilk,0.7871000125997705,0.06334702196139003,False
+lightgbm vs logistic_regression (f1),aeeem_mylyn_hybrid_5fold,wilcoxon_f1,0.0,0.0625,False
+lightgbm vs logistic_regression (f1),aeeem_mylyn_hybrid_5fold,paired_ttest_f1,1.7546087291006818,0.15418414697059935,False
+lightgbm vs random_forest (auc_roc diff normality),aeeem_mylyn_hybrid_5fold,shapiro_wilk,0.9296448669465188,0.5939507237495626,False
+lightgbm vs random_forest (auc_roc),aeeem_mylyn_hybrid_5fold,wilcoxon_auc_roc,6.0,0.8125,False
+lightgbm vs random_forest (auc_roc),aeeem_mylyn_hybrid_5fold,paired_ttest_auc_roc,0.15122642883612972,0.8871173388611268,False
+lightgbm vs random_forest (f1 diff normality),aeeem_mylyn_hybrid_5fold,shapiro_wilk,0.8474597877073808,0.18662181042015663,False
+lightgbm vs random_forest (f1),aeeem_mylyn_hybrid_5fold,wilcoxon_f1,6.0,0.8125,False
+lightgbm vs random_forest (f1),aeeem_mylyn_hybrid_5fold,paired_ttest_f1,-0.54760393649875,0.6130853669682745,False
+lightgbm vs xgboost (auc_roc diff normality),aeeem_mylyn_hybrid_5fold,shapiro_wilk,0.9102092879684931,0.4688491136568881,False
+lightgbm vs xgboost (auc_roc),aeeem_mylyn_hybrid_5fold,wilcoxon_auc_roc,6.0,0.8125,False
+lightgbm vs xgboost (auc_roc),aeeem_mylyn_hybrid_5fold,paired_ttest_auc_roc,-0.359196908092108,0.7376065811308512,False
+lightgbm vs xgboost (f1 diff normality),aeeem_mylyn_hybrid_5fold,shapiro_wilk,0.9706250680750563,0.8792501709823319,False
+lightgbm vs xgboost (f1),aeeem_mylyn_hybrid_5fold,wilcoxon_f1,7.0,1.0,False
+lightgbm vs xgboost (f1),aeeem_mylyn_hybrid_5fold,paired_ttest_f1,-0.1849187369235443,0.8622901725030189,False
+logistic_regression vs random_forest (auc_roc diff normality),aeeem_mylyn_hybrid_5fold,shapiro_wilk,0.8162872500156881,0.10927632837227258,False
+logistic_regression vs random_forest (auc_roc),aeeem_mylyn_hybrid_5fold,wilcoxon_auc_roc,0.0,0.0625,False
+logistic_regression vs random_forest (auc_roc),aeeem_mylyn_hybrid_5fold,paired_ttest_auc_roc,-2.206329593640214,0.0920014206924168,False
+logistic_regression vs random_forest (f1 diff normality),aeeem_mylyn_hybrid_5fold,shapiro_wilk,0.8068313007656117,0.09201008994057375,False
+logistic_regression vs random_forest (f1),aeeem_mylyn_hybrid_5fold,wilcoxon_f1,0.0,0.0625,False
+logistic_regression vs random_forest (f1),aeeem_mylyn_hybrid_5fold,paired_ttest_f1,-1.8430627707410425,0.13910352032324325,False
+logistic_regression vs xgboost (auc_roc diff normality),aeeem_mylyn_hybrid_5fold,shapiro_wilk,0.8802377525151698,0.31038976469414725,False
+logistic_regression vs xgboost (auc_roc),aeeem_mylyn_hybrid_5fold,wilcoxon_auc_roc,0.0,0.0625,False
+logistic_regression vs xgboost (auc_roc),aeeem_mylyn_hybrid_5fold,paired_ttest_auc_roc,-2.8221158303495892,0.04772544023644405,True
+logistic_regression vs xgboost (f1 diff normality),aeeem_mylyn_hybrid_5fold,shapiro_wilk,0.9630305038812071,0.8289128050944663,False
+logistic_regression vs xgboost (f1),aeeem_mylyn_hybrid_5fold,wilcoxon_f1,0.0,0.0625,False
+logistic_regression vs xgboost (f1),aeeem_mylyn_hybrid_5fold,paired_ttest_f1,-3.2991399033444933,0.029957559610403757,True
+random_forest vs xgboost (auc_roc diff normality),aeeem_mylyn_hybrid_5fold,shapiro_wilk,0.9305858455552546,0.6003710618937861,False
+random_forest vs xgboost (auc_roc),aeeem_mylyn_hybrid_5fold,wilcoxon_auc_roc,6.0,0.8125,False
+random_forest vs xgboost (auc_roc),aeeem_mylyn_hybrid_5fold,paired_ttest_auc_roc,-0.4730552270983069,0.6608326495063248,False
+random_forest vs xgboost (f1 diff normality),aeeem_mylyn_hybrid_5fold,shapiro_wilk,0.928092595092433,0.5834222494846064,False
+random_forest vs xgboost (f1),aeeem_mylyn_hybrid_5fold,wilcoxon_f1,7.0,1.0,False
+random_forest vs xgboost (f1),aeeem_mylyn_hybrid_5fold,paired_ttest_f1,0.2497429211524394,0.8150874975387747,False
+random_forest vs xgboost (instance accuracy),aeeem_mylyn_static_10fold,mcnemar,7.160839160839161,0.007451232927509016,True
+lightgbm vs logistic_regression (auc_roc diff normality),aeeem_mylyn_static_10fold,shapiro_wilk,0.9659069008690407,0.8505207671797177,False
+lightgbm vs logistic_regression (auc_roc),aeeem_mylyn_static_10fold,wilcoxon_auc_roc,5.0,0.01953125,True
+lightgbm vs logistic_regression (auc_roc),aeeem_mylyn_static_10fold,paired_ttest_auc_roc,2.8187149850095214,0.020089112902878965,True
+lightgbm vs logistic_regression (f1 diff normality),aeeem_mylyn_static_10fold,shapiro_wilk,0.9763888491281753,0.9429611451541094,False
+lightgbm vs logistic_regression (f1),aeeem_mylyn_static_10fold,wilcoxon_f1,15.0,0.232421875,False
+lightgbm vs logistic_regression (f1),aeeem_mylyn_static_10fold,paired_ttest_f1,1.5081379685658842,0.1657923491132126,False
+lightgbm vs random_forest (auc_roc diff normality),aeeem_mylyn_static_10fold,shapiro_wilk,0.8756350045857942,0.11622068290667625,False
+lightgbm vs random_forest (auc_roc),aeeem_mylyn_static_10fold,wilcoxon_auc_roc,8.0,0.048828125,True
+lightgbm vs random_forest (auc_roc),aeeem_mylyn_static_10fold,paired_ttest_auc_roc,-2.522939936196615,0.03261095996947319,True
+lightgbm vs random_forest (f1 diff normality),aeeem_mylyn_static_10fold,shapiro_wilk,0.8491263332107504,0.056714719000868136,False
+lightgbm vs random_forest (f1),aeeem_mylyn_static_10fold,wilcoxon_f1,11.0,0.10546875,False
+lightgbm vs random_forest (f1),aeeem_mylyn_static_10fold,paired_ttest_f1,-1.60892405959665,0.14209398567265746,False
+lightgbm vs xgboost (auc_roc diff normality),aeeem_mylyn_static_10fold,shapiro_wilk,0.9576974037588215,0.7593321137290839,False
+lightgbm vs xgboost (auc_roc),aeeem_mylyn_static_10fold,wilcoxon_auc_roc,0.0,0.001953125,True
+lightgbm vs xgboost (auc_roc),aeeem_mylyn_static_10fold,paired_ttest_auc_roc,-5.085166573118492,0.0006582173387680833,True
+lightgbm vs xgboost (f1 diff normality),aeeem_mylyn_static_10fold,shapiro_wilk,0.9720803864538169,0.9094350673880958,False
+lightgbm vs xgboost (f1),aeeem_mylyn_static_10fold,wilcoxon_f1,12.0,0.130859375,False
+lightgbm vs xgboost (f1),aeeem_mylyn_static_10fold,paired_ttest_f1,-1.5623018082278148,0.15265240833411511,False
+logistic_regression vs random_forest (auc_roc diff normality),aeeem_mylyn_static_10fold,shapiro_wilk,0.9489855565662714,0.6565127532395384,False
+logistic_regression vs random_forest (auc_roc),aeeem_mylyn_static_10fold,wilcoxon_auc_roc,3.0,0.009765625,True
+logistic_regression vs random_forest (auc_roc),aeeem_mylyn_static_10fold,paired_ttest_auc_roc,-3.370432262469701,0.008251318575235866,True
+logistic_regression vs random_forest (f1 diff normality),aeeem_mylyn_static_10fold,shapiro_wilk,0.9063408163959014,0.256789829322921,False
+logistic_regression vs random_forest (f1),aeeem_mylyn_static_10fold,wilcoxon_f1,6.0,0.02734375,True
+logistic_regression vs random_forest (f1),aeeem_mylyn_static_10fold,paired_ttest_f1,-2.6579938242915504,0.0261315720566306,True
+logistic_regression vs xgboost (auc_roc diff normality),aeeem_mylyn_static_10fold,shapiro_wilk,0.9364922461864712,0.514681521831116,False
+logistic_regression vs xgboost (auc_roc),aeeem_mylyn_static_10fold,wilcoxon_auc_roc,1.0,0.00390625,True
+logistic_regression vs xgboost (auc_roc),aeeem_mylyn_static_10fold,paired_ttest_auc_roc,-4.253268292186111,0.002132179877623709,True
+logistic_regression vs xgboost (f1 diff normality),aeeem_mylyn_static_10fold,shapiro_wilk,0.789004951077217,0.010656097305167105,True
+logistic_regression vs xgboost (f1),aeeem_mylyn_static_10fold,wilcoxon_f1,0.0,0.001953125,True
+logistic_regression vs xgboost (f1),aeeem_mylyn_static_10fold,paired_ttest_f1_normality_violated,-4.039332362837774,0.0029315400089932175,True
+random_forest vs xgboost (auc_roc diff normality),aeeem_mylyn_static_10fold,shapiro_wilk,0.9191962390357298,0.3502999839156245,False
+random_forest vs xgboost (auc_roc),aeeem_mylyn_static_10fold,wilcoxon_auc_roc,18.0,0.375,False
+random_forest vs xgboost (auc_roc),aeeem_mylyn_static_10fold,paired_ttest_auc_roc,0.768694339507857,0.4617688165803445,False
+random_forest vs xgboost (f1 diff normality),aeeem_mylyn_static_10fold,shapiro_wilk,0.9636537818621909,0.8265935022608666,False
+random_forest vs xgboost (f1),aeeem_mylyn_static_10fold,wilcoxon_f1,26.0,0.921875,False
+random_forest vs xgboost (f1),aeeem_mylyn_static_10fold,paired_ttest_f1,0.18288131179417377,0.8589445427259564,False
+xgboost vs random_forest (instance accuracy),aeeem_mylyn_static_5fold,mcnemar,12.213740458015268,0.0004743882702793057,True
+lightgbm vs logistic_regression (auc_roc diff normality),aeeem_mylyn_static_5fold,shapiro_wilk,0.9410091544817387,0.6730816551307075,False
+lightgbm vs logistic_regression (auc_roc),aeeem_mylyn_static_5fold,wilcoxon_auc_roc,2.0,0.1875,False
+lightgbm vs logistic_regression (auc_roc),aeeem_mylyn_static_5fold,paired_ttest_auc_roc,1.9753063740410455,0.1194415184278694,False
+lightgbm vs logistic_regression (f1 diff normality),aeeem_mylyn_static_5fold,shapiro_wilk,0.9372422063378111,0.6465122447701573,False
+lightgbm vs logistic_regression (f1),aeeem_mylyn_static_5fold,wilcoxon_f1,2.0,0.1875,False
+lightgbm vs logistic_regression (f1),aeeem_mylyn_static_5fold,paired_ttest_f1,2.0167939487615323,0.11391314734054733,False
+lightgbm vs random_forest (auc_roc diff normality),aeeem_mylyn_static_5fold,shapiro_wilk,0.9650129157698656,0.8423833228100528,False
+lightgbm vs random_forest (auc_roc),aeeem_mylyn_static_5fold,wilcoxon_auc_roc,1.0,0.125,False
+lightgbm vs random_forest (auc_roc),aeeem_mylyn_static_5fold,paired_ttest_auc_roc,-2.7175735209057996,0.05311981982645811,False
+lightgbm vs random_forest (f1 diff normality),aeeem_mylyn_static_5fold,shapiro_wilk,0.9453260617163487,0.703794654632294,False
+lightgbm vs random_forest (f1),aeeem_mylyn_static_5fold,wilcoxon_f1,5.0,0.625,False
+lightgbm vs random_forest (f1),aeeem_mylyn_static_5fold,paired_ttest_f1,0.6201319346597451,0.5687533328389651,False
+lightgbm vs xgboost (auc_roc diff normality),aeeem_mylyn_static_5fold,shapiro_wilk,0.9464553227535205,0.7118573370521682,False
+lightgbm vs xgboost (auc_roc),aeeem_mylyn_static_5fold,wilcoxon_auc_roc,3.0,0.3125,False
+lightgbm vs xgboost (auc_roc),aeeem_mylyn_static_5fold,paired_ttest_auc_roc,-1.679925354330366,0.16826962281526117,False
+lightgbm vs xgboost (f1 diff normality),aeeem_mylyn_static_5fold,shapiro_wilk,0.97091747815058,0.8811090287822574,False
+lightgbm vs xgboost (f1),aeeem_mylyn_static_5fold,wilcoxon_f1,7.0,1.0,False
+lightgbm vs xgboost (f1),aeeem_mylyn_static_5fold,paired_ttest_f1,0.1269142711246283,0.9051323640670675,False
+logistic_regression vs random_forest (auc_roc diff normality),aeeem_mylyn_static_5fold,shapiro_wilk,0.9279720648288253,0.5826081050540727,False
+logistic_regression vs random_forest (auc_roc),aeeem_mylyn_static_5fold,wilcoxon_auc_roc,1.0,0.125,False
+logistic_regression vs random_forest (auc_roc),aeeem_mylyn_static_5fold,paired_ttest_auc_roc,-2.6871523839407456,0.05481982789981448,False
+logistic_regression vs random_forest (f1 diff normality),aeeem_mylyn_static_5fold,shapiro_wilk,0.9329948124002093,0.6169305989392471,False
+logistic_regression vs random_forest (f1),aeeem_mylyn_static_5fold,wilcoxon_f1,3.0,0.3125,False
+logistic_regression vs random_forest (f1),aeeem_mylyn_static_5fold,paired_ttest_f1,-1.76510838287151,0.15230618640109178,False
+logistic_regression vs xgboost (auc_roc diff normality),aeeem_mylyn_static_5fold,shapiro_wilk,0.9115747442269386,0.4771113260589805,False
+logistic_regression vs xgboost (auc_roc),aeeem_mylyn_static_5fold,wilcoxon_auc_roc,0.0,0.0625,False
+logistic_regression vs xgboost (auc_roc),aeeem_mylyn_static_5fold,paired_ttest_auc_roc,-4.552924710533502,0.010394496513699157,True
+logistic_regression vs xgboost (f1 diff normality),aeeem_mylyn_static_5fold,shapiro_wilk,0.8432410651341762,0.1740819708673208,False
+logistic_regression vs xgboost (f1),aeeem_mylyn_static_5fold,wilcoxon_f1,0.0,0.0625,False
+logistic_regression vs xgboost (f1),aeeem_mylyn_static_5fold,paired_ttest_f1,-4.808515898691768,0.0085946033779361,True
+random_forest vs xgboost (auc_roc diff normality),aeeem_mylyn_static_5fold,shapiro_wilk,0.9275321514027198,0.5796408375284552,False
+random_forest vs xgboost (auc_roc),aeeem_mylyn_static_5fold,wilcoxon_auc_roc,5.0,0.625,False
+random_forest vs xgboost (auc_roc),aeeem_mylyn_static_5fold,paired_ttest_auc_roc,-0.60972899922878,0.574978374713361,False
+random_forest vs xgboost (f1 diff normality),aeeem_mylyn_static_5fold,shapiro_wilk,0.8511896272835858,0.1983081011096523,False
+random_forest vs xgboost (f1),aeeem_mylyn_static_5fold,wilcoxon_f1,5.0,0.625,False
+random_forest vs xgboost (f1),aeeem_mylyn_static_5fold,paired_ttest_f1,-0.0990297809044176,0.9258790207835191,False
+random_forest vs xgboost (instance accuracy),aeeem_pde_hybrid_10fold,mcnemar,0.970873786407767,0.32446235575110266,False
+lightgbm vs logistic_regression (auc_roc diff normality),aeeem_pde_hybrid_10fold,shapiro_wilk,0.9349811241957089,0.49863018329156167,False
+lightgbm vs logistic_regression (auc_roc),aeeem_pde_hybrid_10fold,wilcoxon_auc_roc,1.0,0.00390625,True
+lightgbm vs logistic_regression (auc_roc),aeeem_pde_hybrid_10fold,paired_ttest_auc_roc,6.614251259875614,9.766173897034905e-05,True
+lightgbm vs logistic_regression (f1 diff normality),aeeem_pde_hybrid_10fold,shapiro_wilk,0.9364928200750533,0.5146876728104378,False
+lightgbm vs logistic_regression (f1),aeeem_pde_hybrid_10fold,wilcoxon_f1,22.0,0.625,False
+lightgbm vs logistic_regression (f1),aeeem_pde_hybrid_10fold,paired_ttest_f1,-0.4490266937914288,0.6640295658954876,False
+lightgbm vs random_forest (auc_roc diff normality),aeeem_pde_hybrid_10fold,shapiro_wilk,0.9310448498635486,0.45824786433702813,False
+lightgbm vs random_forest (auc_roc),aeeem_pde_hybrid_10fold,wilcoxon_auc_roc,13.0,0.16015625,False
+lightgbm vs random_forest (auc_roc),aeeem_pde_hybrid_10fold,paired_ttest_auc_roc,-1.8904706169422454,0.09126759010495385,False
+lightgbm vs random_forest (f1 diff normality),aeeem_pde_hybrid_10fold,shapiro_wilk,0.9296818137791338,0.444769760511664,False
+lightgbm vs random_forest (f1),aeeem_pde_hybrid_10fold,wilcoxon_f1,12.0,0.130859375,False
+lightgbm vs random_forest (f1),aeeem_pde_hybrid_10fold,paired_ttest_f1,-2.063478526881925,0.06908993052606421,False
+lightgbm vs xgboost (auc_roc diff normality),aeeem_pde_hybrid_10fold,shapiro_wilk,0.9516684957318712,0.6882652155477015,False
+lightgbm vs xgboost (auc_roc),aeeem_pde_hybrid_10fold,wilcoxon_auc_roc,9.5,0.068359375,False
+lightgbm vs xgboost (auc_roc),aeeem_pde_hybrid_10fold,paired_ttest_auc_roc,-2.3577026614789798,0.04276202970597915,True
+lightgbm vs xgboost (f1 diff normality),aeeem_pde_hybrid_10fold,shapiro_wilk,0.9663575927270447,0.8551739888987842,False
+lightgbm vs xgboost (f1),aeeem_pde_hybrid_10fold,wilcoxon_f1,2.0,0.005859375,True
+lightgbm vs xgboost (f1),aeeem_pde_hybrid_10fold,paired_ttest_f1,-4.632930554934365,0.0012315441089934742,True
+logistic_regression vs random_forest (auc_roc diff normality),aeeem_pde_hybrid_10fold,shapiro_wilk,0.9635474051870745,0.8254387094845845,False
+logistic_regression vs random_forest (auc_roc),aeeem_pde_hybrid_10fold,wilcoxon_auc_roc,0.0,0.001953125,True
+logistic_regression vs random_forest (auc_roc),aeeem_pde_hybrid_10fold,paired_ttest_auc_roc,-6.0393388625706965,0.00019298128670957332,True
+logistic_regression vs random_forest (f1 diff normality),aeeem_pde_hybrid_10fold,shapiro_wilk,0.9397207665361841,0.5499104576319148,False
+logistic_regression vs random_forest (f1),aeeem_pde_hybrid_10fold,wilcoxon_f1,20.0,0.4921875,False
+logistic_regression vs random_forest (f1),aeeem_pde_hybrid_10fold,paired_ttest_f1,-1.148653911805786,0.2803103511378458,False
+logistic_regression vs xgboost (auc_roc diff normality),aeeem_pde_hybrid_10fold,shapiro_wilk,0.8977245975031597,0.20680963174040523,False
+logistic_regression vs xgboost (auc_roc),aeeem_pde_hybrid_10fold,wilcoxon_auc_roc,1.0,0.00390625,True
+logistic_regression vs xgboost (auc_roc),aeeem_pde_hybrid_10fold,paired_ttest_auc_roc,-6.058430198656481,0.00018853843695481242,True
+logistic_regression vs xgboost (f1 diff normality),aeeem_pde_hybrid_10fold,shapiro_wilk,0.9588314512645312,0.7724698061785287,False
+logistic_regression vs xgboost (f1),aeeem_pde_hybrid_10fold,wilcoxon_f1,4.0,0.013671875,True
+logistic_regression vs xgboost (f1),aeeem_pde_hybrid_10fold,paired_ttest_f1,-3.080351124495892,0.013132515006697027,True
+random_forest vs xgboost (auc_roc diff normality),aeeem_pde_hybrid_10fold,shapiro_wilk,0.941105168331976,0.5653753262652985,False
+random_forest vs xgboost (auc_roc),aeeem_pde_hybrid_10fold,wilcoxon_auc_roc,26.0,0.921875,False
+random_forest vs xgboost (auc_roc),aeeem_pde_hybrid_10fold,paired_ttest_auc_roc,0.2484804229704415,0.8093397975038314,False
+random_forest vs xgboost (f1 diff normality),aeeem_pde_hybrid_10fold,shapiro_wilk,0.919228605446464,0.3505660846988104,False
+random_forest vs xgboost (f1),aeeem_pde_hybrid_10fold,wilcoxon_f1,15.0,0.232421875,False
+random_forest vs xgboost (f1),aeeem_pde_hybrid_10fold,paired_ttest_f1,-1.3054182521488125,0.22413360160259294,False
+random_forest vs xgboost (instance accuracy),aeeem_pde_hybrid_5fold,mcnemar,5.680672268907563,0.017152794284751822,True
+lightgbm vs logistic_regression (auc_roc diff normality),aeeem_pde_hybrid_5fold,shapiro_wilk,0.9500673057823954,0.7376693450925011,False
+lightgbm vs logistic_regression (auc_roc),aeeem_pde_hybrid_5fold,wilcoxon_auc_roc,1.0,0.125,False
+lightgbm vs logistic_regression (auc_roc),aeeem_pde_hybrid_5fold,paired_ttest_auc_roc,3.232141510998656,0.03191067311375,True
+lightgbm vs logistic_regression (f1 diff normality),aeeem_pde_hybrid_5fold,shapiro_wilk,0.906918156505661,0.4492937650759147,False
+lightgbm vs logistic_regression (f1),aeeem_pde_hybrid_5fold,wilcoxon_f1,3.0,0.3125,False
+lightgbm vs logistic_regression (f1),aeeem_pde_hybrid_5fold,paired_ttest_f1,1.9254538474847134,0.12647511060871805,False
+lightgbm vs random_forest (auc_roc diff normality),aeeem_pde_hybrid_5fold,shapiro_wilk,0.987562604561024,0.9704791066735917,False
+lightgbm vs random_forest (auc_roc),aeeem_pde_hybrid_5fold,wilcoxon_auc_roc,1.0,0.125,False
+lightgbm vs random_forest (auc_roc),aeeem_pde_hybrid_5fold,paired_ttest_auc_roc,-2.111792663839497,0.10228353960182457,False
+lightgbm vs random_forest (f1 diff normality),aeeem_pde_hybrid_5fold,shapiro_wilk,0.8516973276511406,0.19994334492373372,False
+lightgbm vs random_forest (f1),aeeem_pde_hybrid_5fold,wilcoxon_f1,6.0,0.8125,False
+lightgbm vs random_forest (f1),aeeem_pde_hybrid_5fold,paired_ttest_f1,-0.3293889933809027,0.7583877347470854,False
+lightgbm vs xgboost (auc_roc diff normality),aeeem_pde_hybrid_5fold,shapiro_wilk,0.8623094328375593,0.23665931427398346,False
+lightgbm vs xgboost (auc_roc),aeeem_pde_hybrid_5fold,wilcoxon_auc_roc,6.0,0.8125,False
+lightgbm vs xgboost (auc_roc),aeeem_pde_hybrid_5fold,paired_ttest_auc_roc,-0.6334354002643249,0.5608591566460261,False
+lightgbm vs xgboost (f1 diff normality),aeeem_pde_hybrid_5fold,shapiro_wilk,0.9129756103962937,0.48567693974267706,False
+lightgbm vs xgboost (f1),aeeem_pde_hybrid_5fold,wilcoxon_f1,6.0,0.8125,False
+lightgbm vs xgboost (f1),aeeem_pde_hybrid_5fold,paired_ttest_f1,-0.49305720756761223,0.6478138701991767,False
+logistic_regression vs random_forest (auc_roc diff normality),aeeem_pde_hybrid_5fold,shapiro_wilk,0.821258891181803,0.11940377597333207,False
+logistic_regression vs random_forest (auc_roc),aeeem_pde_hybrid_5fold,wilcoxon_auc_roc,0.0,0.0625,False
+logistic_regression vs random_forest (auc_roc),aeeem_pde_hybrid_5fold,paired_ttest_auc_roc,-4.56256150151092,0.010318778737200513,True
+logistic_regression vs random_forest (f1 diff normality),aeeem_pde_hybrid_5fold,shapiro_wilk,0.8742537775999029,0.28407795233527394,False
+logistic_regression vs random_forest (f1),aeeem_pde_hybrid_5fold,wilcoxon_f1,5.0,0.625,False
+logistic_regression vs random_forest (f1),aeeem_pde_hybrid_5fold,paired_ttest_f1,-1.0074903846610435,0.37069718822194997,False
+logistic_regression vs xgboost (auc_roc diff normality),aeeem_pde_hybrid_5fold,shapiro_wilk,0.8859586385613458,0.33718969627348316,False
+logistic_regression vs xgboost (auc_roc),aeeem_pde_hybrid_5fold,wilcoxon_auc_roc,1.0,0.125,False
+logistic_regression vs xgboost (auc_roc),aeeem_pde_hybrid_5fold,paired_ttest_auc_roc,-3.3145482577643737,0.02952857221126156,True
+logistic_regression vs xgboost (f1 diff normality),aeeem_pde_hybrid_5fold,shapiro_wilk,0.9914080149884877,0.9843854006153406,False
+logistic_regression vs xgboost (f1),aeeem_pde_hybrid_5fold,wilcoxon_f1,1.0,0.125,False
+logistic_regression vs xgboost (f1),aeeem_pde_hybrid_5fold,paired_ttest_f1,-2.9160267496222048,0.04341557313667133,True
+random_forest vs xgboost (auc_roc diff normality),aeeem_pde_hybrid_5fold,shapiro_wilk,0.8585521734138061,0.2230966221840472,False
+random_forest vs xgboost (auc_roc),aeeem_pde_hybrid_5fold,wilcoxon_auc_roc,3.0,0.3125,False
+random_forest vs xgboost (auc_roc),aeeem_pde_hybrid_5fold,paired_ttest_auc_roc,1.6303739223147893,0.1783564784714732,False
+random_forest vs xgboost (f1 diff normality),aeeem_pde_hybrid_5fold,shapiro_wilk,0.9050151738365727,0.4382218919452418,False
+random_forest vs xgboost (f1),aeeem_pde_hybrid_5fold,wilcoxon_f1,7.0,1.0,False
+random_forest vs xgboost (f1),aeeem_pde_hybrid_5fold,paired_ttest_f1,0.014764103320524627,0.9889274253340758,False
+random_forest vs xgboost (instance accuracy),aeeem_pde_static_10fold,mcnemar,11.522727272727273,0.0006875045173128583,True
+lightgbm vs logistic_regression (auc_roc diff normality),aeeem_pde_static_10fold,shapiro_wilk,0.9069322241985501,0.2605762763458104,False
+lightgbm vs logistic_regression (auc_roc),aeeem_pde_static_10fold,wilcoxon_auc_roc,10.0,0.083984375,False
+lightgbm vs logistic_regression (auc_roc),aeeem_pde_static_10fold,paired_ttest_auc_roc,2.1578617880483106,0.05927341388141492,False
+lightgbm vs logistic_regression (f1 diff normality),aeeem_pde_static_10fold,shapiro_wilk,0.8938485185419374,0.18729194764260126,False
+lightgbm vs logistic_regression (f1),aeeem_pde_static_10fold,wilcoxon_f1,22.0,0.625,False
+lightgbm vs logistic_regression (f1),aeeem_pde_static_10fold,paired_ttest_f1,-0.6758856654507218,0.516102944115782,False
+lightgbm vs random_forest (auc_roc diff normality),aeeem_pde_static_10fold,shapiro_wilk,0.9458416751081095,0.6196370691580214,False
+lightgbm vs random_forest (auc_roc),aeeem_pde_static_10fold,wilcoxon_auc_roc,4.0,0.013671875,True
+lightgbm vs random_forest (auc_roc),aeeem_pde_static_10fold,paired_ttest_auc_roc,-2.8518571482065984,0.019031449341340163,True
+lightgbm vs random_forest (f1 diff normality),aeeem_pde_static_10fold,shapiro_wilk,0.854184134338137,0.06513228129252557,False
+lightgbm vs random_forest (f1),aeeem_pde_static_10fold,wilcoxon_f1,18.0,0.40234375,False
+lightgbm vs random_forest (f1),aeeem_pde_static_10fold,paired_ttest_f1,0.2577216137707189,0.8024178894047699,False
+lightgbm vs xgboost (auc_roc diff normality),aeeem_pde_static_10fold,shapiro_wilk,0.9260625675129289,0.4102983666664852,False
+lightgbm vs xgboost (auc_roc),aeeem_pde_static_10fold,wilcoxon_auc_roc,14.0,0.193359375,False
+lightgbm vs xgboost (auc_roc),aeeem_pde_static_10fold,paired_ttest_auc_roc,-1.0080799960718387,0.33974859617970554,False
+lightgbm vs xgboost (f1 diff normality),aeeem_pde_static_10fold,shapiro_wilk,0.8591298862526132,0.07452618144589841,False
+lightgbm vs xgboost (f1),aeeem_pde_static_10fold,wilcoxon_f1,15.0,0.232421875,False
+lightgbm vs xgboost (f1),aeeem_pde_static_10fold,paired_ttest_f1,0.8785873772084921,0.40247174289184384,False
+logistic_regression vs random_forest (auc_roc diff normality),aeeem_pde_static_10fold,shapiro_wilk,0.9509499629293228,0.6797488868313359,False
+logistic_regression vs random_forest (auc_roc),aeeem_pde_static_10fold,wilcoxon_auc_roc,4.0,0.013671875,True
+logistic_regression vs random_forest (auc_roc),aeeem_pde_static_10fold,paired_ttest_auc_roc,-3.1914411015647133,0.010981133303266782,True
+logistic_regression vs random_forest (f1 diff normality),aeeem_pde_static_10fold,shapiro_wilk,0.9610870744024358,0.7981942780898357,False
+logistic_regression vs random_forest (f1),aeeem_pde_static_10fold,wilcoxon_f1,21.0,0.556640625,False
+logistic_regression vs random_forest (f1),aeeem_pde_static_10fold,paired_ttest_f1,0.7553018004716701,0.46937212294562103,False
+logistic_regression vs xgboost (auc_roc diff normality),aeeem_pde_static_10fold,shapiro_wilk,0.830571969902633,0.03399573517058988,True
+logistic_regression vs xgboost (auc_roc),aeeem_pde_static_10fold,wilcoxon_auc_roc,2.0,0.005859375,True
+logistic_regression vs xgboost (auc_roc),aeeem_pde_static_10fold,paired_ttest_auc_roc_normality_violated,-2.742574880509227,0.02275151864435969,True
+logistic_regression vs xgboost (f1 diff normality),aeeem_pde_static_10fold,shapiro_wilk,0.9379258149097933,0.5301727736681988,False
+logistic_regression vs xgboost (f1),aeeem_pde_static_10fold,wilcoxon_f1,16.0,0.275390625,False
+logistic_regression vs xgboost (f1),aeeem_pde_static_10fold,paired_ttest_f1,1.545943226275076,0.15651990087658296,False
+random_forest vs xgboost (auc_roc diff normality),aeeem_pde_static_10fold,shapiro_wilk,0.8639324787574982,0.08488938709925659,False
+random_forest vs xgboost (auc_roc),aeeem_pde_static_10fold,wilcoxon_auc_roc,19.0,0.431640625,False
+random_forest vs xgboost (auc_roc),aeeem_pde_static_10fold,paired_ttest_auc_roc,1.0964351150759586,0.30135800540962376,False
+random_forest vs xgboost (f1 diff normality),aeeem_pde_static_10fold,shapiro_wilk,0.8432271680170735,0.04822855997221224,True
+random_forest vs xgboost (f1),aeeem_pde_static_10fold,wilcoxon_f1,21.0,0.556640625,False
+random_forest vs xgboost (f1),aeeem_pde_static_10fold,paired_ttest_f1_normality_violated,0.8169790344422337,0.43503260520197246,False
+random_forest vs xgboost (instance accuracy),aeeem_pde_static_5fold,mcnemar,11.183823529411764,0.000825135584612877,True
+lightgbm vs logistic_regression (auc_roc diff normality),aeeem_pde_static_5fold,shapiro_wilk,0.9324322918929775,0.6130485217061236,False
+lightgbm vs logistic_regression (auc_roc),aeeem_pde_static_5fold,wilcoxon_auc_roc,2.0,0.1875,False
+lightgbm vs logistic_regression (auc_roc),aeeem_pde_static_5fold,paired_ttest_auc_roc,1.3951093592160244,0.23545803018104214,False
+lightgbm vs logistic_regression (f1 diff normality),aeeem_pde_static_5fold,shapiro_wilk,0.8735780764073137,0.28121588701700706,False
+lightgbm vs logistic_regression (f1),aeeem_pde_static_5fold,wilcoxon_f1,3.0,0.3125,False
+lightgbm vs logistic_regression (f1),aeeem_pde_static_5fold,paired_ttest_f1,-1.6548164745505907,0.17330416447767386,False
+lightgbm vs random_forest (auc_roc diff normality),aeeem_pde_static_5fold,shapiro_wilk,0.9337701100376207,0.6222956075536585,False
+lightgbm vs random_forest (auc_roc),aeeem_pde_static_5fold,wilcoxon_auc_roc,0.0,0.0625,False
+lightgbm vs random_forest (auc_roc),aeeem_pde_static_5fold,paired_ttest_auc_roc,-3.6532448809472426,0.02170921840939607,True
+lightgbm vs random_forest (f1 diff normality),aeeem_pde_static_5fold,shapiro_wilk,0.8802286950918531,0.3103486169611888,False
+lightgbm vs random_forest (f1),aeeem_pde_static_5fold,wilcoxon_f1,0.0,0.125,False
+lightgbm vs random_forest (f1),aeeem_pde_static_5fold,paired_ttest_f1,-2.5855701800890296,0.060968018863026205,False
+lightgbm vs xgboost (auc_roc diff normality),aeeem_pde_static_5fold,shapiro_wilk,0.8072693904204972,0.09275528849258247,False
+lightgbm vs xgboost (auc_roc),aeeem_pde_static_5fold,wilcoxon_auc_roc,3.0,0.3125,False
+lightgbm vs xgboost (auc_roc),aeeem_pde_static_5fold,paired_ttest_auc_roc,-1.6711355112465065,0.1700144031983523,False
+lightgbm vs xgboost (f1 diff normality),aeeem_pde_static_5fold,shapiro_wilk,0.9149685991802167,0.4980161557130975,False
+lightgbm vs xgboost (f1),aeeem_pde_static_5fold,wilcoxon_f1,4.0,0.4375,False
+lightgbm vs xgboost (f1),aeeem_pde_static_5fold,paired_ttest_f1,-1.202057891330369,0.2956366608222652,False
+logistic_regression vs random_forest (auc_roc diff normality),aeeem_pde_static_5fold,shapiro_wilk,0.9606625686287511,0.8125895496327673,False
+logistic_regression vs random_forest (auc_roc),aeeem_pde_static_5fold,wilcoxon_auc_roc,1.0,0.125,False
+logistic_regression vs random_forest (auc_roc),aeeem_pde_static_5fold,paired_ttest_auc_roc,-2.3582022320163416,0.07781539058033848,False
+logistic_regression vs random_forest (f1 diff normality),aeeem_pde_static_5fold,shapiro_wilk,0.9695495047767441,0.8723544039364886,False
+logistic_regression vs random_forest (f1),aeeem_pde_static_5fold,wilcoxon_f1,7.0,1.0,False
+logistic_regression vs random_forest (f1),aeeem_pde_static_5fold,paired_ttest_f1,0.043073579345027264,0.9677072962633768,False
+logistic_regression vs xgboost (auc_roc diff normality),aeeem_pde_static_5fold,shapiro_wilk,0.9226001964891861,0.5468509309308206,False
+logistic_regression vs xgboost (auc_roc),aeeem_pde_static_5fold,wilcoxon_auc_roc,0.0,0.0625,False
+logistic_regression vs xgboost (auc_roc),aeeem_pde_static_5fold,paired_ttest_auc_roc,-2.616424212691118,0.05902043357894059,False
+logistic_regression vs xgboost (f1 diff normality),aeeem_pde_static_5fold,shapiro_wilk,0.9071611777297994,0.45072020683186254,False
+logistic_regression vs xgboost (f1),aeeem_pde_static_5fold,wilcoxon_f1,4.0,0.4375,False
+logistic_regression vs xgboost (f1),aeeem_pde_static_5fold,paired_ttest_f1,0.7229784504232839,0.5097063678537167,False
+random_forest vs xgboost (auc_roc diff normality),aeeem_pde_static_5fold,shapiro_wilk,0.945622688166034,0.7059117558692221,False
+random_forest vs xgboost (auc_roc),aeeem_pde_static_5fold,wilcoxon_auc_roc,5.0,0.625,False
+random_forest vs xgboost (auc_roc),aeeem_pde_static_5fold,paired_ttest_auc_roc,0.7944594439285461,0.47140125947579575,False
+random_forest vs xgboost (f1 diff normality),aeeem_pde_static_5fold,shapiro_wilk,0.8223251004402188,0.1216754853940829,False
+random_forest vs xgboost (f1),aeeem_pde_static_5fold,wilcoxon_f1,6.0,0.8125,False
+random_forest vs xgboost (f1),aeeem_pde_static_5fold,paired_ttest_f1,0.6776117224446186,0.535187760684976,False
+xgboost vs lightgbm (instance accuracy),cm1_static_10fold,mcnemar,6.0,1.0,False
+lightgbm vs logistic_regression (auc_roc diff normality),cm1_static_10fold,shapiro_wilk,0.9273068000942609,0.4219304658161918,False
+lightgbm vs logistic_regression (auc_roc),cm1_static_10fold,wilcoxon_auc_roc,9.0,0.064453125,False
+lightgbm vs logistic_regression (auc_roc),cm1_static_10fold,paired_ttest_auc_roc,1.6972267700568124,0.12388352172462877,False
+lightgbm vs logistic_regression (f1 diff normality),cm1_static_10fold,shapiro_wilk,0.9370007837258141,0.520148102609439,False
+lightgbm vs logistic_regression (f1),cm1_static_10fold,wilcoxon_f1,18.0,0.38671875,False
+lightgbm vs logistic_regression (f1),cm1_static_10fold,paired_ttest_f1,-0.6736631355079165,0.5174506019847969,False
+lightgbm vs random_forest (auc_roc diff normality),cm1_static_10fold,shapiro_wilk,0.9136611198191871,0.307097532601874,False
+lightgbm vs random_forest (auc_roc),cm1_static_10fold,wilcoxon_auc_roc,20.0,0.5234375,False
+lightgbm vs random_forest (auc_roc),cm1_static_10fold,paired_ttest_auc_roc,1.0433475217515216,0.32400106424842917,False
+lightgbm vs random_forest (f1 diff normality),cm1_static_10fold,shapiro_wilk,0.8510931546250784,0.059854449667087514,False
+lightgbm vs random_forest (f1),cm1_static_10fold,wilcoxon_f1,4.0,0.03125,True
+lightgbm vs random_forest (f1),cm1_static_10fold,paired_ttest_f1,2.439436494141161,0.037399189094199634,True
+lightgbm vs xgboost (auc_roc diff normality),cm1_static_10fold,shapiro_wilk,0.9726892752921649,0.9145976985740546,False
+lightgbm vs xgboost (auc_roc),cm1_static_10fold,wilcoxon_auc_roc,27.0,0.98046875,False
+lightgbm vs xgboost (auc_roc),cm1_static_10fold,paired_ttest_auc_roc,-0.33084242504236644,0.748335914072649,False
+lightgbm vs xgboost (f1 diff normality),cm1_static_10fold,shapiro_wilk,0.8343452601430928,0.037741413797521356,True
+lightgbm vs xgboost (f1),cm1_static_10fold,wilcoxon_f1,15.0,0.625,False
+lightgbm vs xgboost (f1),cm1_static_10fold,paired_ttest_f1_normality_violated,-0.7881796223726214,0.45085156009315874,False
+logistic_regression vs random_forest (auc_roc diff normality),cm1_static_10fold,shapiro_wilk,0.9335202317729686,0.4833960001868367,False
+logistic_regression vs random_forest (auc_roc),cm1_static_10fold,wilcoxon_auc_roc,21.0,0.556640625,False
+logistic_regression vs random_forest (auc_roc),cm1_static_10fold,paired_ttest_auc_roc,-0.6758155760949475,0.5161454109946363,False
+logistic_regression vs random_forest (f1 diff normality),cm1_static_10fold,shapiro_wilk,0.8522982832304383,0.06186093591745446,False
+logistic_regression vs random_forest (f1),cm1_static_10fold,wilcoxon_f1,0.0,0.001953125,True
+logistic_regression vs random_forest (f1),cm1_static_10fold,paired_ttest_f1,4.712371299995515,0.0011008342232159626,True
+logistic_regression vs xgboost (auc_roc diff normality),cm1_static_10fold,shapiro_wilk,0.9236558379240326,0.3884571808007611,False
+logistic_regression vs xgboost (auc_roc),cm1_static_10fold,wilcoxon_auc_roc,17.0,0.322265625,False
+logistic_regression vs xgboost (auc_roc),cm1_static_10fold,paired_ttest_auc_roc,-1.368855078854014,0.20423465814653743,False
+logistic_regression vs xgboost (f1 diff normality),cm1_static_10fold,shapiro_wilk,0.9457661108573913,0.6187575709092796,False
+logistic_regression vs xgboost (f1),cm1_static_10fold,wilcoxon_f1,24.0,0.74609375,False
+logistic_regression vs xgboost (f1),cm1_static_10fold,paired_ttest_f1,0.37160022318615876,0.7187882437439284,False
+random_forest vs xgboost (auc_roc diff normality),cm1_static_10fold,shapiro_wilk,0.9659989805204354,0.8514753084739695,False
+random_forest vs xgboost (auc_roc),cm1_static_10fold,wilcoxon_auc_roc,13.0,0.16015625,False
+random_forest vs xgboost (auc_roc),cm1_static_10fold,paired_ttest_auc_roc,-1.2344160626477192,0.2483064889177541,False
+random_forest vs xgboost (f1 diff normality),cm1_static_10fold,shapiro_wilk,0.8760606238800668,0.11754493664293786,False
+random_forest vs xgboost (f1),cm1_static_10fold,wilcoxon_f1,4.0,0.03125,True
+random_forest vs xgboost (f1),cm1_static_10fold,paired_ttest_f1,-2.714898313767543,0.023805810950329537,True
+xgboost vs lightgbm (instance accuracy),cm1_static_5fold,mcnemar,4.0,0.11846923828124999,False
+lightgbm vs logistic_regression (auc_roc diff normality),cm1_static_5fold,shapiro_wilk,0.790822530830413,0.06807054610777899,False
+lightgbm vs logistic_regression (auc_roc),cm1_static_5fold,wilcoxon_auc_roc,3.0,0.3125,False
+lightgbm vs logistic_regression (auc_roc),cm1_static_5fold,paired_ttest_auc_roc,1.5314374535069866,0.2004181200872656,False
+lightgbm vs logistic_regression (f1 diff normality),cm1_static_5fold,shapiro_wilk,0.968560748185248,0.8659383040005355,False
+lightgbm vs logistic_regression (f1),cm1_static_5fold,wilcoxon_f1,3.0,0.3125,False
+lightgbm vs logistic_regression (f1),cm1_static_5fold,paired_ttest_f1,-1.1410634312299754,0.31751926246211076,False
+lightgbm vs random_forest (auc_roc diff normality),cm1_static_5fold,shapiro_wilk,0.9514529295724632,0.7475638495517509,False
+lightgbm vs random_forest (auc_roc),cm1_static_5fold,wilcoxon_auc_roc,7.0,1.0,False
+lightgbm vs random_forest (auc_roc),cm1_static_5fold,paired_ttest_auc_roc,0.39152385592061867,0.7153723101626097,False
+lightgbm vs random_forest (f1 diff normality),cm1_static_5fold,shapiro_wilk,0.874106364637576,0.28345168426905065,False
+lightgbm vs random_forest (f1),cm1_static_5fold,wilcoxon_f1,6.0,0.8125,False
+lightgbm vs random_forest (f1),cm1_static_5fold,paired_ttest_f1,1.1081063586894788,0.32995696987743967,False
+lightgbm vs xgboost (auc_roc diff normality),cm1_static_5fold,shapiro_wilk,0.9321378253962422,0.6110199641866922,False
+lightgbm vs xgboost (auc_roc),cm1_static_5fold,wilcoxon_auc_roc,2.0,0.25,False
+lightgbm vs xgboost (auc_roc),cm1_static_5fold,paired_ttest_auc_roc,-1.8305964088252862,0.14112982963944556,False
+lightgbm vs xgboost (f1 diff normality),cm1_static_5fold,shapiro_wilk,0.9119710927616048,0.47952569833939684,False
+lightgbm vs xgboost (f1),cm1_static_5fold,wilcoxon_f1,2.0,0.25,False
+lightgbm vs xgboost (f1),cm1_static_5fold,paired_ttest_f1,-1.611232078608853,0.1824200795988528,False
+logistic_regression vs random_forest (auc_roc diff normality),cm1_static_5fold,shapiro_wilk,0.9393996257432646,0.6616966759458613,False
+logistic_regression vs random_forest (auc_roc),cm1_static_5fold,wilcoxon_auc_roc,4.0,0.4375,False
+logistic_regression vs random_forest (auc_roc),cm1_static_5fold,paired_ttest_auc_roc,-0.9856586582064308,0.3801022972659276,False
+logistic_regression vs random_forest (f1 diff normality),cm1_static_5fold,shapiro_wilk,0.9726160224041731,0.891763308376601,False
+logistic_regression vs random_forest (f1),cm1_static_5fold,wilcoxon_f1,1.0,0.125,False
+logistic_regression vs random_forest (f1),cm1_static_5fold,paired_ttest_f1,2.0320658445231023,0.11194922655960399,False
+logistic_regression vs xgboost (auc_roc diff normality),cm1_static_5fold,shapiro_wilk,0.9433884499373806,0.6899832224906437,False
+logistic_regression vs xgboost (auc_roc),cm1_static_5fold,wilcoxon_auc_roc,1.0,0.125,False
+logistic_regression vs xgboost (auc_roc),cm1_static_5fold,paired_ttest_auc_roc,-2.462384769666856,0.0695130180392436,False
+logistic_regression vs xgboost (f1 diff normality),cm1_static_5fold,shapiro_wilk,0.9607715462938937,0.8133456701578048,False
+logistic_regression vs xgboost (f1),cm1_static_5fold,wilcoxon_f1,5.0,0.625,False
+logistic_regression vs xgboost (f1),cm1_static_5fold,paired_ttest_f1,0.5915050351454678,0.5859925125857162,False
+random_forest vs xgboost (auc_roc diff normality),cm1_static_5fold,shapiro_wilk,0.8993967965498274,0.40656059502048714,False
+random_forest vs xgboost (auc_roc),cm1_static_5fold,wilcoxon_auc_roc,1.0,0.125,False
+random_forest vs xgboost (auc_roc),cm1_static_5fold,paired_ttest_auc_roc,-2.7597463077637965,0.050862856727359414,False
+random_forest vs xgboost (f1 diff normality),cm1_static_5fold,shapiro_wilk,0.898908793751516,0.4038838421212758,False
+random_forest vs xgboost (f1),cm1_static_5fold,wilcoxon_f1,0.0,0.125,False
+random_forest vs xgboost (f1),cm1_static_5fold,paired_ttest_f1,-2.067950358628331,0.10747945782402056,False
+random_forest vs logistic_regression (instance accuracy),kc1_static_10fold,mcnemar,0.16,0.6891565167793516,False
+lightgbm vs logistic_regression (auc_roc diff normality),kc1_static_10fold,shapiro_wilk,0.9576944822771496,0.7592981238220456,False
+lightgbm vs logistic_regression (auc_roc),kc1_static_10fold,wilcoxon_auc_roc,23.0,0.73046875,False
+lightgbm vs logistic_regression (auc_roc),kc1_static_10fold,paired_ttest_auc_roc,-0.0752474577671992,0.9416638824715116,False
+lightgbm vs logistic_regression (f1 diff normality),kc1_static_10fold,shapiro_wilk,0.953835500519625,0.7139436990585202,False
+lightgbm vs logistic_regression (f1),kc1_static_10fold,wilcoxon_f1,27.0,1.0,False
+lightgbm vs logistic_regression (f1),kc1_static_10fold,paired_ttest_f1,-0.03333906862801144,0.9741318794887524,False
+lightgbm vs random_forest (auc_roc diff normality),kc1_static_10fold,shapiro_wilk,0.861708556670937,0.07992915348746948,False
+lightgbm vs random_forest (auc_roc),kc1_static_10fold,wilcoxon_auc_roc,21.5,0.796875,False
+lightgbm vs random_forest (auc_roc),kc1_static_10fold,paired_ttest_auc_roc,-0.3113301860354014,0.7626402662864337,False
+lightgbm vs random_forest (f1 diff normality),kc1_static_10fold,shapiro_wilk,0.7472979371731585,0.0033083012614931956,True
+lightgbm vs random_forest (f1),kc1_static_10fold,wilcoxon_f1,15.0,0.5,False
+lightgbm vs random_forest (f1),kc1_static_10fold,paired_ttest_f1_normality_violated,-0.056956493929158115,0.9558243213360507,False
+lightgbm vs xgboost (auc_roc diff normality),kc1_static_10fold,shapiro_wilk,0.9260336842986672,0.410031088544635,False
+lightgbm vs xgboost (auc_roc),kc1_static_10fold,wilcoxon_auc_roc,23.5,0.73828125,False
+lightgbm vs xgboost (auc_roc),kc1_static_10fold,paired_ttest_auc_roc,0.03467802579457296,0.973093422757499,False
+lightgbm vs xgboost (f1 diff normality),kc1_static_10fold,shapiro_wilk,0.8998554047165211,0.21829670834095494,False
+lightgbm vs xgboost (f1),kc1_static_10fold,wilcoxon_f1,8.0,0.25,False
+lightgbm vs xgboost (f1),kc1_static_10fold,paired_ttest_f1,-1.2342398241115502,0.24836906374817555,False
+logistic_regression vs random_forest (auc_roc diff normality),kc1_static_10fold,shapiro_wilk,0.9474423599568547,0.6383493192130901,False
+logistic_regression vs random_forest (auc_roc),kc1_static_10fold,wilcoxon_auc_roc,26.0,0.94140625,False
+logistic_regression vs random_forest (auc_roc),kc1_static_10fold,paired_ttest_auc_roc,-0.2288332971478376,0.8241136474764769,False
+logistic_regression vs random_forest (f1 diff normality),kc1_static_10fold,shapiro_wilk,0.9317671208317173,0.4654972786620632,False
+logistic_regression vs random_forest (f1),kc1_static_10fold,wilcoxon_f1,26.5,0.984375,False
+logistic_regression vs random_forest (f1),kc1_static_10fold,paired_ttest_f1,-0.036676197532838004,0.9715437983819623,False
+logistic_regression vs xgboost (auc_roc diff normality),kc1_static_10fold,shapiro_wilk,0.9669780728451333,0.8615005112529275,False
+logistic_regression vs xgboost (auc_roc),kc1_static_10fold,wilcoxon_auc_roc,26.0,1.0,False
+logistic_regression vs xgboost (auc_roc),kc1_static_10fold,paired_ttest_auc_roc,0.12918943825440896,0.9000488211133902,False
+logistic_regression vs xgboost (f1 diff normality),kc1_static_10fold,shapiro_wilk,0.9243170822508707,0.3943710553222983,False
+logistic_regression vs xgboost (f1),kc1_static_10fold,wilcoxon_f1,22.0,0.66015625,False
+logistic_regression vs xgboost (f1),kc1_static_10fold,paired_ttest_f1,-0.36099571345478015,0.7264310992815174,False
+random_forest vs xgboost (auc_roc diff normality),kc1_static_10fold,shapiro_wilk,0.8195889463678516,0.025053636201102417,True
+random_forest vs xgboost (auc_roc),kc1_static_10fold,wilcoxon_auc_roc,26.0,0.9609375,False
+random_forest vs xgboost (auc_roc),kc1_static_10fold,paired_ttest_auc_roc_normality_violated,0.46073831679728294,0.6559170220313129,False
+random_forest vs xgboost (f1 diff normality),kc1_static_10fold,shapiro_wilk,0.7755697437306722,0.007311359264510629,True
+random_forest vs xgboost (f1),kc1_static_10fold,wilcoxon_f1,14.0,0.296875,False
+random_forest vs xgboost (f1),kc1_static_10fold,paired_ttest_f1_normality_violated,-0.263735231718056,0.7979232390340208,False
+random_forest vs xgboost (instance accuracy),kc1_static_5fold,mcnemar,7.0,0.629058837890625,False
+lightgbm vs logistic_regression (auc_roc diff normality),kc1_static_5fold,shapiro_wilk,0.9756842103214919,0.9103189833852303,False
+lightgbm vs logistic_regression (auc_roc),kc1_static_5fold,wilcoxon_auc_roc,7.0,1.0,False
+lightgbm vs logistic_regression (auc_roc),kc1_static_5fold,paired_ttest_auc_roc,0.175665150036424,0.8690913200990029,False
+lightgbm vs logistic_regression (f1 diff normality),kc1_static_5fold,shapiro_wilk,0.9719411799217054,0.8875604166861164,False
+lightgbm vs logistic_regression (f1),kc1_static_5fold,wilcoxon_f1,7.0,1.0,False
+lightgbm vs logistic_regression (f1),kc1_static_5fold,paired_ttest_f1,-0.1025159515948156,0.923280915923094,False
+lightgbm vs random_forest (auc_roc diff normality),kc1_static_5fold,shapiro_wilk,0.8430615871459435,0.17356409061577927,False
+lightgbm vs random_forest (auc_roc),kc1_static_5fold,wilcoxon_auc_roc,5.0,0.625,False
+lightgbm vs random_forest (auc_roc),kc1_static_5fold,paired_ttest_auc_roc,-0.13363062095621095,0.900148148148149,False
+lightgbm vs random_forest (f1 diff normality),kc1_static_5fold,shapiro_wilk,0.894862085541472,0.38214311956343816,False
+lightgbm vs random_forest (f1),kc1_static_5fold,wilcoxon_f1,5.0,0.75,False
+lightgbm vs random_forest (f1),kc1_static_5fold,paired_ttest_f1,-0.9906786767971997,0.377921518215457,False
+lightgbm vs xgboost (auc_roc diff normality),kc1_static_5fold,shapiro_wilk,0.762191555713018,0.03844831334169169,True
+lightgbm vs xgboost (auc_roc),kc1_static_5fold,wilcoxon_auc_roc,5.0,0.625,False
+lightgbm vs xgboost (auc_roc),kc1_static_5fold,paired_ttest_auc_roc_normality_violated,-0.1846372364689988,0.862496859018848,False
+lightgbm vs xgboost (f1 diff normality),kc1_static_5fold,shapiro_wilk,0.9628784148737372,0.8278715331046423,False
+lightgbm vs xgboost (f1),kc1_static_5fold,wilcoxon_f1,4.0,0.75,False
+lightgbm vs xgboost (f1),kc1_static_5fold,paired_ttest_f1,0.4327672580644098,0.6874960425941803,False
+logistic_regression vs random_forest (auc_roc diff normality),kc1_static_5fold,shapiro_wilk,0.9774697632223045,0.9206517832798626,False
+logistic_regression vs random_forest (auc_roc),kc1_static_5fold,wilcoxon_auc_roc,5.0,0.625,False
+logistic_regression vs random_forest (auc_roc),kc1_static_5fold,paired_ttest_auc_roc,-0.34412360080584153,0.7480828691925923,False
+logistic_regression vs random_forest (f1 diff normality),kc1_static_5fold,shapiro_wilk,0.8000243666996555,0.08107144842879488,False
+logistic_regression vs random_forest (f1),kc1_static_5fold,wilcoxon_f1,4.0,0.4375,False
+logistic_regression vs random_forest (f1),kc1_static_5fold,paired_ttest_f1,-0.5695294594788394,0.5994564871736778,False
+logistic_regression vs xgboost (auc_roc diff normality),kc1_static_5fold,shapiro_wilk,0.9419263995815743,0.6795883156475317,False
+logistic_regression vs xgboost (auc_roc),kc1_static_5fold,wilcoxon_auc_roc,6.0,0.75,False
+logistic_regression vs xgboost (auc_roc),kc1_static_5fold,paired_ttest_auc_roc,-0.4190790380624745,0.6966846220359477,False
+logistic_regression vs xgboost (f1 diff normality),kc1_static_5fold,shapiro_wilk,0.8607515986713226,0.23095946031215914,False
+logistic_regression vs xgboost (f1),kc1_static_5fold,wilcoxon_f1,5.0,0.625,False
+logistic_regression vs xgboost (f1),kc1_static_5fold,paired_ttest_f1,0.4224125318175036,0.6944410371384624,False
+random_forest vs xgboost (auc_roc diff normality),kc1_static_5fold,shapiro_wilk,0.8429071142960197,0.17311936863657956,False
+random_forest vs xgboost (auc_roc),kc1_static_5fold,wilcoxon_auc_roc,5.0,0.625,False
+random_forest vs xgboost (auc_roc),kc1_static_5fold,paired_ttest_auc_roc,0.023762422826086725,0.9821802790567884,False
+random_forest vs xgboost (f1 diff normality),kc1_static_5fold,shapiro_wilk,0.7939693397364069,0.0722979177340807,False
+random_forest vs xgboost (f1),kc1_static_5fold,wilcoxon_f1,0.0,0.25,False
+random_forest vs xgboost (f1),kc1_static_5fold,paired_ttest_f1,1.5580999833375244,0.1942093752700686,False
+lightgbm vs random_forest (instance accuracy),pc1_static_10fold,mcnemar,2.064516129032258,0.1507627750266412,False
+lightgbm vs logistic_regression (auc_roc diff normality),pc1_static_10fold,shapiro_wilk,0.958783670913145,0.7719187041671909,False
+lightgbm vs logistic_regression (auc_roc),pc1_static_10fold,wilcoxon_auc_roc,21.0,0.556640625,False
+lightgbm vs logistic_regression (auc_roc),pc1_static_10fold,paired_ttest_auc_roc,0.9723351072546165,0.3562898165408007,False
+lightgbm vs logistic_regression (f1 diff normality),pc1_static_10fold,shapiro_wilk,0.9598767443566866,0.784466023423438,False
+lightgbm vs logistic_regression (f1),pc1_static_10fold,wilcoxon_f1,12.0,0.14453125,False
+lightgbm vs logistic_regression (f1),pc1_static_10fold,paired_ttest_f1,1.7555412661989325,0.11305336095245003,False
+lightgbm vs random_forest (auc_roc diff normality),pc1_static_10fold,shapiro_wilk,0.9850585789563687,0.9864611324339826,False
+lightgbm vs random_forest (auc_roc),pc1_static_10fold,wilcoxon_auc_roc,26.0,0.921875,False
+lightgbm vs random_forest (auc_roc),pc1_static_10fold,paired_ttest_auc_roc,0.18216623626198578,0.8594893331842189,False
+lightgbm vs random_forest (f1 diff normality),pc1_static_10fold,shapiro_wilk,0.867652901421332,0.09385323309376942,False
+lightgbm vs random_forest (f1),pc1_static_10fold,wilcoxon_f1,18.0,0.375,False
+lightgbm vs random_forest (f1),pc1_static_10fold,paired_ttest_f1,1.0134320759892903,0.3373222950081245,False
+lightgbm vs xgboost (auc_roc diff normality),pc1_static_10fold,shapiro_wilk,0.9420235632713528,0.5757422443489638,False
+lightgbm vs xgboost (auc_roc),pc1_static_10fold,wilcoxon_auc_roc,22.0,0.63671875,False
+lightgbm vs xgboost (auc_roc),pc1_static_10fold,paired_ttest_auc_roc,0.3853939542748109,0.7088961851759171,False
+lightgbm vs xgboost (f1 diff normality),pc1_static_10fold,shapiro_wilk,0.7922201693136881,0.01166064486502207,True
+lightgbm vs xgboost (f1),pc1_static_10fold,wilcoxon_f1,19.0,0.4609375,False
+lightgbm vs xgboost (f1),pc1_static_10fold,paired_ttest_f1_normality_violated,0.3091385305477766,0.7642530447421013,False
+logistic_regression vs random_forest (auc_roc diff normality),pc1_static_10fold,shapiro_wilk,0.8892806463000984,0.16643990509410445,False
+logistic_regression vs random_forest (auc_roc),pc1_static_10fold,wilcoxon_auc_roc,19.0,0.431640625,False
+logistic_regression vs random_forest (auc_roc),pc1_static_10fold,paired_ttest_auc_roc,-0.842641797746515,0.4212569232652213,False
+logistic_regression vs random_forest (f1 diff normality),pc1_static_10fold,shapiro_wilk,0.8237877025800475,0.02815871355425175,True
+logistic_regression vs random_forest (f1),pc1_static_10fold,wilcoxon_f1,24.0,0.75,False
+logistic_regression vs random_forest (f1),pc1_static_10fold,paired_ttest_f1_normality_violated,-0.36196740778502673,0.7257294339534176,False
+logistic_regression vs xgboost (auc_roc diff normality),pc1_static_10fold,shapiro_wilk,0.9549604909324233,0.7272388877131104,False
+logistic_regression vs xgboost (auc_roc),pc1_static_10fold,wilcoxon_auc_roc,21.0,0.556640625,False
+logistic_regression vs xgboost (auc_roc),pc1_static_10fold,paired_ttest_auc_roc,-0.9111713961651406,0.3859594283328823,False
+logistic_regression vs xgboost (f1 diff normality),pc1_static_10fold,shapiro_wilk,0.9080490050984984,0.26785683853278164,False
+logistic_regression vs xgboost (f1),pc1_static_10fold,wilcoxon_f1,18.0,0.375,False
+logistic_regression vs xgboost (f1),pc1_static_10fold,paired_ttest_f1,-1.124000043817086,0.2900977094797826,False
+random_forest vs xgboost (auc_roc diff normality),pc1_static_10fold,shapiro_wilk,0.8969187215047518,0.20260763754351718,False
+random_forest vs xgboost (auc_roc),pc1_static_10fold,wilcoxon_auc_roc,24.5,0.787109375,False
+random_forest vs xgboost (auc_roc),pc1_static_10fold,paired_ttest_auc_roc,0.050197806435543064,0.9610611669856263,False
+random_forest vs xgboost (f1 diff normality),pc1_static_10fold,shapiro_wilk,0.8705911475533973,0.10156381706367623,False
+random_forest vs xgboost (f1),pc1_static_10fold,wilcoxon_f1,15.0,0.232421875,False
+random_forest vs xgboost (f1),pc1_static_10fold,paired_ttest_f1,-1.406019702783414,0.19329094193012267,False
+random_forest vs xgboost (instance accuracy),pc1_static_5fold,mcnemar,8.204545454545455,0.004178557568166477,True
+lightgbm vs logistic_regression (auc_roc diff normality),pc1_static_5fold,shapiro_wilk,0.929842417154373,0.5952962852837831,False
+lightgbm vs logistic_regression (auc_roc),pc1_static_5fold,wilcoxon_auc_roc,6.0,0.8125,False
+lightgbm vs logistic_regression (auc_roc),pc1_static_5fold,paired_ttest_auc_roc,0.49771343691887143,0.6448046975938938,False
+lightgbm vs logistic_regression (f1 diff normality),pc1_static_5fold,shapiro_wilk,0.9701880327780147,0.8764591000551591,False
+lightgbm vs logistic_regression (f1),pc1_static_5fold,wilcoxon_f1,6.0,0.8125,False
+lightgbm vs logistic_regression (f1),pc1_static_5fold,paired_ttest_f1,-0.27897877233783763,0.7940906313576472,False
+lightgbm vs random_forest (auc_roc diff normality),pc1_static_5fold,shapiro_wilk,0.9257111282472167,0.567429830958365,False
+lightgbm vs random_forest (auc_roc),pc1_static_5fold,wilcoxon_auc_roc,3.0,0.3125,False
+lightgbm vs random_forest (auc_roc),pc1_static_5fold,paired_ttest_auc_roc,-1.4922096959612745,0.20992351761382982,False
+lightgbm vs random_forest (f1 diff normality),pc1_static_5fold,shapiro_wilk,0.978587512461648,0.9269247064932316,False
+lightgbm vs random_forest (f1),pc1_static_5fold,wilcoxon_f1,2.0,0.1875,False
+lightgbm vs random_forest (f1),pc1_static_5fold,paired_ttest_f1,1.9309743024078116,0.12567449568256503,False
+lightgbm vs xgboost (auc_roc diff normality),pc1_static_5fold,shapiro_wilk,0.966747346253853,0.8539958843310806,False
+lightgbm vs xgboost (auc_roc),pc1_static_5fold,wilcoxon_auc_roc,3.0,0.3125,False
+lightgbm vs xgboost (auc_roc),pc1_static_5fold,paired_ttest_auc_roc,-1.4269851606095392,0.22674970669784733,False
+lightgbm vs xgboost (f1 diff normality),pc1_static_5fold,shapiro_wilk,0.8904894923840158,0.3595705469299554,False
+lightgbm vs xgboost (f1),pc1_static_5fold,wilcoxon_f1,0.0,0.0625,False
+lightgbm vs xgboost (f1),pc1_static_5fold,paired_ttest_f1,2.780107085790425,0.049813053161798466,True
+logistic_regression vs random_forest (auc_roc diff normality),pc1_static_5fold,shapiro_wilk,0.8747099078077533,0.2860223985951717,False
+logistic_regression vs random_forest (auc_roc),pc1_static_5fold,wilcoxon_auc_roc,4.0,0.4375,False
+logistic_regression vs random_forest (auc_roc),pc1_static_5fold,paired_ttest_auc_roc,-1.036233578852223,0.3586253955192653,False
+logistic_regression vs random_forest (f1 diff normality),pc1_static_5fold,shapiro_wilk,0.8221550405795864,0.1213107353422877,False
+logistic_regression vs random_forest (f1),pc1_static_5fold,wilcoxon_f1,6.0,0.8125,False
+logistic_regression vs random_forest (f1),pc1_static_5fold,paired_ttest_f1,0.9344918240241874,0.4029539224224333,False
+logistic_regression vs xgboost (auc_roc diff normality),pc1_static_5fold,shapiro_wilk,0.9343467496021015,0.626296487443565,False
+logistic_regression vs xgboost (auc_roc),pc1_static_5fold,wilcoxon_auc_roc,5.0,0.625,False
+logistic_regression vs xgboost (auc_roc),pc1_static_5fold,paired_ttest_auc_roc,-0.9173578817754208,0.41086206109700774,False
+logistic_regression vs xgboost (f1 diff normality),pc1_static_5fold,shapiro_wilk,0.8230101108270409,0.12315405337088559,False
+logistic_regression vs xgboost (f1),pc1_static_5fold,wilcoxon_f1,2.0,0.1875,False
+logistic_regression vs xgboost (f1),pc1_static_5fold,paired_ttest_f1,1.8737037139696149,0.1342548189133387,False
+random_forest vs xgboost (auc_roc diff normality),pc1_static_5fold,shapiro_wilk,0.9878621291759636,0.9716817720656671,False
+random_forest vs xgboost (auc_roc),pc1_static_5fold,wilcoxon_auc_roc,7.0,1.0,False
+random_forest vs xgboost (auc_roc),pc1_static_5fold,paired_ttest_auc_roc,0.0794321547967857,0.9405040629514867,False
+random_forest vs xgboost (f1 diff normality),pc1_static_5fold,shapiro_wilk,0.8736851155855833,0.2816678106383431,False
+random_forest vs xgboost (f1),pc1_static_5fold,wilcoxon_f1,6.0,0.8125,False
+random_forest vs xgboost (f1),pc1_static_5fold,paired_ttest_f1,0.6353574907852901,0.5597248073964665,False
+random_forest vs lightgbm (instance accuracy),pc3_static_10fold,mcnemar,3.3402061855670104,0.06760613689648608,False
+lightgbm vs logistic_regression (auc_roc diff normality),pc3_static_10fold,shapiro_wilk,0.9752934429246574,0.9351253544562655,False
+lightgbm vs logistic_regression (auc_roc),pc3_static_10fold,wilcoxon_auc_roc,14.0,0.193359375,False
+lightgbm vs logistic_regression (auc_roc),pc3_static_10fold,paired_ttest_auc_roc,1.4532002915884463,0.18012864908614495,False
+lightgbm vs logistic_regression (f1 diff normality),pc3_static_10fold,shapiro_wilk,0.8874899516826267,0.15886167375684612,False
+lightgbm vs logistic_regression (f1),pc3_static_10fold,wilcoxon_f1,12.0,0.130859375,False
+lightgbm vs logistic_regression (f1),pc3_static_10fold,paired_ttest_f1,1.463788583166645,0.1772841162840967,False
+lightgbm vs random_forest (auc_roc diff normality),pc3_static_10fold,shapiro_wilk,0.9734652813642835,0.9209834346255878,False
+lightgbm vs random_forest (auc_roc),pc3_static_10fold,wilcoxon_auc_roc,7.0,0.037109375,True
+lightgbm vs random_forest (auc_roc),pc3_static_10fold,paired_ttest_auc_roc,-2.65726475910066,0.026162814667390438,True
+lightgbm vs random_forest (f1 diff normality),pc3_static_10fold,shapiro_wilk,0.8244069271873177,0.028647683481011463,True
+lightgbm vs random_forest (f1),pc3_static_10fold,wilcoxon_f1,13.0,0.16015625,False
+lightgbm vs random_forest (f1),pc3_static_10fold,paired_ttest_f1_normality_violated,-1.2349919290380231,0.24810211335695853,False
+lightgbm vs xgboost (auc_roc diff normality),pc3_static_10fold,shapiro_wilk,0.9327184472215941,0.4751573654606869,False
+lightgbm vs xgboost (auc_roc),pc3_static_10fold,wilcoxon_auc_roc,6.0,0.02734375,True
+lightgbm vs xgboost (auc_roc),pc3_static_10fold,paired_ttest_auc_roc,2.1701964474883337,0.058094894780901976,False
+lightgbm vs xgboost (f1 diff normality),pc3_static_10fold,shapiro_wilk,0.859357376924823,0.07498832404785075,False
+lightgbm vs xgboost (f1),pc3_static_10fold,wilcoxon_f1,21.0,0.556640625,False
+lightgbm vs xgboost (f1),pc3_static_10fold,paired_ttest_f1,0.2427146551384538,0.8136674525889553,False
+logistic_regression vs random_forest (auc_roc diff normality),pc3_static_10fold,shapiro_wilk,0.9434451970512835,0.5919457956640847,False
+logistic_regression vs random_forest (auc_roc),pc3_static_10fold,wilcoxon_auc_roc,7.0,0.037109375,True
+logistic_regression vs random_forest (auc_roc),pc3_static_10fold,paired_ttest_auc_roc,-2.768755662333268,0.02179781263374947,True
+logistic_regression vs random_forest (f1 diff normality),pc3_static_10fold,shapiro_wilk,0.9312483635281115,0.4602830589656725,False
+logistic_regression vs random_forest (f1),pc3_static_10fold,wilcoxon_f1,7.0,0.04296875,True
+logistic_regression vs random_forest (f1),pc3_static_10fold,paired_ttest_f1,-2.2381330549097846,0.05200157449403346,False
+logistic_regression vs xgboost (auc_roc diff normality),pc3_static_10fold,shapiro_wilk,0.9709438556277661,0.8994558197405116,False
+logistic_regression vs xgboost (auc_roc),pc3_static_10fold,wilcoxon_auc_roc,22.0,0.625,False
+logistic_regression vs xgboost (auc_roc),pc3_static_10fold,paired_ttest_auc_roc,-0.7229312459953159,0.48808253721713873,False
+logistic_regression vs xgboost (f1 diff normality),pc3_static_10fold,shapiro_wilk,0.9663650194048969,0.8552502653594473,False
+logistic_regression vs xgboost (f1),pc3_static_10fold,wilcoxon_f1,18.0,0.375,False
+logistic_regression vs xgboost (f1),pc3_static_10fold,paired_ttest_f1,-0.822441162309461,0.4320752016556514,False
+random_forest vs xgboost (auc_roc diff normality),pc3_static_10fold,shapiro_wilk,0.9178469553885197,0.33934716396296993,False
+random_forest vs xgboost (auc_roc),pc3_static_10fold,wilcoxon_auc_roc,3.0,0.009765625,True
+random_forest vs xgboost (auc_roc),pc3_static_10fold,paired_ttest_auc_roc,3.4247561626178222,0.007570759398310803,True
+random_forest vs xgboost (f1 diff normality),pc3_static_10fold,shapiro_wilk,0.9222987166283543,0.3765267742196369,False
+random_forest vs xgboost (f1),pc3_static_10fold,wilcoxon_f1,17.0,0.322265625,False
+random_forest vs xgboost (f1),pc3_static_10fold,paired_ttest_f1,0.6323463359636009,0.5428891436459385,False
+random_forest vs xgboost (instance accuracy),pc3_static_5fold,mcnemar,0.010638297872340425,0.9178501726683691,False
+lightgbm vs logistic_regression (auc_roc diff normality),pc3_static_5fold,shapiro_wilk,0.9074187181838729,0.4522349456455445,False
+lightgbm vs logistic_regression (auc_roc),pc3_static_5fold,wilcoxon_auc_roc,6.0,0.8125,False
+lightgbm vs logistic_regression (auc_roc),pc3_static_5fold,paired_ttest_auc_roc,0.7072858275632543,0.5184184920477557,False
+lightgbm vs logistic_regression (f1 diff normality),pc3_static_5fold,shapiro_wilk,0.9843161546342495,0.9563006990754063,False
+lightgbm vs logistic_regression (f1),pc3_static_5fold,wilcoxon_f1,6.0,0.8125,False
+lightgbm vs logistic_regression (f1),pc3_static_5fold,paired_ttest_f1,-0.43551422308686055,0.6856598272356902,False
+lightgbm vs random_forest (auc_roc diff normality),pc3_static_5fold,shapiro_wilk,0.8770795897879722,0.29628599374989173,False
+lightgbm vs random_forest (auc_roc),pc3_static_5fold,wilcoxon_auc_roc,0.0,0.0625,False
+lightgbm vs random_forest (auc_roc),pc3_static_5fold,paired_ttest_auc_roc,-2.415242093753504,0.07313854423686891,False
+lightgbm vs random_forest (f1 diff normality),pc3_static_5fold,shapiro_wilk,0.7991019709819147,0.07967864559667065,False
+lightgbm vs random_forest (f1),pc3_static_5fold,wilcoxon_f1,4.0,0.4375,False
+lightgbm vs random_forest (f1),pc3_static_5fold,paired_ttest_f1,-1.2166337362150872,0.29062056305353234,False
+lightgbm vs xgboost (auc_roc diff normality),pc3_static_5fold,shapiro_wilk,0.9540881017865004,0.7663349813677397,False
+lightgbm vs xgboost (auc_roc),pc3_static_5fold,wilcoxon_auc_roc,3.0,0.3125,False
+lightgbm vs xgboost (auc_roc),pc3_static_5fold,paired_ttest_auc_roc,-1.601385780698279,0.18454765089481673,False
+lightgbm vs xgboost (f1 diff normality),pc3_static_5fold,shapiro_wilk,0.9310278040311266,0.6033961274622305,False
+lightgbm vs xgboost (f1),pc3_static_5fold,wilcoxon_f1,0.0,0.0625,False
+lightgbm vs xgboost (f1),pc3_static_5fold,paired_ttest_f1,-2.8154295518436774,0.04805081807906627,True
+logistic_regression vs random_forest (auc_roc diff normality),pc3_static_5fold,shapiro_wilk,0.869712125167393,0.2652600608918722,False
+logistic_regression vs random_forest (auc_roc),pc3_static_5fold,wilcoxon_auc_roc,3.0,0.3125,False
+logistic_regression vs random_forest (auc_roc),pc3_static_5fold,paired_ttest_auc_roc,-1.384410154938285,0.2384548872625425,False
+logistic_regression vs random_forest (f1 diff normality),pc3_static_5fold,shapiro_wilk,0.8318703684914296,0.14367383574724196,False
+logistic_regression vs random_forest (f1),pc3_static_5fold,wilcoxon_f1,4.0,0.4375,False
+logistic_regression vs random_forest (f1),pc3_static_5fold,paired_ttest_f1,-1.0137365794761288,0.36804393880657027,False
+logistic_regression vs xgboost (auc_roc diff normality),pc3_static_5fold,shapiro_wilk,0.8163385697752322,0.1093770404036224,False
+logistic_regression vs xgboost (auc_roc),pc3_static_5fold,wilcoxon_auc_roc,5.0,0.625,False
+logistic_regression vs xgboost (auc_roc),pc3_static_5fold,paired_ttest_auc_roc,-1.302077452064609,0.2628067649679263,False
+logistic_regression vs xgboost (f1 diff normality),pc3_static_5fold,shapiro_wilk,0.9575012940066734,0.7904853688780578,False
+logistic_regression vs xgboost (f1),pc3_static_5fold,wilcoxon_f1,0.0,0.0625,False
+logistic_regression vs xgboost (f1),pc3_static_5fold,paired_ttest_f1,-4.49327388257783,0.01087846859319654,True
+random_forest vs xgboost (auc_roc diff normality),pc3_static_5fold,shapiro_wilk,0.8185007422015772,0.1136919946206667,False
+random_forest vs xgboost (auc_roc),pc3_static_5fold,wilcoxon_auc_roc,6.0,0.8125,False
+random_forest vs xgboost (auc_roc),pc3_static_5fold,paired_ttest_auc_roc,0.552915607329757,0.6097659044183608,False
+random_forest vs xgboost (f1 diff normality),pc3_static_5fold,shapiro_wilk,0.8399682843708424,0.16483423195397928,False
+random_forest vs xgboost (f1),pc3_static_5fold,wilcoxon_f1,2.0,0.1875,False
+random_forest vs xgboost (f1),pc3_static_5fold,paired_ttest_f1,-1.4060391048267225,0.232435190700802,False
+lightgbm vs logistic_regression (auc_roc diff normality),cross_project_hybrid,shapiro_wilk,0.9540267783761097,0.43236484428515826,False
+lightgbm vs logistic_regression (auc_roc),cross_project_hybrid,wilcoxon_auc_roc,8.0,4.76837158203125e-05,True
+lightgbm vs logistic_regression (auc_roc),cross_project_hybrid,paired_ttest_auc_roc,5.023770442081859,7.539204713068675e-05,True
+lightgbm vs logistic_regression (f1 diff normality),cross_project_hybrid,shapiro_wilk,0.9411122205832994,0.251652092379447,False
+lightgbm vs logistic_regression (f1),cross_project_hybrid,wilcoxon_f1,57.0,0.0758514404296875,False
+lightgbm vs logistic_regression (f1),cross_project_hybrid,paired_ttest_f1,1.47608657979533,0.15630223214596478,False
+lightgbm vs random_forest (auc_roc diff normality),cross_project_hybrid,shapiro_wilk,0.795436451350861,0.0007392403520643572,True
+lightgbm vs random_forest (auc_roc),cross_project_hybrid,wilcoxon_auc_roc,16.0,0.0003223419189453125,True
+lightgbm vs random_forest (auc_roc),cross_project_hybrid,paired_ttest_auc_roc,-3.62892896083643,0.0017868429683786861,True
+lightgbm vs random_forest (f1 diff normality),cross_project_hybrid,shapiro_wilk,0.8696756759580678,0.011595913306608419,True
+lightgbm vs random_forest (f1),cross_project_hybrid,wilcoxon_f1,89.0,0.5705966949462891,False
+lightgbm vs random_forest (f1),cross_project_hybrid,paired_ttest_f1,1.0599791924846824,0.3024436293043286,False
+lightgbm vs xgboost (auc_roc diff normality),cross_project_hybrid,shapiro_wilk,0.9694797673507017,0.7438499551737169,False
+lightgbm vs xgboost (auc_roc),cross_project_hybrid,wilcoxon_auc_roc,102.0,0.9272785186767578,False
+lightgbm vs xgboost (auc_roc),cross_project_hybrid,paired_ttest_auc_roc,0.1350538908185075,0.8939897500811496,False
+lightgbm vs xgboost (f1 diff normality),cross_project_hybrid,shapiro_wilk,0.9672262411175525,0.6955667009757077,False
+lightgbm vs xgboost (f1),cross_project_hybrid,wilcoxon_f1,65.0,0.14290618896484375,False
+lightgbm vs xgboost (f1),cross_project_hybrid,paired_ttest_f1,-1.573933517211756,0.13200735051565804,False
+logistic_regression vs random_forest (auc_roc diff normality),cross_project_hybrid,shapiro_wilk,0.9442130054395759,0.28764244261828975,False
+logistic_regression vs random_forest (auc_roc),cross_project_hybrid,wilcoxon_auc_roc,0.0,1.9073486328125e-06,True
+logistic_regression vs random_forest (auc_roc),cross_project_hybrid,paired_ttest_auc_roc,-6.225502809680091,5.581478338914845e-06,True
+logistic_regression vs random_forest (f1 diff normality),cross_project_hybrid,shapiro_wilk,0.9629574734639114,0.6044716165177056,False
+logistic_regression vs random_forest (f1),cross_project_hybrid,wilcoxon_f1,91.0,0.6215133666992188,False
+logistic_regression vs random_forest (f1),cross_project_hybrid,paired_ttest_f1,-0.5001279115607169,0.6227281116259245,False
+logistic_regression vs xgboost (auc_roc diff normality),cross_project_hybrid,shapiro_wilk,0.9421222893109924,0.2628993771823276,False
+logistic_regression vs xgboost (auc_roc),cross_project_hybrid,wilcoxon_auc_roc,9.0,6.29425048828125e-05,True
+logistic_regression vs xgboost (auc_roc),cross_project_hybrid,paired_ttest_auc_roc,-4.934486709613965,9.204038420572403e-05,True
+logistic_regression vs xgboost (f1 diff normality),cross_project_hybrid,shapiro_wilk,0.963822654343368,0.6226954811304953,False
+logistic_regression vs xgboost (f1),cross_project_hybrid,wilcoxon_f1,41.0,0.01531219482421875,True
+logistic_regression vs xgboost (f1),cross_project_hybrid,paired_ttest_f1,-2.430507582500873,0.02515363872379728,True
+random_forest vs xgboost (auc_roc diff normality),cross_project_hybrid,shapiro_wilk,0.7629296477946633,0.0002543895278581432,True
+random_forest vs xgboost (auc_roc),cross_project_hybrid,wilcoxon_auc_roc,12.0,0.000133514404296875,True
+random_forest vs xgboost (auc_roc),cross_project_hybrid,paired_ttest_auc_roc,3.600365642582932,0.0019068598703412488,True
+random_forest vs xgboost (f1 diff normality),cross_project_hybrid,shapiro_wilk,0.888200214832979,0.024923356468425636,True
+random_forest vs xgboost (f1),cross_project_hybrid,wilcoxon_f1,87.0,0.5216732025146484,False
+random_forest vs xgboost (f1),cross_project_hybrid,paired_ttest_f1,-1.3478442632005307,0.19356072437824876,False
+lightgbm vs logistic_regression (auc_roc diff normality),cross_project_static,shapiro_wilk,0.9751522789338173,0.7581541026655029,False
+lightgbm vs logistic_regression (auc_roc),cross_project_static,wilcoxon_auc_roc,53.0,0.0011651217937469482,True
+lightgbm vs logistic_regression (auc_roc),cross_project_static,paired_ttest_auc_roc,3.552999986392436,0.0015454085332684902,True
+lightgbm vs logistic_regression (f1 diff normality),cross_project_static,shapiro_wilk,0.9668007938554997,0.5424353318060054,False
+lightgbm vs logistic_regression (f1),cross_project_static,wilcoxon_f1,156.0,0.6348496079444885,False
+lightgbm vs logistic_regression (f1),cross_project_static,paired_ttest_f1,-0.4414595183003239,0.6626751199108886,False
+lightgbm vs random_forest (auc_roc diff normality),cross_project_static,shapiro_wilk,0.9019074575409525,0.01727408085094788,True
+lightgbm vs random_forest (auc_roc),cross_project_static,wilcoxon_auc_roc,9.0,9.834766387939453e-07,True
+lightgbm vs random_forest (auc_roc),cross_project_static,paired_ttest_auc_roc,-5.628494679995153,7.402857217472191e-06,True
+lightgbm vs random_forest (f1 diff normality),cross_project_static,shapiro_wilk,0.8741546187461406,0.004342841012011018,True
+lightgbm vs random_forest (f1),cross_project_static,wilcoxon_f1,159.0,0.6893201172351837,False
+lightgbm vs random_forest (f1),cross_project_static,paired_ttest_f1,1.3921310962029254,0.17614401704273835,False
+lightgbm vs xgboost (auc_roc diff normality),cross_project_static,shapiro_wilk,0.8340106134332302,0.0007074979141585209,True
+lightgbm vs xgboost (auc_roc),cross_project_static,wilcoxon_auc_roc,169.0,0.8809217512607574,False
+lightgbm vs xgboost (auc_roc),cross_project_static,paired_ttest_auc_roc,-0.5535983677470415,0.5847714876589595,False
+lightgbm vs xgboost (f1 diff normality),cross_project_static,shapiro_wilk,0.9727941641416906,0.696575352734712,False
+lightgbm vs xgboost (f1),cross_project_static,wilcoxon_f1,123.0,0.1899040937423706,False
+lightgbm vs xgboost (f1),cross_project_static,paired_ttest_f1,-1.5254774211911721,0.13969264083260047,False
+logistic_regression vs random_forest (auc_roc diff normality),cross_project_static,shapiro_wilk,0.9656017132764456,0.5135056259748316,False
+logistic_regression vs random_forest (auc_roc),cross_project_static,wilcoxon_auc_roc,18.0,7.539987564086914e-06,True
+logistic_regression vs random_forest (auc_roc),cross_project_static,paired_ttest_auc_roc,-5.413374995847829,1.2838879021376317e-05,True
+logistic_regression vs random_forest (f1 diff normality),cross_project_static,shapiro_wilk,0.962374319325909,0.440413217380918,False
+logistic_regression vs random_forest (f1),cross_project_static,wilcoxon_f1,127.0,0.2269585132598877,False
+logistic_regression vs random_forest (f1),cross_project_static,paired_ttest_f1,1.4156971601940567,0.16920242328825547,False
+logistic_regression vs xgboost (auc_roc diff normality),cross_project_static,shapiro_wilk,0.9391953524791197,0.12849264756873735,False
+logistic_regression vs xgboost (auc_roc),cross_project_static,wilcoxon_auc_roc,44.0,0.00041159987449645996,True
+logistic_regression vs xgboost (auc_roc),cross_project_static,paired_ttest_auc_roc,-3.9850919262586695,0.0005147760334427904,True
+logistic_regression vs xgboost (f1 diff normality),cross_project_static,shapiro_wilk,0.9560465546404547,0.3197228057289172,False
+logistic_regression vs xgboost (f1),cross_project_static,wilcoxon_f1,174.0,0.9800839126110077,False
+logistic_regression vs xgboost (f1),cross_project_static,paired_ttest_f1,-0.4343391867650713,0.6677679379019871,False
+random_forest vs xgboost (auc_roc diff normality),cross_project_static,shapiro_wilk,0.9652432798379584,0.5050331605395135,False
+random_forest vs xgboost (auc_roc),cross_project_static,wilcoxon_auc_roc,48.0,0.00066414475440979,True
+random_forest vs xgboost (auc_roc),cross_project_static,paired_ttest_auc_roc,3.6339534443992427,0.0012599844363975516,True
+random_forest vs xgboost (f1 diff normality),cross_project_static,shapiro_wilk,0.8398253092106769,0.0009088743626322293,True
+random_forest vs xgboost (f1),cross_project_static,wilcoxon_f1,94.0,0.03816831111907959,True
+random_forest vs xgboost (f1),cross_project_static,paired_ttest_f1,-2.2421480777214104,0.03406507006036877,True

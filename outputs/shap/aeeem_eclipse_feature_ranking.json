@@ -1,0 +1,87 @@
+[
+  {
+    "rank": 1,
+    "feature": "wmc",
+    "mean_abs_shap": 0.07395777672051115
+  },
+  {
+    "rank": 2,
+    "feature": "numberOfLinesOfCode",
+    "mean_abs_shap": 0.05245661188567892
+  },
+  {
+    "rank": 3,
+    "feature": "rfc",
+    "mean_abs_shap": 0.05232927328032779
+  },
+  {
+    "rank": 4,
+    "feature": "cbo",
+    "mean_abs_shap": 0.03985706120158961
+  },
+  {
+    "rank": 5,
+    "feature": "fanOut",
+    "mean_abs_shap": 0.038950373103208785
+  },
+  {
+    "rank": 6,
+    "feature": "numberOfPublicAttributes",
+    "mean_abs_shap": 0.031009179562177813
+  },
+  {
+    "rank": 7,
+    "feature": "numberOfAttributesInherited",
+    "mean_abs_shap": 0.028941955370644718
+  },
+  {
+    "rank": 8,
+    "feature": "numberOfPrivateAttributes",
+    "mean_abs_shap": 0.026768819621854484
+  },
+  {
+    "rank": 9,
+    "feature": "numberOfMethodsInherited",
+    "mean_abs_shap": 0.02222390866816672
+  },
+  {
+    "rank": 10,
+    "feature": "numberOfPublicMethods",
+    "mean_abs_shap": 0.017273083810819344
+  },
+  {
+    "rank": 11,
+    "feature": "fanIn",
+    "mean_abs_shap": 0.016964924067835813
+  },
+  {
+    "rank": 12,
+    "feature": "numberOfMethods",
+    "mean_abs_shap": 0.013734274749156674
+  },
+  {
+    "rank": 13,
+    "feature": "numberOfAttributes",
+    "mean_abs_shap": 0.01372770055683622
+  },
+  {
+    "rank": 14,
+    "feature": "lcom",
+    "mean_abs_shap": 0.013206811938684648
+  },
+  {
+    "rank": 15,
+    "feature": "noc",
+    "mean_abs_shap": 0.007626257880365388
+  },
+  {
+    "rank": 16,
+    "feature": "dit",
+    "mean_abs_shap": 0.006501883392512589
+  },
+  {
+    "rank": 17,
+    "feature": "numberOfPrivateMethods",
+    "mean_abs_shap": 0.0038745113470457625
+  }
+]

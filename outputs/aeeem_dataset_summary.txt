@@ -1,0 +1,42 @@
+AEEEM Hybrid Dataset Summary
+Source: D'Ambros, Lanza, and Robbes bug prediction dataset archives provided locally by the user.
+
+## aeeem_eclipse
+local_archive: C:\Users\agarw\Downloads\eclipse.zip
+static_shape: 997 rows x 25 columns
+repo_metrics_shape: 997 rows x 27 columns
+hybrid_rows: 997
+defective_rows: 206 (20.66%)
+repo_match_rate: 100.00%
+
+## aeeem_equinox
+local_archive: C:\Users\agarw\Downloads\equinox.zip
+static_shape: 324 rows x 25 columns
+repo_metrics_shape: 324 rows x 27 columns
+hybrid_rows: 324
+defective_rows: 129 (39.81%)
+repo_match_rate: 100.00%
+
+## aeeem_lucene
+local_archive: C:\Users\agarw\Downloads\lucene.zip
+static_shape: 691 rows x 25 columns
+repo_metrics_shape: 691 rows x 27 columns
+hybrid_rows: 691
+defective_rows: 64 (9.26%)
+repo_match_rate: 100.00%
+
+## aeeem_mylyn
+local_archive: C:\Users\agarw\Downloads\mylyn.zip
+static_shape: 1862 rows x 25 columns
+repo_metrics_shape: 1862 rows x 27 columns
+hybrid_rows: 1862
+defective_rows: 245 (13.16%)
+repo_match_rate: 100.00%
+
+## aeeem_pde
+local_archive: C:\Users\agarw\Downloads\pde.zip
+static_shape: 1497 rows x 25 columns
+repo_metrics_shape: 1497 rows x 27 columns
+hybrid_rows: 1497
+defective_rows: 209 (13.96%)
+repo_match_rate: 100.00%

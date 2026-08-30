@@ -1,0 +1,15 @@
+Git Log Inspection Report
+source_file: C:\Users\agarw\Downloads\git_log.txt.gz
+
+lines: 113072
+commits: 8301
+authors: 8301
+dates: 8301
+bugfix_keyword_lines: 3471
+numstat_lines: 0
+name_status_lines: 0
+diff_lines: 0
+
+file_level_history_available: False
+decision: This log is commit-message level only. It cannot produce per-file code_churn, commit_count, num_developers, bugfix_commit_count, or days_since_last_modified.
+needed_format: git log --all --numstat --date=iso --pretty=format:'commit %H%nAuthor: %an <%ae>%nDate: %ad%n%s%n%b'
