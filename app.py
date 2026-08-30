@@ -17,6 +17,11 @@ import plotly.express as px
 import plotly.graph_objects as go
 import streamlit as st
 
+# Export top-level ASGI app for Vercel / serverless deployments
+try:
+    from src.api_server import app as app
+except Exception:
+    app = None
 
 PROJECT_ROOT = Path(__file__).resolve().parent
 OUTPUT_DIR = PROJECT_ROOT / "outputs"
